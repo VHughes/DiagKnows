@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<!-- font -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  
+ <!-- social icon -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- normal css -->
+  <link rel="stylesheet" type="text/css" href="DK css.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css" />
+ <link rel="icon" type="image/png" href="favicon32*32.ico" />
+
+<!-- script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+<meta charset="UTF-8">
+<title>DiagKnows</title>
+</head>
+
+<body>
+
+<div id="logo"> 
+<img src="Assets/diagknows logo.png" alt="logo" style="width:50%;max-height:600px; max-width:800px;">
+</div>
+
+<div id="buttonlogin">
+<form action="page2.html">
+    <input type="submit" class="Loginbut" value="LOG IN">
+</form>
+</div>
+<div id="buttonsignup">
+<form action="page3.html">
+    <input type="submit"  class="Loginbut" value="SIGN UP">
+</form>
+</div>
+
+<div id="footer">
+<button class="facebookbutt" id="facebook"> <i class="fa fa-facebook"></i>   Log In with Facebook</button>
+</div>
+</body>
+<script>
+         
+    
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '477303215782687',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+    
+    $.ajax({
+    url: "",     
+    data: {
+        type: 3,           
+        },             
+    dataType: "html",      
+    type: "get",          
+    success: "",
+        });
+    
+var login = document.getElementById("facebook");
+login.onclick = function(){
+    FB.login(function(resp){
+        console.log(resp);
+
+        
+    var facebook = {
+    name: "",
+    id: "",
+    age: "",
+    device: "",
+    gender: "",
+};
+     if(resp.status == "connected"){
+            FB.api("/me?fieldset=name", function(resp2){
+            
+            var name = FB.name;
+            facebook.name = name;
+            console.log(resp2);
+             alert("Thank you for logging in "+resp2.name+"!");
+             location.href = 'page5.html';    
+             console.log(name);
+             console.log(facebook);
+            
+
+                });
+            }
+   
+        });
+    };
+};
+    
+    
+    
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src="https://connect.facebook.net/en_US/all.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+</script>
+</html>

@@ -1,0 +1,1179 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*  =========================================================================================== */
+@media screen and (max-width: 2880px) {
+/* =========================================================================================== */
+/*error ///////////////////////*/
+    #buttonlogin0 {
+margin-left:26%;
+margin-right:auto;
+}
+
+.Loginbut0 {
+	font-size: 1em;
+}
+
+
+/*index ///////////////////////*/
+    #buttonlogin {
+margin-left:28%;
+margin-right:auto;
+}
+
+.Loginbut {
+	font-size: 0.8em;
+}
+	
+.facebookbutt{
+	font-size: 0.8em;
+	
+}
+	
+.facebookbutt{
+	font-size: 0.7em;
+	width: 35%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#input{
+	margin-left:37%;
+	margin-right:auto;	
+}
+
+
+/*page 2///////////////////////*/
+    #input2{
+	margin-left:27%;
+	margin-right:auto;	
+}
+    
+    
+#buttonlogin2 {
+margin-left:39%;
+margin-right:auto;
+}
+/*page 3///////////////////////*/
+
+#input3{
+	margin-left:27%;
+	margin-right:auto;	
+}
+#buttonlogin3 {
+margin-left:38%;
+	margin-right:auto;;
+}
+
+.input3-2{
+margin-top:10px;	
+}
+
+#confirmMessage {
+font-size: 17px; 
+align-content: center;
+/*margin-left:%;*/
+margin-right:auto;
+padding: 5px;
+} 
+
+span {
+width:43%;
+position: absolute;
+margin-left:-19%;
+margin-right:auto;
+}
+/*page 4///////////////////////*/
+#buttonlogin4 {
+margin-left:39%;
+margin-right:auto;
+}
+
+/*page 5///////////////////////*/
+#logo5{
+margin-left: 22%;
+margin-right:auto;	
+}
+
+#buttonlogin5 {
+margin-left:27%;
+margin-right:auto;
+}
+
+.search5{
+margin-bottom:20px;
+font-size: 20px;	
+}
+
+/*page 6///////////////////////*/
+#input6{
+	margin-left:28%;
+	margin-right:auto;
+}
+
+#buttonlogin6 {
+margin-left:27%;
+margin-right:auto;
+}
+
+/*page 7///////////////////////*/
+#buttonlogin7 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+/*page 9///////////////////////*/
+
+/*page 11///////////////////////*/
+#round {
+margin-left:15%;
+margin-right:auto;	
+}
+
+#buttonlogin11 {
+	margin-left:38%;
+margin-right:auto;
+   
+}
+
+/*page 12//////////////////////*/
+	.ratebut12{
+		font-size: 0.5em;
+	}
+	
+	#buttonlogin12 {
+	margin-left:29%;
+	margin-right:auto;
+   
+}
+	
+/*page 13//////////////////////*/
+	#buttonlogin13 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+	.setbut13{
+		font-size: 1em;
+		margin-top:15px;
+	}
+	
+/*page 14//////////////////////*/
+.tutor{
+	width:20%;
+	height:auto;
+}
+/*page 15//////////////////////*/
+/*page 16//////////////////////*/
+/*page 17//////////////////////*/
+/*page 18//////////////////////*/
+/*
+=========================================================================================== */
+@media screen and (max-width: 1920px) {
+/* =========================================================================================== */
+/*error ///////////////////////*/
+    #buttonlogin0 {
+margin-left:26%;
+margin-right:auto;
+}
+
+.Loginbut0 {
+	font-size: 1em;
+}
+/*index ///////////////////////*/
+#buttonlogin {
+margin-left:27.5%;
+margin-right:auto;
+}
+
+.Loginbut {
+	font-size: 0.8em;
+}
+	
+.facebookbutt{
+	font-size: 0.8em;
+	
+}
+/*page 2///////////////////////*/
+#input2 {
+    margin-left: 26.5%;
+    margin-right: auto;
+}	
+
+#buttonlogin2 {
+margin-left:38%;
+margin-right:auto;
+}
+/*page 3///////////////////////*/
+#input3{
+	margin-left:26.5%;
+	margin-right:auto;	
+}
+#buttonlogin3 {
+margin-left:38%;
+margin-right:auto;
+}
+
+.input3-2{
+margin-top:10px;	
+}
+
+#confirmMessage {
+font-size: 15px; 
+align-content: center;
+/*margin-left:%;*/
+margin-right:auto;
+} 
+
+span {
+width:43%;
+position: absolute;
+margin-left:-19%;
+margin-right:auto;
+}
+
+/*page 4///////////////////////*/
+#buttonlogin4 {
+margin-left:38%;
+margin-right:auto;
+}
+
+/*page 5///////////////////////*/
+#buttonlogin5 {
+margin-left:28.5%;
+margin-right:auto;
+}
+
+.search5{
+margin-bottom:20px;
+font-size: 20px;	
+}	
+
+
+/*page 6///////////////////////*/
+#input6{
+	margin-left:26.5%;
+	margin-right:auto;
+}
+
+/*page 7///////////////////////*/
+#buttonlogin7 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+/*page 9///////////////////////*/
+
+
+/*page 11///////////////////////*/
+#round {
+margin-left:15%;
+margin-right:auto;	
+}
+
+#buttonlogin11 {
+	margin-left:38%;
+margin-right:auto;
+   
+}
+
+	
+/*page 12//////////////////////*/
+	.ratebut12{
+		font-size: 0.5em;
+	}
+	
+/*page 13//////////////////////*/
+	#buttonlogin13 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+	.setbut13{
+		font-size: 1em;
+		margin-top:15px;
+	}
+/*page 14//////////////////////*/
+.tutor{
+	width:20%;
+	height:auto;
+}
+/*page 15//////////////////////*/
+/*page 16//////////////////////*/
+/*page 17//////////////////////*/
+/*page 18//////////////////////*/
+/* ------------ CLOSING BRACKET ----- */
+}
+
+
+
+
+/*  =========================================================================================== */
+@media screen and (max-width: 1600px) {
+/* =========================================================================================== */
+/*error ///////////////////////*/
+    #buttonlogin0 {
+margin-left:25.5%;
+margin-right:auto;
+}
+
+.Loginbut0 {
+	font-size: 0.8em;
+}
+
+
+/*index ///////////////////////*/
+#buttonlogin {
+margin-left:27%;
+margin-right:auto;
+}
+.Loginbut {
+	font-size: 0.7em;
+}
+
+.facebookbutt{
+	font-size: 0.7em;
+}	
+
+.facebookbutt{
+	font-size: 0.7em;
+	width: 38%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*page 2///////////////////////*/
+#input2 {
+    margin-left: 26%;
+    margin-right: auto;
+}
+
+#buttonlogin2 {
+margin-left:38%;
+margin-right:auto;
+}
+
+/*page 3///////////////////////*/
+#input3{
+	margin-left:26%;
+	margin-right:auto;	
+}
+#buttonlogin3 {
+margin-left:37.5%;
+margin-right:auto;
+}
+
+.input3-2{
+margin-top:10px;	
+}
+
+/*page 4///////////////////////*/
+#buttonlogin4 {
+margin-left:37.5%;
+margin-right:auto;
+}
+
+/*page 5///////////////////////*/
+#buttonlogin5 {
+margin-left:28.5%;
+margin-right:auto;
+}
+
+.search5{
+margin-bottom:20px;
+font-size: 20px;	
+}
+
+/*page 6///////////////////////*/
+
+/*page 7///////////////////////*/
+#buttonlogin7 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+/*page 9///////////////////////*/
+
+/*page 11///////////////////////*/
+#round {
+margin-left:15%;
+margin-right:auto;	
+}
+
+#buttonlogin11 {
+	margin-left:38%;
+margin-right:auto;
+   
+}
+/*page 12///////////////////////*/
+
+/*page 13//////////////////////*/
+	#buttonlogin13 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+	.setbut13{
+		font-size: 1em;
+		margin-top:15px;
+	}
+/*page 14//////////////////////*/
+.tutor{
+	width:40%;
+	height:auto;
+}
+/*page 15//////////////////////*/
+/*page 16//////////////////////*/
+/*page 17//////////////////////*/
+/*page 18//////////////////////*/
+/* ------------ CLOSING BRACKET ----- */
+}
+
+
+/* =========================================================================================== */
+@media screen and (max-width: 1200px) {
+/* =========================================================================================== */
+/*error ///////////////////////*/
+    #buttonlogin0 {
+margin-left:25%;
+margin-right:auto;
+}
+
+.Loginbut0 {
+	font-size: 0.8em;
+}
+
+
+/*index ///////////////////////*/
+#buttonlogin {
+margin-left:26.5%;
+margin-right:auto;
+}
+
+.Loginbut {
+	font-size: 0.5em;
+}
+
+.facebookbutt{
+	font-size: 0.6em;	
+}	
+
+#footer {
+    clear:both;
+    text-align:center;
+    padding:5px;	
+	}
+
+.facebookbutt{
+	font-size: 0.5em;
+	width: 40%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#input2{
+	margin-left:25%;
+	margin-right:auto;	
+}
+
+#buttonlogin2{
+margin-left:37.5%;
+margin-right:auto;
+}
+
+/*page 2///////////////////////*/
+#input2 {
+    margin-left: 25.5%;
+    margin-right: auto;
+}	
+
+#buttonlogin2 {
+margin-left:37.5%;
+margin-right:auto;
+}
+
+/*page 3///////////////////////*/
+#input3{
+	margin-left:25.25%;
+	margin-right:auto;	
+}
+
+#buttonlogin3 {
+margin-left:auto;
+margin-right:auto;
+}
+
+.input3-2{
+margin-top:10px;	
+}
+
+#confirmMessage {
+font-size: 15px; 
+}
+
+/*page 4///////////////////////*/
+#buttonlogin4 {
+margin-left:37%;
+margin-right:auto;
+}
+
+/*page 5///////////////////////*/
+#buttonlogin5 {
+margin-left:28%;
+margin-right:auto;
+}
+
+.search5{
+margin-bottom:20px;
+font-size: 20px;	
+}
+
+/*page 6///////////////////////*/
+#input6{
+	margin-left:26%;
+	margin-right:auto;
+}
+
+#buttonlogin6{
+	margin-left:24%;
+	margin-right:auto;
+}
+
+/*page 7///////////////////////*/
+#buttonlogin7 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+/*page 9///////////////////////*/
+
+/*page 11///////////////////////*/
+#round {
+margin-left:15%;
+margin-right:auto;	
+}
+
+#buttonlogin11 {
+	margin-left:38%;
+margin-right:auto;
+   
+}
+/*page 12///////////////////////*/
+
+
+/*page 13//////////////////////*/
+	
+		#buttonlogin13 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+	.setbut13{
+		font-size: 0.8em;
+		margin-top:15px;
+	}
+/*page 14//////////////////////*/
+.tutor{
+	width:40%;
+	height:auto;
+}
+/*page 15//////////////////////*/
+/*page 16//////////////////////*/
+/*page 17//////////////////////*/
+/*page 18//////////////////////*/
+/* ------------ CLOSING BRACKET ----- */
+}
+
+
+
+/* =========================================================================================== */
+@media screen and (max-width: 980px) {
+/* =========================================================================================== */
+/*error ///////////////////////*/
+    #buttonlogin0 {
+margin-left:25%;
+margin-right:auto;
+}
+
+.Loginbut0 {
+	font-size: 0.5em;
+}
+
+
+/*index ///////////////////////*/
+#buttonlogin {
+margin-left:25%;
+margin-right:auto;
+}
+
+.Loginbut {
+	font-size: 0.5em;
+}
+
+.facebookbutt{
+	font-size: 0.5em;
+	
+}	
+
+#footer {
+    clear:both;
+    text-align:center;
+    padding:5px;	
+	}
+
+.facebookbutt{
+	font-size: 0.5em;
+	width: 47%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*page 2///////////////////////*/
+#input2 {
+    margin-left: 25%;
+    margin-right: auto;
+}	
+
+#buttonlogin2 {
+margin-left:37.5%;
+margin-right:auto;
+}
+
+/*page 3///////////////////////*/
+#input3{
+	margin-left:24.5%;
+	margin-right:auto;	
+}
+
+#buttonlogin3 {
+margin-left:35%;
+margin-right:auto;
+}
+
+#confirmMessage {
+font-size: 15px; 
+}
+/*page 4///////////////////////*/
+#buttonlogin4 {
+margin-left:35%;
+margin-right:auto;
+}
+
+/*page 5///////////////////////*/
+#buttonlogin5 {
+margin-left:27%;
+margin-right:auto;
+}
+
+.search5{
+margin-bottom:20px;
+font-size:20px;	
+}
+/*page 6///////////////////////*/
+#input6{
+	margin-left:24.5%;
+	margin-right:auto;
+}
+#buttonlogin6{
+	margin-left:24.5%;
+	margin-right:auto;
+}
+
+/*page 7///////////////////////*/
+#buttonlogin7 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+/*page 9///////////////////////*/
+
+/*page 11///////////////////////*/
+#round {
+margin-left:15%;
+margin-right:auto;	
+}
+
+#buttonlogin11 {
+	margin-left:38%;
+margin-right:auto;
+   
+}
+
+
+/*page 12//////////////////////*/
+	.ratebut12{
+		font-size: 0.4em;
+	}
+	
+/*page 13//////////////////////*/
+	
+		#buttonlogin13 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+	.setbut13{
+		font-size: 0.8em;
+		margin-top:15px;
+	}
+/*page 14//////////////////////*/
+.tutor{
+	width:40%;
+	height:auto;
+}
+/*page 15//////////////////////*/
+/*page 16//////////////////////*/
+/*page 17//////////////////////*/
+/*page 18//////////////////////*/
+/* ------------ CLOSING BRACKET ----- */
+}
+
+
+
+/* =========================================================================================== */
+@media screen and (max-width: 720px) {
+/* =========================================================================================== */
+/*error ///////////////////////*/
+    #buttonlogin0 {
+margin-left:23.5%;
+margin-right:auto;
+}
+
+.Loginbut0 {
+	font-size: 0.5em;
+}
+
+
+/*index ///////////////////////*/
+#logo {
+  margin-top:120px;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#buttonlogin {
+margin-left:23%;
+margin-right:auto;
+
+}
+
+.Loginbut {
+	font-size: 0.5em;
+}
+
+.facebookbutt{
+	font-size: 0.5em;
+	
+}	
+
+#footer {
+    clear:both;
+    text-align:center;
+    padding:5px;	
+	}
+
+.facebookbutt{
+	font-size: 0.5em;
+	width: 47%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*page 2///////////////////////*/
+#input2 {
+    margin-left: 24.5%;
+    margin-right: auto;
+}	
+
+#buttonlogin2 {
+margin-left:36%;
+margin-right:auto;
+}
+
+/*page 3///////////////////////*/
+#input3{
+	margin-left:23.5%;
+	margin-right:auto;	
+	padding-bottom:0px;
+}
+
+#buttonlogin3 {
+margin-left:35%;
+margin-right:auto;
+}
+
+#confirmMessage {
+font-size: 12px; 
+}
+
+/*page 4///////////////////////*/
+#buttonlogin4 {
+margin-left:35%;
+margin-right:auto;
+}
+
+/*page 5///////////////////////*/
+#buttonlogin5 {
+margin-left:26%;
+margin-right:auto;
+}
+
+.search5{
+margin-bottom:20px;	
+font-size:20px;
+}
+
+
+/*page 6///////////////////////*/
+
+/*page 7///////////////////////*/
+#buttonlogin7 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+/*page 9///////////////////////*/
+
+/*page 11///////////////////////*/
+#round {
+margin-left:15%;
+margin-right:auto;	
+}
+
+#buttonlogin11 {
+	margin-left:38%;
+margin-right:auto;
+   
+}
+/*page 12//////////////////////*/
+	.ratebut12{
+		font-size: 0.4em;
+		width:10%;
+	}
+/*page 13//////////////////////*/
+	
+		#buttonlogin13 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+	.setbut13{
+		font-size: 0.8em;
+		margin-top:15px;
+	}
+/*page 14//////////////////////*/
+.tutor{
+	width:40%;
+	height:auto;
+}
+/*page 15//////////////////////*/
+/*page 16//////////////////////*/
+/*page 17//////////////////////*/
+/*page 18//////////////////////*/
+/* ------------ CLOSING BRACKET ----- */
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 480px) {
+/* =========================================================================================== */
+/*error ///////////////////////*/
+    #buttonlogin0 {
+margin-left:21%;
+margin-right:auto;
+}
+
+.Loginbut0 {
+	font-size: 0.4em;
+}
+
+
+/*index ///////////////////////*/
+#logo {
+  margin-top:-30px;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#buttonlogin {
+margin-left:20%;
+margin-right:auto;
+
+}
+
+.Loginbut {
+	font-size: 0.4em;
+}
+
+.facebookbutt{
+	font-size: 0.4em;
+	
+}	
+#footer {
+    clear:both;
+    text-align:center;
+   	
+	}
+
+.facebookbutt{
+	font-size: 0.4em;
+	width: 48%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*page 2///////////////////////*/
+#input2 {
+    margin-left: 22%;
+    margin-right: auto;
+}	
+
+#buttonlogin2 {
+margin-left:33%;
+margin-right:auto;
+}
+
+/*page 3///////////////////////*/
+
+#input3{
+	margin-left:21.5%;
+	margin-right:auto;	
+	padding-bottom:0px;
+	padding-top:5px;
+}
+
+#buttonlogin3 {
+margin-left:33%;
+margin-right:auto;
+}
+
+/*page 4///////////////////////*/
+#buttonlogin4 {
+margin-left:33%;
+margin-right:auto;
+}
+
+/*page 5///////////////////////*/
+#buttonlogin5 {
+margin-left:24%;
+margin-right:auto;
+}
+
+.search5{
+margin-bottom:20px;
+font-size: 15px;	
+}
+
+/*page 6///////////////////////*/
+#input6{
+	margin-left:23%;
+	margin-right:auto;
+}
+#buttonlogin6{
+	margin-left:23%;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+
+/*page 7///////////////////////*/
+#buttonlogin7 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+/*page 9///////////////////////*/
+
+/*page 11///////////////////////*/
+#round {
+margin-left:15%;
+margin-right:auto;	
+}
+
+#buttonlogin11 {
+	margin-left:38%;
+margin-right:auto;
+   
+}
+/*page 12//////////////////////*/
+	.ratebut12{
+		font-size: 0.4em;
+		width:10%;
+	}
+/*page 13//////////////////////*/
+	
+		#buttonlogin13 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+	.setbut13{
+		font-size: 0.8em;
+		margin-top:15px;
+	}
+/*page 14//////////////////////*/
+.tutor{
+	width:40%;
+	height:auto;
+}
+/*page 15//////////////////////*/
+/*page 16//////////////////////*/
+/*page 17//////////////////////*/
+/*page 18//////////////////////*/
+/* ------------ CLOSING BRACKET ----- */
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 320px) {
+/* =========================================================================================== */
+/*error ///////////////////////*/
+    #buttonlogin0 {
+margin-left:21%;
+margin-right:auto;
+}
+
+.Loginbut0 {
+	font-size: 0.4em;
+}
+
+
+/*index ///////////////////////*/
+#logo {
+  margin-top:-30px;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#buttonlogin {
+margin-left:20%;
+margin-right:auto;
+
+}
+
+.Loginbut {
+	font-size: 0.4em;
+}
+
+.facebookbutt{
+	font-size: 0.4em;
+	
+}	
+#footer {
+    clear:both;
+    text-align:center;
+   	
+	}
+
+.facebookbutt{
+	font-size: 0.4em;
+	width: 48%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*page 2///////////////////////*/
+#input2 {
+    margin-left: 22%;
+    margin-right: auto;
+}	
+
+#buttonlogin2 {
+margin-left:33%;
+margin-right:auto;
+}
+
+/*page 3///////////////////////*/
+
+#input3{
+	margin-left:21.5%;
+	margin-right:auto;	
+	padding-bottom:0px;
+	padding-top:5px;
+}
+
+#buttonlogin3 {
+margin-left:33%;
+margin-right:auto;
+}
+
+/*page 4///////////////////////*/
+#buttonlogin4 {
+margin-left:33%;
+margin-right:auto;
+}
+
+/*page 5///////////////////////*/
+#buttonlogin5 {
+margin-left:24%;
+margin-right:auto;
+}
+
+.search5{
+margin-bottom:20px;
+font-size: 15px;	
+}
+
+/*page 6///////////////////////*/
+#input6{
+	margin-left:23%;
+	margin-right:auto;
+}
+#buttonlogin6{
+	margin-left:23%;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+
+/*page 7///////////////////////*/
+#buttonlogin7 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+/*page 9///////////////////////*/
+
+/*page 11///////////////////////*/
+#round {
+margin-left:15%;
+margin-right:auto;	
+}
+
+#buttonlogin11 {
+	margin-left:38%;
+margin-right:auto;
+   
+}
+/*page 12//////////////////////*/
+	.ratebut12{
+		font-size: 0.4em;
+		width:10%;
+	}
+/*page 13//////////////////////*/
+	
+		#buttonlogin13 {
+	margin-left:27%;
+margin-right:auto;
+   
+}
+	.setbut13{
+		font-size: 0.8em;
+		margin-top:15px;
+	}
+/*page 14//////////////////////*/
+.tutor{
+	width:40%;
+	height:auto;
+}
+/*page 15//////////////////////*/
+/*page 16//////////////////////*/
+/*page 17//////////////////////*/
+/*page 18//////////////////////*/
+/* ------------ CLOSING BRACKET ----- */
+}

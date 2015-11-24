@@ -1,0 +1,1076 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+  padding:0
+}
+
+body {
+    background-color:#EBB646;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-size: 36px;
+	font-weight: 100;
+	
+}
+
+
+/* TOP MENU */
+
+#wrapper {
+    width:100%;
+    clear:both;
+	text-align:center;
+	background-color:#FFF;
+	
+	
+}
+
+#buttontopmenu {
+	
+    width:32%;
+    float:left;
+	margin-right:1%;
+	
+}
+
+#buttontopmenu2 {
+	 
+    width:32%;
+    float:left;
+	margin-right:1%;
+}
+
+#buttontopmenu3 {
+	width:33%;
+    float:left;
+	margin-right:1%;
+}
+
+.menubut {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 60px;
+	border-color:#C99;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+	display: inline;
+}
+/* error page ////////////////////////////////////////////////////////////////////////////////////////*/
+#buttonlogin0 {
+	text-align:center;
+    width:45%;
+    float:left;
+    padding:30px;
+}
+
+.Loginbut0 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+}
+.Loginbut0:hover {
+	background-color:#eb675e;
+}
+.Loginbut0:active {
+	position:relative;
+	top:1px;
+}
+
+/* Page 1 ////////////////////////////////////////////////////////////////////////////////////////*/
+#logo {
+  	text-align:center;
+    padding:5px;
+	padding-top:150px;
+	width:45%;
+	margin-left:27%;
+	margin-right:auto;
+}
+
+#buttonlogin {
+	text-align:center;
+    width:20%;
+    float:left;
+    padding:30px;
+}
+
+
+#buttonlogin2 {
+	text-align:center;
+    width:20%;
+    padding:30px;
+	clear:both;  
+}
+
+#buttonsignup{
+	text-align:center;
+    width:20%;
+    float:left;
+    padding:30px 0 0 0;
+}
+
+#input{
+	text-align:center;
+    width:20%;
+    float:left;
+    padding:30px;
+}
+
+#footer {
+    clear:both;
+    text-align:center;
+    padding:5px;	
+	
+}
+
+.Loginbut {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+}
+.Loginbut:hover {
+	background-color:#eb675e;
+}
+.Loginbut:active {
+	position:relative;
+	top:1px;
+}
+
+
+.facebookbutt{
+	font-family: 'Raleway', sans-serif;
+	align-content: center;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #405C9B;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1%;
+	margin-left: 25px;
+}
+
+.facebookbutt:hover {
+	background-color:#5a7fd1;
+}
+        
+.input{
+font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+}
+
+/* Page 2 ////////////////////////////////////////////////////////////////////////////////////////*/
+.input2{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+
+}
+.input2-1{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: "black";
+	background-color: #d3f3ee;
+	padding:5%;
+	margin-top:30px;
+}
+
+#input2{
+	text-align:center;
+    width:40%;
+    float:left;
+    padding:30px;
+}
+
+#buttonlogin2 {
+	text-align:center;
+    width:20%;
+    padding:30px;
+	clear:both;
+   }
+
+/* Page 3 ////////////////////////////////////////////////////////////////////////////////////////*/
+#input3{
+	text-align:center;
+    width:40%;
+    float:left;
+    padding:30px;
+}
+.input3-1{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: "black";
+	background-color: #d3f3ee;
+	padding:5%;
+
+}
+.input3-2{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: "black";
+	background-color: #d3f3ee;
+	padding:5%;
+	
+}
+
+#buttonlogin3 {
+	text-align:center;
+    width:20%;
+    padding:30px;
+	clear:both;
+    text-align:center;
+   
+}
+
+.Loginbut3 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+}
+.Loginbut3:hover {
+	background-color:#eb675e;
+}
+.Loginbut3:active {
+	position:relative;
+	top:1px;
+}
+/* Page 4 ////////////////////////////////////////////////////////////////////////////////////////*/
+.p4h1{
+	font-family: 'Raleway', sans-serif;
+	color: #CE5B54;
+	font-weight:200;
+	font-size:200%;
+	
+}
+#disclaimer{
+padding : 25px;	
+}
+.p4{
+	margin-top:-35px;
+	margin-left:100px;
+	float:left;
+	font-family: 'Raleway', sans-serif;
+	color:"black";
+	font-size: 0.8em;
+}
+
+input[type=checkbox]{
+  display:none;
+}
+
+.flat7b{
+  display:block;
+  border-radius:20px;
+  width:52px;
+  height:31px;
+  border:2px solid #e5e5e5;
+  cursor:pointer;
+  background-color:#f5f5f5;
+  margin-left:25px;
+  
+  -webkit-transition: background-color 0.6s ease, border 0.6s ease;
+  -moz-transition: background-color 0.6s ease, border 0.6s ease;
+  -ms-transition: background-color 0.6s ease, border 0.6s ease;
+  -o-transition: background-color 0.6s ease, border 0.6s ease;
+  transition: background-color 0.6s ease, border 0.6s ease;
+}
+
+.move{
+  display:block;
+  border-radius:20px;
+  width:29px;
+  height:29px;
+  background-color:white;
+  border: 1px solid #efefef;
+  -webkit-box-shadow: -2px 2px 3px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 2px 3px 1px rgba(0, 0, 0, 0.1);
+  margin-left:0px;
+  margin-left:0px;
+
+  -webkit-transition: margin-left 0.5s ease;
+  -moz-transition: margin-left 0.5s ease;
+  -ms-transition: margin-left 0.5s ease;
+  -o-transition: margin-left 0.5s ease;
+  transition: margin-left 0.5s ease;
+}
+
+#flat7:checked + .flat7b .move{
+  margin-left:21px;
+  -webkit-transition: margin-left 0.5s ease;
+  -moz-transition: margin-left 0.5s ease;
+  -ms-transition: margin-left 0.5s ease;
+  -o-transition: margin-left 0.5s ease;
+  transition: margin-left 0.5s ease;
+}
+
+#flat7:checked + .flat7b{
+  border:2px solid #4DD132;
+  background-color:#4DD132;
+  -webkit-transition: background-color 0.6s ease, border 0.6s ease;
+  -moz-transition: background-color 0.6s ease, border 0.6s ease;
+  -ms-transition: background-color 0.6s ease, border 0.6s ease;
+  -o-transition: background-color 0.6s ease, border 0.6s ease;
+  transition: background-color 0.6s ease, border 0.6s ease;
+}
+#buttonlogin4 {
+	text-align:center;
+    width:20%;
+    padding:30px;
+	clear:both;
+    text-align:center;
+   
+}
+.Loginbut4 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+}
+.Loginbut4:hover {
+	background-color:#eb675e;
+}
+.Loginbut4:active {
+	position:relative;
+	top:1px;
+}
+
+/* Page 5 ////////////////////////////////////////////////////////////////////////////////////////*/
+#logo5 {
+    text-align:center;
+    padding:5px;
+	padding-top:150px;
+	width:50%;
+	height:auto;
+	margin-left:22%;
+}
+
+#buttonlogin5 {
+	text-align:center;
+    width:40%;
+    padding:30px;
+	clear:both;
+    text-align:center;
+	}
+   
+.search5 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+}
+.search5:hover {
+	background-color:#eb675e;
+}
+.search5:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Page 6 ////////////////////////////////////////////////////////////////////////////////////////*/
+#logo6 {
+    text-align:center;
+    padding:5px;
+	padding-top:150px;
+	width:50%;
+	height:auto;
+	margin-left:23%;
+}
+#h1back6{
+	background-color: #CE5B54;
+	width:100%;
+	height: 20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:10px;
+}
+.input6-1{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #111;
+	background-color: #d3f3ee;
+	padding:5%;
+
+}
+.input6-2{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: "black";
+	background-color: #d3f3ee;
+	padding:5%;
+	margin-top:30px;
+}
+
+#input6{
+	text-align:center;
+    width:40%;
+    float:left;
+    padding:30px;
+}
+
+#buttonlogin6 {
+	text-align:center;
+    width:44%;
+    padding:30px;
+	clear:both;
+}
+.Loginbut6 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+}
+.Loginbut6:hover {
+	background-color:#eb675e;
+}
+.Loginbut6:active {
+	position:relative;
+	top:1px;
+}
+
+/* Page 7 ////////////////////////////////////////////////////////////////////////////////////////*/
+#logo7 {
+    text-align:center;
+    padding:5px;
+	padding-top:150px;
+	width:50%;
+	height:auto;
+	margin-left:23%;
+}
+
+
+#h1back7{
+	background-color: #CE5B54;
+	width:100%;
+	height: 20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:10px;
+}
+
+#buttonlogin7 {
+	text-align:center;
+    width:44%;
+    padding:30px;
+	clear:both;
+    text-align:center;
+	
+   
+}
+.Loginbut7 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+	margin-bottom:10px;
+}
+.Loginbut7:hover {
+	background-color:#eb675e;
+}
+.Loginbut7:active {
+	position:relative;
+	top:1px;
+}
+
+.Loginbut7-1 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+	margin-bottom:10px;
+}
+.Loginbut7-1:hover {
+	background-color:#eb675e;
+}
+.Loginbut7:active {
+	position:relative;
+	top:1px;
+}
+/* Page 8 ////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Page 9 ////////////////////////////////////////////////////////////////////////////////////////*/
+
+#titlename8 {
+	
+    width:100%;
+    float:left;
+    padding:20px;
+	background-color:#d3f3ee;
+	
+	
+}
+#titlename8-1 {
+	background-color:#CE5B54;
+	margin-bottom:1%;
+    width:100%;
+    float:left;
+    padding:1%;
+}
+
+#Drug1{ 
+   margin-bottom:1%;
+   padding: 5% 5%;
+   background-color:#ce5b54;
+   font-size: 50%;
+   font-family: 'Raleway', sans-serif;
+    width:80%;
+    float:left;
+    padding:8%;
+   }
+      
+	  #Drug2{
+    margin-bottom:1%;
+   padding: 5% 5%;
+   background-color:#ce5b54;
+   font-size: 50%;
+   font-family: 'Raleway', sans-serif;
+    width:80%;
+    float:left;
+    padding:8%;
+   }
+      
+	  #Drug3{
+   margin-bottom:1%;
+   padding: 5% 5%;
+   background-color:#ce5b54;
+   font-size: 50%;
+   font-family: 'Raleway', sans-serif;
+    width:80%;
+    float:left;
+    padding:8%;
+   }
+   
+     .nextbut{
+   margin-bottom:1%;
+   padding: 5% 5%;
+   background-color:#ce5b54;
+   font-size: 50%;
+   font-family: 'Raleway', sans-serif;
+    width:20%;
+    float:left;
+    padding:8%;
+   }
+   
+   
+      #drugbox{
+  background-color:#CE5B54;
+	margin-bottom:1%;
+    width:100%;
+    float:left;
+    padding:1%;
+   }
+   
+.first {
+    width: 100%;
+    float: left;
+	margin-right: 1%;
+	margin-bottom:1%;
+	padding-left:1%;
+	text-align:left;
+}
+
+/* Page 10 ////////////////////////////////////////////////////////////////////////////////////////*/
+#titlename {
+	
+    width:100%;
+    float:left;
+    padding:20px;
+	background-color:#d3f3ee;
+	
+	
+}
+#titlename2 {
+	background-color:#CE5B54;
+	margin-bottom:1%;
+    width:100%;
+    float:left;
+    padding:1%;
+	
+	
+	
+}
+
+#Drugbar {
+	background-color:#CE5B54;
+	margin-bottom:1%;
+    width:100%;
+    float:clear;
+    padding:1%;
+	
+	
+}
+
+ #map {
+        height: 400px;
+		width:100%;
+		margin-bottom:1%;
+      }
+
+/* Page 11 ////////////////////////////////////////////////////////////////////////////////////////*/
+
+#round {
+	text-align:center;
+    padding:5px;
+	padding-top:80px;
+	width:70%;
+	height:auto;
+	margin-left:23%;
+	margin-top:40px;
+}
+			
+			
+#accphoto{
+	background-color: #CE5B54;
+	width:100%;
+	height: 20%;
+	padding-bottom:5px;
+	margin-top:10%;
+	text-align:center;
+}
+
+.editbut11 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:40%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:1%;
+}
+.editbut11:hover {
+	background-color:#eb675e;
+}
+.editbut11:active {
+	position:relative;
+	top:1px;
+}
+
+.backbut11 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:40%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:1%;
+	margin-top:3%;
+}
+.backbut11:hover {
+	background-color:#eb675e;
+}
+.backbut11:active {
+	position:relative;
+	top:1px;
+}
+
+#info{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.8em;
+	background-color: #d3f3ee;
+	padding: 3px;
+	margin-bottom:20px;
+}
+/* Page 12 ////////////////////////////////////////////////////////////////////////////////////////*/
+#titleback12{
+	background-color: #CE5B54;
+	width:100%;
+	height: 20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:10px;
+}
+
+#ratediv{
+	background-color: #d3f3ee;
+	width:100%;
+	height: 20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:10px;
+	
+}
+.ratebut12{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	width:10%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:2% 2% 2 0;
+	float:right;
+	margin-top:-80px;
+	margin-right:10px;
+}
+.ratebut12:hover {
+	background-color:#eb675e;
+}
+.ratebut12:active {
+	position:relative;
+	top:1px;
+}
+#buttonlogin12 {
+	text-align:center;
+    width:40%;
+    padding:30px;
+	clear:both;
+    text-align:center;
+	
+   
+}
+.backbut12 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+	margin-top:5%;
+}
+.backbut12:hover {
+	background-color:#eb675e;
+}
+.backbut12:active {
+	position:relative;
+	top:1px;
+}
+
+ #radio{
+        position: fixed;
+        background-color:#EBB646;
+        margin: auto;
+        width: 400px;
+        height: 100px;
+        padding: 5px;
+        z-index: 1;
+        border-color: #eb675e;
+        border-style: solid;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+    }
+
+
+#ratebut12{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+
+	width:20%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:2% 2% 2 0;
+}
+
+/* Page 13 ////////////////////////////////////////////////////////////////////////////////////////*/
+#logo13 {
+    text-align:center;
+    padding:5px;
+	padding-top:150px;
+	width:50%;
+	height:auto;
+	margin-left:23%;
+}
+
+#buttonlogin13 {
+	text-align:center;
+    width:44%;
+    padding:30px;
+	clear:both;
+    text-align:center;
+	
+   
+}
+.setbut13 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+	margin-bottom:10px;
+}
+.setbut13:hover {
+	background-color:#eb675e;
+}
+.setbut13:active {
+	position:relative;
+	top:1px;
+}
+/* Page 14 ////////////////////////////////////////////////////////////////////////////////////////*/
+#tutorialhead1{
+	background-color: #CE5B54;
+	width:100%;
+	height: 20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:10px;
+	text-align:center;
+}
+
+
+#tutorial1{
+	width: 80%;
+	text-align:center;
+	margin-left:10%;
+	
+
+}
+
+	
+	
+
+/* Page 15 ////////////////////////////////////////////////////////////////////////////////////////*/
+
+#tutorialhead2{
+	background-color: #CE5B54;
+	width:100%;
+	height: 20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:10px;
+	text-align:center;
+}
+
+
+#tutorial2{
+	width: 80%;
+	text-align:center;
+	margin-left:10%;
+	
+
+}
+
+/* Page 16 ////////////////////////////////////////////////////////////////////////////////////////*/
+
+#tutorialhead3{
+	background-color: #CE5B54;
+	width:100%;
+	height: 20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:10px;
+	text-align:center;
+}
+
+
+#tutorial3{
+	width: 80%;
+	text-align:center;
+	margin-left:10%;
+	
+
+}
+
+/* Page 17 ////////////////////////////////////////////////////////////////////////////////////////*/
+#logo17 {
+    text-align:center;
+    padding:5px;
+	padding-top:150px;
+	width:50%;
+	height:auto;
+	margin-left:23%;
+}
+#buttonlogin17 {
+	text-align:center;
+    width:44%;
+    padding:30px;
+	clear:both;	
+   
+}
+.backbut17 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+}
+.backbut17:hover {
+	background-color:#eb675e;
+}
+.backbut17 :active {
+	position:relative;
+	top:1px;
+}
+
+/* Page 18 ////////////////////////////////////////////////////////////////////////////////////////*/
+#logo18 {
+  	text-align:center;
+    padding:5px;
+	padding-top:150px;
+	width:35%;
+	height:auto;
+	margin-left:32%;
+}
+
+#buttonlogin18 {
+	text-align:center;
+    width:44%;
+    padding:30px;
+	clear:both;
+    text-align:center;
+	margin-top:-100px;
+	 margin-left:27%; 
+}
+.backbut18 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+	margin-top:20%;
+}
+.backbut18:hover {
+	background-color:#eb675e;
+}
+.backbut18:active {
+	position:relative;
+	top:1px;
+}
+
+/* SELECTED */
+
+/* TEXT */
+
+h1 {
+    color: black;
+	font-family: 'Raleway', sans-serif;
+	font-style:bold,5px;
+	text-align: center;
+	font-size: 1em;
+}
+
+h2 {
+    color: black;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+h3 {
+    color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+}
+
+h4 {
+    color: black;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+P {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	font-size: 0.5em;
+}
+
+/*picture account */
+
+
