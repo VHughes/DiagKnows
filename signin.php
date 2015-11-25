@@ -37,11 +37,14 @@ if ($num == 1) {
     //echo "<pre>";
     //var_dump($result);
     //echo "</pre>";
-    //exit;
+   // exit;
     
     $_SESSION['username'] = $result[0]['uName'];
+    $_SESSION['lastname'] = $result[0]['lname'];
+    $_SESSION['email'] = $result[0]['email'];
+    
     $_SESSION['login'] = true;
-     header("Location: page5.php");
+    header("Location: page5.php");
     
 } else {
     

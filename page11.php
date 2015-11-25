@@ -1,3 +1,7 @@
+<?php
+include('sessionstart.php');
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -29,7 +33,7 @@
 	<body>
 
     <nav>
-<a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
+   <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
    <li><a class="homer" href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
@@ -50,15 +54,18 @@
 <div id="accphoto"> 
     
 
-<h2> WELCOME TO YOUR ACCOUNT  </h2>
-<h1> PETER </h1></div>
+<?php 
+   echo "<h2> Welcome To Your Account,  " .$_SESSION['username']. "</h2>";
+    ?> 
 
 
 <div id="info">
-<h4>Name : Peter Doe</h4>
-<h4>Age : 32</h4>
-<h4>Gender : Male</h4>
-<h4>Email : peterdoebcit@gmail.com</h4>
+    <?php 
+   echo "<h4> Name: " .$_SESSION['username'] . $_SESSION['lastname']. "</h4>" ;
+    ?> 
+    <?php 
+   echo "<h4> Email: " .$_SESSION['email']. "</h4>";
+    ?> 
 </div>
 
 <!--Details result go here-->
