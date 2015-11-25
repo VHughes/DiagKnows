@@ -1177,6 +1177,33 @@ h7 {
 
 }
 
+#buttonlogin16 {
+	text-align:center;
+    width:20%;
+    padding:30px;
+	clear:both;
+    text-align:center;
+   
+}
+.Loginbut16 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+}
+.Loginbut16:hover {
+	background-color:#eb675e;
+}
+.Loginbut16:active {
+	position:relative;
+	top:1px;
+}
+
 /* Page 17 ////////////////////////////////////////////////////////////////////////////////////////*/
 #logo17 {
     text-align:center;
