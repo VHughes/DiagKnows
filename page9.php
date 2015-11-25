@@ -49,9 +49,9 @@ include('sessionstart.php');
 <!--result go here-->
 <br><br>    
 <div id="titlename8"> 
-<h1>Selected illness:<br>
+<h1>SELECTED ILLNESS:<br>
 <br>
-Cold
+COLD
 </h1>
 </div>
 
@@ -79,10 +79,10 @@ Cold
 		  $(document).ready(function() {
           $("#Drug1").click(function(){
               $("#p4").toggle(200);
-			  $("#p3").slideUp(200);
 			  $("#p5").slideUp(200);
 			  $("#p6").slideUp(200);
-			  $('#p4').html("<div class='first'><center><li>Anti-Inflammatory</li><li>Treats Pain</li><li>Reduces Fever</li><li>Headaches, Muscle Aches, Back Aches, Tooth Aches,Menstrual Cramps, Arthritis</li><li>More side effects than Acetaminophen</li><li>Can prolong bleeding</li><li> Stronger and lasts longer than Acetaminophen</li></center><div><form action='page10.php'><input type='submit' value='Yes! This is the drug!' class='backbut12' id='tutorialhead1' ></form></div></div><br> ");
+			  
+			  $('#p4').html("<div class='first'><center><li>Anti-Inflammatory</li><li>Treats Pain</li><li>Reduces Fever</li><li>Headaches, Muscle Aches, Back Aches, Tooth Aches,Menstrual Cramps, Arthritis</li><li>More side effects than Acetaminophen</li><li>Can prolong bleeding</li><li> Stronger and lasts longer than Acetaminophen</li></center><div><form action='page10.php'><input type='submit' value='Yes! This is the drug!' class='backbut9-1' id='tutorialhead1' ></form></div></div><br> ");
             })
           });
         
@@ -90,16 +90,10 @@ Cold
   		$(document).ready(function() {
           $("#Drug2").click(function(){
               $("#p5").toggle(200);
-			  $("#p3").slideUp(200);
 			  $("#p4").slideUp(200);
 			  $("#p6").slideUp(200);
-			  $("#p7").slideUp(200);
-			  $("#p8").slideUp(200);
-			  $("#p9").slideUp(200);
-			  $("#p10").slideUp(200);
-			  $("#p11").slideUp(200);
 			  
-			   $('#p5').html("<div class='first'><center><li>Treats Pain</li><li>Reduces Fever</li><li>Headaches, Muscle Aches, Back Aches, Tooth Aches,Menstrual Cramps, Arthritis</li><li>Safest during pregnancies</li></center><form action='page10.php'><input type='submit' value='Yes! This is the drug!' class='backbut12' id='#tutorialhead1'></form></div><br> ");
+			   $('#p5').html("<div class='first'><center><li>Treats Pain</li><li>Reduces Fever</li><li>Headaches, Muscle Aches, Back Aches, Tooth Aches,Menstrual Cramps, Arthritis</li><li>Safest during pregnancies</li></center><form action='page10.php'><input type='submit' value='Yes! This is the drug!' class='backbut9-1' id='#tutorialhead1'></form></div><br> ");
             })
           });
 
@@ -107,19 +101,20 @@ Cold
 $(document).ready(function() {
           $("#Drug3").click(function(){
               $("#p6").toggle(200);
-			  $("#p3").slideUp(200);
 			  $("#p4").slideUp(200);
 			  $("#p5").slideUp(200);
-			  $("#p7").slideUp(200);
-			  $("#p8").slideUp(200);
-			  $("#p9").slideUp(200);
-			  $("#p10").slideUp(200);
-			  $("#p11").slideUp(200);
-			   $('#p6').html("<div class='first'><center><li>Anti-Inflammatory</li><li>Treats Pain</li><li>Reduces Fever</li><li>Blood Thinner</li><li>Do not use during pregnancy</li><li>Do not use with children under 18 years of age</li><li>Headaches, Muscle Aches, Back Aches, Tooth Aches,Menstrual Cramps, Arthritis</li></center><form action='page10.php'><input type='submit' value='Yes! This is the drug!' class='backbut12' id='#tutorialhead1'></form></div><br> ");
+			 
+			   $('#p6').html("<div class='first'><center><li>Anti-Inflammatory</li><li>Treats Pain</li><li>Reduces Fever</li><li>Blood Thinner</li><li>Do not use during pregnancy</li><li>Do not use with children under 18 years of age</li><li>Headaches, Muscle Aches, Back Aches, Tooth Aches,Menstrual Cramps, Arthritis</li></center><form action='page10.php'><input type='submit' value='Yes! This is the drug!' class='backbut9-1' id='#buttonlogin9'></form></div><br> ");
             })
           });
 
 </script>
+
+<div id="buttonlogin9">
+<form action="page7.php">
+    <input type="submit" class="backbut9"  value="Back">
+</form>
+</div>
 
 
 	
