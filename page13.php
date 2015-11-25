@@ -31,10 +31,10 @@
     <nav>
 <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
-   <li><a class="homer" href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
+   <li><a  href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
   <li><a href="page11.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
-  <li><a href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
+  <li><a class="homer" href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
   </li>
   </nav>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

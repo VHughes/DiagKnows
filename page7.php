@@ -31,7 +31,7 @@
     <nav>
 <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
-   <li><a class="homer" href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
+   <li><a href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
   <li><a href="page11.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
   <li><a href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
@@ -72,6 +72,11 @@
 <button id="showmore" class="Loginbut7-1">Show More</button>
 </div>
 
+<div id="buttonlogin7">
+<form action="page6.php">
+    <input type="submit" class="Loginbut7" value="Back">
+</form>
+</div>
 
 </body>
 </html>
