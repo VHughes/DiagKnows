@@ -39,69 +39,140 @@
 </div>
 
 <div id="footer">
+
 <button class="facebookbutt" id="facebook"> <i class="fa fa-facebook"></i>   Log In with Facebook</button>
+<?php include 'index.php';?>
 </div>
 </body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>    
 <script>
          
+	$(document).ready(function(){
+		var but = document.getElementById('submit');
+
+	/*	// on click we post our info to server.php
+		but.onclick = function(){
+			var email = document.getElementById('email').value;
+			var pass = document.getElementById('password').value;
+
+			$.ajax({
+				url:"server.php",
+				type:"post",
+				dataType:"json",
+				data: {
+					email: email,
+					password: pass,
+					mode:0 // because we want a regular email and password registration
+				},
+				success:function(resp){
+					alert("SUCCESS!");
+				}
+			});
+		}
+        */
+	});
     
+
+//Facebook 
+
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '477303215782687',
       xfbml      : true,
       version    : 'v2.5'
     });
-    
-    $.ajax({
-    url: "",     
-    data: {
-        type: 3,           
-        },             
-    dataType: "html",      
-    type: "get",          
-    success: "",
-        });
-    
-var login = document.getElementById("facebook");
-login.onclick = function(){
-    FB.login(function(resp){
-        console.log(resp);
 
+    FB.getLoginStatus(function(resp){ // if we're connected we're going to grab our id
+    	console.log(resp);
+    	$.ajax({
+    		url:"server.php",
+    		type:"post",
+    		dataType:"json",
+    		data:{
+    			mode:2,
+    			fb_id: resp.authResponse.userID,
+    		},
+    		success:function(resp2){
+    		console.log(resp2);
+    		
+    		}
+    	});
+    });
+
+
+
+    var fbLogin = document.getElementById('facebook');
+    // when button is clicked, we log into FB
+    fbLogin.onclick = function(){
         
-    var facebook = {
-    name: "",
-    id: "",
-    age: "",
-    device: "",
-    gender: "",
-};
-     if(resp.status == "connected"){
-            FB.api("/me?fieldset=name", function(resp2){
+    	FB.login(function(resp){
+    		console.log(resp);
             
-            var name = FB.name;
-            facebook.name = name;
-            console.log(resp2);
-             alert("Thank you for logging in "+resp2.name+"!");
-             location.href = 'page5.html';    
-             console.log(name);
-             console.log(facebook);
+    		if(resp.status == "connected"){
+  
+    			FB.api("/me?fields=name,email,picture", function(resp2){
+                   
+    				console.log(resp2);
+                    
+    				var email = "default@gmail.com"; // adding a hardcoded email just to check
+    				if(resp2.email != null){ // make sure that email in FB is legit
+                        
+    					email = resp2.email;
+                    }
+                        var name = resp2.name;
+                        var img = resp2.picture.data.url;
+                        var fbid = resp2.id;
+                        console.log(email);
+                        console.log(img);
             
 
-                });
-            }
-   
-        });
-    };
+	    		$.ajax({
+					url:"server.php",
+					type:"post",
+					dataType:"json",
+					data: {
+						mode:1, // because we want the FB registration
+						email: email,
+						name: name,
+						img: img,
+						fb_id: fbid,
+					},
+					success:function(resp3){
+    		        console.log(resp3);
+              
+    		}
+              
+    			});
+            
+            });
+                
+            /*FB.getLoginStatus(function(response) {
+              if (response.status === 'connected') {
+                  alert ('Thank You '+response.name+' for logging in!');
+                  location.href='page5.php';
+                  console.log(response);
+
+              } else if (response.status === 'not_authorized') {
+                alert("Uh Oh! Please log into Facebook using our app!");
+              } else {
+                location.href='dkerror.html';
+              }
+              });*/
+                
+            };
+            
+ });
+
 };
-    
-    
-    
+};
+
 
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
      js = d.createElement(s); js.id = id;
-     js.src="https://connect.facebook.net/en_US/all.js";
+     js.src="http://connect.facebook.net/en_US/all.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 
