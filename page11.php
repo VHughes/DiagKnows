@@ -36,6 +36,7 @@ include('sessionstart.php');
    <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
    <li><a  href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
+   </li>
   <li><a class="homer" href="page11.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
   <li><a href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
   </li>
@@ -43,20 +44,21 @@ include('sessionstart.php');
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
         <script src="js/menu.js"></script>
+        <script src="editPic.js"></script>
 
  <br>
 <div id="round">
-            <img src="Assets/image-<?php echo rand(1,7); ?>.png" style="width:20%;max-height:800px; max-width:800px;"/>
+            <img id='image' src="Assets/image-<?php echo rand(1,7); ?>.png" style="width:20%;max-height:800px; max-width:800px; min-height:100px; min-width:100px;"/>
             </div>
-    
 
 <?php 
-   echo "<h2> Welcome To Your Account,  " .$_SESSION['username']. "</h2>";
+   echo "<h4> Welcome To Your Account,  " .$_SESSION['username']. "</h4>";
     ?> 
+
 
 <div id="info">
     <?php 
-   echo "<h4> Name: " .$_SESSION['username']. " " .$_SESSION['lastname']. "</h4>" ;
+   echo "<h4> Name: " .$_SESSION['username'] ." ". $_SESSION['lastname']. "</h4>" ;
     ?> 
     <?php 
    echo "<h4> Email: " .$_SESSION['email']. "</h4>";
@@ -66,9 +68,11 @@ include('sessionstart.php');
 <!--Details result go here-->
 
 <div id="buttonlogin11">
-<form action="dkerror.html">
-    <input type="submit"  class="editbut11" value="Add Information To Profile">
-</form></div>
+    <button id="editBtn" type="submit"  class="editbut11">Edit</button>
+</div>
+
+<div id='edit'>
+    </div>
 
 <div id="buttonlogin11">
 <form action="page13.php">
