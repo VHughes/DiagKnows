@@ -52,7 +52,7 @@ include('sessionstart.php');
 </div>
         
    <?php 
-   echo "<p id='welcomeMsg'> Welcome to Diagknows,  " .$_SESSION['username']. "</p>";
+   echo "<h2> Welcome to Diagknows,  " .$_SESSION['username']. "</h2>";
     ?> 
 
 <div id="buttonlogin5">

@@ -913,33 +913,6 @@ input[type=checkbox]{
 
 }
 
-#buttonlogin14 {
-	text-align:center;
-    width:20%;
-    padding:30px;
-	clear:both;
-    text-align:center;
-   
-}
-.Loginbut14 {
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	font-size: 0.5em;
-	width:100%;
-	height: auto;
-	border: 0;
-	color: #ffffff;
-	background-color: #CE5B54;
-	padding:5%;
-}
-.Loginbut14:hover {
-	background-color:#eb675e;
-}
-.Loginbut14:active {
-	position:relative;
-	top:1px;
-}
-
 	
 	
 
@@ -964,33 +937,6 @@ input[type=checkbox]{
 
 }
 
-#buttonlogin15 {
-	text-align:center;
-    width:20%;
-    padding:30px;
-	clear:both;
-    text-align:center;
-   
-}
-.Loginbut15 {
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	font-size: 0.5em;
-	width:100%;
-	height: auto;
-	border: 0;
-	color: #ffffff;
-	background-color: #CE5B54;
-	padding:5%;
-}
-.Loginbut15:hover {
-	background-color:#eb675e;
-}
-.Loginbut15:active {
-	position:relative;
-	top:1px;
-}
-
 /* Page 16 ////////////////////////////////////////////////////////////////////////////////////////*/
 
 #tutorialhead3{
@@ -1010,32 +956,6 @@ input[type=checkbox]{
 	margin-left:10%;
 	
 
-}
-#buttonlogin16 {
-	text-align:center;
-    width:20%;
-    padding:30px;
-	clear:both;
-    text-align:center;
-   
-}
-.Loginbut16 {
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	font-size: 0.5em;
-	width:100%;
-	height: auto;
-	border: 0;
-	color: #ffffff;
-	background-color: #CE5B54;
-	padding:5%;
-}
-.Loginbut16:hover {
-	background-color:#eb675e;
-}
-.Loginbut16:active {
-	position:relative;
-	top:1px;
 }
 
 /* Page 17 ////////////////////////////////////////////////////////////////////////////////////////*/

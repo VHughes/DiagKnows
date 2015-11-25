@@ -5,7 +5,7 @@
 @media screen and (max-width: 2880px) {
 /* =========================================================================================== */
 /*error ///////////////////////*/
-#buttonlogin0 {
+    #buttonlogin0 {
 margin-left:26%;
 margin-right:auto;
 }
@@ -117,8 +117,6 @@ margin-left:26%;
 margin-right:auto;
 }
 
-
-    
 /*page 7///////////////////////*/
 #buttonlogin7 {
 	margin-left:27%;
@@ -258,8 +256,6 @@ font-size: 20px;
 	margin-left:26.5%;
 	margin-right:auto;
 }
-
-
 
 /*page 7///////////////////////*/
 #buttonlogin7 {
@@ -834,19 +830,8 @@ font-size:20px;
 
 
 /*page 6///////////////////////*/
-#logo6 {
-    margin-top:-30px;
-  width:100%;
-  margin-left:auto;
-  margin-right:auto;
-}
+
 /*page 7///////////////////////*/
-    #logo7 {
-    margin-top:-30px;
-  width:100%;
-  margin-left:auto;
-  margin-right:auto;
-}
 #buttonlogin7 {
 	margin-left:27%;
 margin-right:auto;
@@ -986,13 +971,6 @@ font-size: 15px;
 }
 
 /*page 6///////////////////////*/
-#logo6 {
-  margin-top:-30px;
-  width:100%;
-  margin-left:auto;
-  margin-right:auto;
-}
-    
 #input6{
 	margin-left:23%;
 	margin-right:auto;
@@ -1008,13 +986,6 @@ font-size: 15px;
 	margin-left:27%;
 margin-right:auto;
    
-}
-
-#logo7 {
-  margin-top:-30px;
-  width:100%;
-  margin-left:auto;
-  margin-right:auto;
 }
 /*page 9///////////////////////*/
 
@@ -1150,9 +1121,9 @@ font-size: 15px;
 }
 
 /*page 6///////////////////////*/
-#logo6 {
+#logo6{
   margin-top:-30px;
-  width:100%;
+  width:400%;
   margin-left:auto;
   margin-right:auto;
 }
@@ -1162,20 +1133,12 @@ font-size: 15px;
 	margin-right:auto;
 }
 #buttonlogin6{
-	margin-left:25%;
+	margin-left:23%;
 	margin-right:auto;
 	margin-bottom:10px;
 }
 
-
-
 /*page 7///////////////////////*/
-#logo7 {
-  margin-top:-30px;
-  width:100%;
-  margin-left:auto;
-  margin-right:auto;
-}
 #buttonlogin7 {
 	margin-left:27%;
 margin-right:auto;

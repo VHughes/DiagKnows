@@ -1,3 +1,7 @@
+<?php
+include('sessionstart.php');
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -33,6 +37,8 @@
   max-width: 40em;
   margin: 4em auto;
   cursor: pointer;
+  margin-left: 35.5%;
+  margin-right:auto;
 }
 
 .selection-choice{
@@ -121,7 +127,7 @@
     <nav>
 <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
-   <li><a  href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
+   <li><a class="homer" href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
   <li><a href="page11.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
   <li><a href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
@@ -184,12 +190,6 @@
     
 <form action="page7.php">
     <input type="submit" value="Next" class="Loginbut6">
-</form>
-</div>
-
-<div id="buttonlogin2">
-<form action="page5.php">
-    <input type="submit" class="Loginbut6" value="Back">
 </form>
 </div>
 
