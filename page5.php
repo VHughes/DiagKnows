@@ -50,11 +50,15 @@ include('sessionstart.php');
 <div id="logo5"> 
 <img src="Assets/diagknows logo.png" alt="logo" style="width:50%;max-height:600px; max-width:800px;">
 </div>
-        
+    <div id='welcomeMsg'>  
    <?php 
-   echo "<h2> Welcome to Diagknows,  " .$_SESSION['username']. "</h2>";
-    ?> 
+    if(isset($_SESSION['username'])) {
+            $usr = $_SESSION['username'];
+   echo "<h2> Welcome to Diagknows,  " . $usr. "</h2>";
+    }
 
+    ?> 
+   </div> 
 <div id="buttonlogin5">
 <form action="page6.php">
     <input type="submit" value="Search" class="search5">
@@ -66,4 +70,11 @@ include('sessionstart.php');
 </form>
 </div>
 </body>
+<style>
+#welcomeMsg {
+padding:10px;
+font-size:1.75em;
+font-family: 'Calibri';
+}    
+</style>
 </html>
