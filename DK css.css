@@ -434,6 +434,7 @@ input[type=checkbox]{
 	height:auto;
 	margin-left:23%;
 }
+
 #h1back6{
 	background-color: #CE5B54;
 	width:100%;
@@ -483,13 +484,13 @@ input[type=checkbox]{
 .Loginbut6 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	font-size: 0.5em;
-	width:100%;
-	height: auto;
+	font-size: 1em;
+	width:61%;
+	height:auto;
 	border: 0;
 	color: #ffffff;
 	background-color: #CE5B54;
-	padding:5%;
+	padding:2%;
 }
 .Loginbut6:hover {
 	background-color:#eb675e;

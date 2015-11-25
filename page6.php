@@ -33,7 +33,10 @@
   max-width: 40em;
   margin: 4em auto;
   cursor: pointer;
+  margin-left: 35.5%;
+  margin-right:auto;
 }
+
 .selection-choice{
 	font-family: 'Raleway', sans-serif;
 	display:inline;
@@ -166,8 +169,8 @@
   </div>
   
   <div class="custom-select">
-    <label for="select-choice2" class="label select-3"><span class="selection-choice">Please choose</span> </label>
-    <select id="select-choice2" class="select">
+    <label for="select-choice3" class="label select-3"><span class="selection-choice">Please choose</span> </label>
+    <select id="select-choice3" class="select">
       <option value="Choice 1">Choice 1</option>
       <option value="Choice 2">Choice 2</option>
       <option value="Choice 3">Choice 3</option>
@@ -182,7 +185,7 @@
 <div id="buttonlogin2">
     
 <form action="page7.php">
-    <input type="submit" value="Next" class="Loginbut">
+    <input type="submit" value="Next" class="Loginbut6">
 </form>
 </div>
 

@@ -113,7 +113,7 @@ font-size: 20px;
 }
 
 #buttonlogin6 {
-margin-left:27%;
+margin-left:26%;
 margin-right:auto;
 }
 
@@ -1121,6 +1121,13 @@ font-size: 15px;
 }
 
 /*page 6///////////////////////*/
+#logo6{
+  margin-top:-30px;
+  width:400%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 #input6{
 	margin-left:23%;
 	margin-right:auto;
