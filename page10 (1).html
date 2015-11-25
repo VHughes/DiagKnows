@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<!-- font -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  
+  <!-- normal css -->
+  <link rel="stylesheet" type="text/css" href="DK css.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css" />
+  
+<meta charset="UTF-8">
+<title>Search results</title>
+</head>
+
+<body>
+
+<div id="buttontopmenu">
+<form action="page5.html">
+    <input type="submit"  class="menubut" value="Home">
+</form>
+</div>
+
+<div id="buttontopmenu2">
+<form action="page11.html">
+    <input type="submit" class="menubut" value="Account">
+</form>
+</div>
+
+<div id="buttontopmenu3">
+<form action="page13.html">
+    <input type="submit"  class="menubut" value="Setting">
+</form>
+</div>
+
+</div>
+
+<!--result go here-->
+<br><br>
+<div id="titlename"> 
+<h1> Dummy Text for: IBUPROFEN</h1>
+</div>
+
+
+<!--Description go here-->
+
+<div id="titlename2"> 
+<h2>Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID). It works by reducing hormones that cause inflammation and pain in the body.
+
+Ibuprofen is used to reduce fever and treat pain or inflammation caused by many conditions such as headache, toothache, back pain, arthritis, menstrual cramps, or minor injury.
+
+Ibuprofen is used in adults and children who are at least 6 months old.</h2>
+</div>
+
+
+
+
+
+ <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+    <div id="map"></div>
+
+<!--result go here-->
+
+<div id="Drugbar"> 
+<h3>Here's a brief descriptin for Advil, which will talk about why Advil is better than other brand names</h3>
+</div>
+
+<div id="Drugbar"> 
+<h3>Here's a brief description that will argues that Motrin is actually a decent alternative to Advil, because it's slightly cheaper</h3>
+</div>
+
+<div id="Drugbar"> 
+<h3>Here's a brief description that says this lesser-known brand is actually the exact same as the other two. Try Medipren for a change!</h3>
+</div>
+
+<div id="Drugbar"> 
+<h3>Here's a brief description that asks if you're tired of brand names. Maybe try the generic medicine, Iburprofen. Want a fancy name brand? How about Nuprin?! </h3>
+</div>
+
+<div id="buttonlogin12">
+<form action="page9.html">
+    <input type="submit" class="backbut12"  value="Back">
+</form>
+</div>
+
+</body>
+
+    <script>
+/*var marker;
+var map;
+        
+function initMap() {
+  var myLatLng = {lat: 49.250864, lng: -123.000557};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 17,
+    center: myLatLng
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    animation: google.maps.Animation.DROP,
+    position:  myLatLng
+  });
+  marker.addListener('click', toggleBounce);
+}
+
+function toggleBounce() {
+  if (marker.getAnimation() !== null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+*/	
+// Note: This example requires that you consent to location sharing when
+// prompted by your browser. If you see the error "The Geolocation service
+// failed.", it means you probably did not give permission for the browser to
+// locate you.
+
+
+// Note: This example requires that you consent to location sharing when
+// prompted by your browser. If you see the error "The Geolocation service
+// failed.", it means you probably did not give permission for the browser to
+// locate you.
+
+function initMap() {
+	
+	var myLatLng = {lat: 49.250864, lng: -123.000557};
+   var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 17,
+    center: myLatLng
+  });
+  var infoWindow = new google.maps.InfoWindow({map: map});
+
+  // Try HTML5 geolocation.
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+
+      infoWindow.setPosition(pos);
+      infoWindow.setContent('Location found.');
+      map.setCenter(pos);
+    }, function() {
+      handleLocationError(true, infoWindow, map.getCenter());
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleLocationError(false, infoWindow, map.getCenter());
+  }
+}
+
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+  infoWindow.setPosition(pos);
+  infoWindow.setContent(browserHasGeolocation ?
+                        'Error: The Geolocation service failed.' :
+                        'Error: Your browser doesn\'t support geolocation.');
+}
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    animation: google.maps.Animation.DROP,
+    position:  myLatLng
+  });
+  marker.addListener('click', toggleBounce);
+
+
+
+
+    </script>
+
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"
+            async defer></script>
+        
+</html>
