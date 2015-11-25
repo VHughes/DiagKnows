@@ -158,7 +158,7 @@ include('sessionstart.php');
 </div>-->
 <section id="radio" class="rating" style="display:none">
 <br>
-<h7>Tell us what you think!</h7>
+<h7 dir="rtl">Tell us what you think</h7>
   <!-- FIFTH STAR -->
   <input type="radio" id="star_5" name="1" value="5" />
   <label for="star_5" title="Five">&#9733;</label>
@@ -176,7 +176,7 @@ include('sessionstart.php');
   <label for="star_1" title="One">&#9733;</label>
    
     
-<input type="button"  value="Rate!" id="ratebut12" style="display:none">
+<input dir="rtl" type="button"  value="Rate" id="ratebut12" style="display:none">
    </section>
     
 
