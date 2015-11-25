@@ -112,7 +112,7 @@ include('sessionstart.php');
     <nav>
 <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
-   <li><a class="homer" href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
+   <li><a  href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
   <li><a href="page11.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
   <li><a href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
@@ -148,16 +148,36 @@ include('sessionstart.php');
     <input type="button" value="Rate" id="rate2" class="ratebut12">
 </form></div>
 
-<div id="radio" style="display:none">
+<!--<div id="radio" style="display:none">
     <h7> Tell us what you think!</h7><br>
     1<input type="radio" name="1" value="1">
     2<input type="radio" name="1" value="2">
     3<input type="radio" name="1" value="3">
     4<input type="radio" name="1" value="4">
     5<input type="radio" name="1" value="5">
-</div>
+</div>-->
+<section id="radio" class="rating" style="display:none">
+<br>
+<h7>Tell us what you think!</h7>
+  <!-- FIFTH STAR -->
+  <input type="radio" id="star_5" name="1" value="5" />
+  <label for="star_5" title="Five">&#9733;</label>
+  <!-- FOURTH STAR -->
+  <input type="radio" id="star_4" name="1" value="4" />
+  <label for="star_4" title="Four">&#9733;</label>
+  <!-- THIRD STAR -->
+  <input type="radio" id="star_3" name="1" value="3" />
+  <label for="star_3" title="Three">&#9733;</label>
+  <!-- SECOND STAR -->
+  <input type="radio" id="star_2" name="1" value="2" />
+  <label for="star_2" title="Two">&#9733;</label>
+  <!-- FIRST STAR -->
+  <input type="radio" id="star_1" name="1" value="1" />
+  <label for="star_1" title="One">&#9733;</label>
+   
     
 <input type="button"  value="Rate!" id="ratebut12" style="display:none">
+   </section>
     
 
 <div id="ratediv">

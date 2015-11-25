@@ -881,7 +881,7 @@ input[type=checkbox]{
 	background-color: #CE5B54;
 	padding:2% 2% 2 0;
 	float:right;
-	margin-top:-80px;
+	margin-top:-10px;
 	margin-right:10px;
 }
 .ratebut12:hover {
@@ -920,7 +920,7 @@ input[type=checkbox]{
 	top:1px;
 }
 
- #radio{
+ /*#radio{
         position: fixed;
         background-color:#EBB646;
         margin: auto;
@@ -935,19 +935,84 @@ input[type=checkbox]{
         left: 0;
         right: 0;
 
-    }
+    }*/
+.rating {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 170px;
+  height: 100px;
+  padding: 5px 10px;
+  margin: auto;
+  border-radius: 30px;
+  background: #FFF;
+  display: block;
+  overflow: hidden;
+  
+  box-shadow: 0 1px #CCC,
+              0 5px #DDD,
+              0 9px 6px -3px #999;
+  
+  /*unicode-bidi: bidi-override;
+  direction: rtl;*/
+}
+.rating:not(:checked) > input {
+  display: none;
+}
+
+/* - - - - - RATE */
+#radio {
+  top: -65px;
+}
+#radio:not(:checked) > label {
+  cursor:pointer;
+  float: left;
+  width: 30px;
+  height: 30px;
+  display: block;
+  
+  color: rgba(0, 135, 211, .4);
+  line-height: 33px;
+  text-align: center;
+}
+#radio:not(:checked) > label:hover,
+#radio:not(:checked) > label:hover ~ label {
+  color: rgba(0, 135, 211, .6);
+}
+#radio > input:checked + label:hover,
+#radio > input:checked + label:hover ~ label,
+#radio > input:checked ~ label:hover,
+#radio > input:checked ~ label:hover ~ label,
+#radio > label:hover ~ input:checked ~ label {
+  color: rgba(0, 135, 211, .8);
+}
+#radio > input:checked ~ label {
+  color: rgb(0, 135, 211);
+}
+
 
 
 #ratebut12{
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-
 	width:20%;
 	height: auto;
 	border: 0;
 	color: #ffffff;
 	background-color: #CE5B54;
 	padding:2% 2% 2 0;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+h7 {
+   color: Black;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	font-size: 0.8em; 
+    margin-left: 10px;
 }
 
 /* Page 13 ////////////////////////////////////////////////////////////////////////////////////////*/
