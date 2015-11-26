@@ -18,6 +18,7 @@ include('sessionstart.php');
    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
     
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_acc.css">
   </head>
 <title>Drug result</title>
 </head>
@@ -61,7 +62,8 @@ COLD
 </div>
 <!--result go here-->
 
- <input id="Drug1" type="button" value="Ibuprofen"></input>
+
+ <!--<input id="Drug1" type="button" value="Ibuprofen"></input>
     
       <div id="p4"> </div>
     
@@ -108,12 +110,62 @@ $(document).ready(function() {
             })
           });
 
-</script>
+</script>-->
 
 <div id="buttonlogin9">
 <form action="page7.php">
     <input type="submit" class="backbut9"  value="Back">
 </form>
+</div>
+        <div class='wrapper12'>
+  <input id='pictures' type='checkbox'>
+  <label for='pictures'>
+    <p>Drug 1</p>
+    <div class='lil_arrow'></div>
+    <div class='content'>
+      <ul><br>
+      <li>
+      Drug descriptions
+        <li><br>
+          <a href='#' >Yes! This is the drug!</a>
+        </li>
+      </ul>
+    </div>
+    <span></span>
+  </label>
+  <input id='jobs' type='checkbox'>
+  <label for='jobs'>
+    <p>Drug 2</p>
+    <div class='lil_arrow'></div>
+    <div class='content'>
+      <ul><br>
+      <li>
+       Drug descriptions
+       </li><br>
+        <li>
+          <a href='#' style="background-color:rgba(0, 0, 0, 0.06)">Yes! This is the drug!</a>
+        </li>
+      </ul>
+    </div>
+    <span></span>
+  </label>
+  <input id='events' type='checkbox'>
+  <label for='events'>
+    <p>Drug 3</p>
+    <div class='lil_arrow'></div>
+    <div class='content'>
+      <ul><br>
+        <li>
+           Drug descriptions
+        </li><br>
+        <li>
+          <a href='#' style="background-color:rgba(0, 0, 0, 0.06)">Yes! This is the drug!</a>
+        </li>
+      </ul>
+    </div>
+    <span></span>
+  </label>
+
 </div>
 
 
