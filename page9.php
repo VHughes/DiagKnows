@@ -127,7 +127,7 @@ $(document).ready(function() {
       <li>
       Drug descriptions
         <li><br>
-          <a href='#' >Yes! This is the drug!</a>
+          <a href='page10.php' >Yes! This is the drug!</a>
         </li>
       </ul>
     </div>
@@ -143,7 +143,7 @@ $(document).ready(function() {
        Drug descriptions
        </li><br>
         <li>
-          <a href='#' style="background-color:rgba(0, 0, 0, 0.06)">Yes! This is the drug!</a>
+          <a href='page10.php' style="background-color:rgba(0, 0, 0, 0.06)">Yes! This is the drug!</a>
         </li>
       </ul>
     </div>
@@ -159,7 +159,7 @@ $(document).ready(function() {
            Drug descriptions
         </li><br>
         <li>
-          <a href='#' style="background-color:rgba(0, 0, 0, 0.06)">Yes! This is the drug!</a>
+          <a href='page10.php' style="background-color:rgba(0, 0, 0, 0.06)">Yes! This is the drug!</a>
         </li>
       </ul>
     </div>
