@@ -749,32 +749,52 @@ input[type=checkbox]{
 }
 
 /* Page 10 ////////////////////////////////////////////////////////////////////////////////////////*/
-#titlename {
+#titlename10 {
 	
-    width:100%;
+      width:60%;
     float:left;
     padding:20px;
+	margin-left:20%;
 	background-color:#d3f3ee;
+	font-size: 200%;
+	font-style:bold,5px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
 	
 	
 }
-#titlename2 {
-	background-color:#CE5B54;
-	margin-bottom:1%;
-    width:100%;
+#titlename10-1 {
+	width:60%;
     float:left;
-    padding:1%;
+    padding:20px;
+	margin-left:20%;
+	background-color:#ce5b54;
+	padding:1%;
+	margin-bottom:1%;
+	font-size: 120%;
+	font-style:bold,5px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
 	
 	
 	
 }
 
 #Drugbar {
-	background-color:#CE5B54;
+    width:60%;
+    float:left;
+    padding:20px;
+	margin-left:20%;
+	background-color:#ce5b54;
+	padding:1%;
 	margin-bottom:1%;
-    width:100%;
-    float:clear;
-    padding:1%;
+	font-size: 100%;
+	font-style:bold,5px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
 	
 	
 }
@@ -784,6 +804,19 @@ input[type=checkbox]{
 		width:100%;
 		margin-bottom:1%;
       }
+	  
+	  #buttonlogin10 {
+	text-align:center;
+    width:50%;
+	margin-left:25%;
+    clear:both;
+    text-align:center;
+	font-size: 200%;
+	font-style:bold,5px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	
+	  }
 
 /* Page 11 ////////////////////////////////////////////////////////////////////////////////////////*/
 

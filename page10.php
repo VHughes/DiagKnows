@@ -47,14 +47,14 @@ include('sessionstart.php');
 
 <!--result go here-->
 <br><br>
-<div id="titlename"> 
+<div id="titlename10"> 
 <h1> Dummy Text for: IBUPROFEN</h1>
 </div>
 
 
 <!--Description go here-->
 
-<div id="titlename2"> 
+<div id="titlename10-1"> 
 <h2>Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID). It works by reducing hormones that cause inflammation and pain in the body.
 
 Ibuprofen is used to reduce fever and treat pain or inflammation caused by many conditions such as headache, toothache, back pain, arthritis, menstrual cramps, or minor injury.
@@ -87,7 +87,7 @@ Ibuprofen is used in adults and children who are at least 6 months old.</h2>
 <h3>Here's a brief description that asks if you're tired of brand names. Maybe try the generic medicine, Iburprofen. Want a fancy name brand? How about Nuprin?! </h3>
 </div>
 
-<div id="buttonlogin12">
+<div id="buttonlogin10">
 <form action="page9.php">
     <input type="submit" class="backbut12"  value="Back">
 </form>
@@ -180,8 +180,9 @@ function createMarker(place) {
         padding: 0;
       }
       #map {
-        height: 40%;
-		width:100%;
+        height: 30%;
+		width:60%;
+		margin-left:20%;
 		
       }
     </style>
