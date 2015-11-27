@@ -112,11 +112,7 @@ $(document).ready(function() {
 
 </script>-->
 
-<div id="buttonlogin9">
-<form action="page7.php">
-    <input type="submit" class="backbut9"  value="Back">
-</form>
-</div>
+
         <div class='wrapper12'>
   <input id='pictures' type='checkbox'>
   <label for='pictures'>
@@ -143,7 +139,7 @@ $(document).ready(function() {
        Drug descriptions
        </li><br>
         <li>
-          <a href='page10.php' style="background-color:rgba(0, 0, 0, 0.06)">Yes! This is the drug!</a>
+          <a href='page10.php' >Yes! This is the drug!</a>
         </li>
       </ul>
     </div>
@@ -159,7 +155,7 @@ $(document).ready(function() {
            Drug descriptions
         </li><br>
         <li>
-          <a href='page10.php' style="background-color:rgba(0, 0, 0, 0.06)">Yes! This is the drug!</a>
+          <a href='page10.php' >Yes! This is the drug!</a>
         </li>
       </ul>
     </div>
@@ -168,7 +164,11 @@ $(document).ready(function() {
 
 </div>
 
-
+<div id="buttonlogin9">
+<form action="page7.php">
+    <input type="submit" class="backbut9"  value="Back">
+</form>
+</div>
 	
 </body>
 </html>
