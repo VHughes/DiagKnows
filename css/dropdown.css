@@ -4,9 +4,10 @@
 
 
 .container6 {
-		font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0 auto;
-  width: 300px;
+  width: 30%;
+  margin-top:20px;
 }
 
 .choice-list6 {
@@ -16,9 +17,9 @@
   padding: 0;
 }
 .choice-list6 li {
-  border-bottom: 1px solid #C03E37;
-  color: #fff;
-  color: rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid #B24849;
+  color: #fffff;
+  color: white;
   display: block;
   font-size: 14px;
   padding: 12px;
@@ -45,10 +46,10 @@
   width: 24px;
 }
 .choice-list6 li:hover:after, .choice-list6 li.active:after {
-  background: #EAB9B6;
+  background: #EAB9B6 ;
 }
 .choice-list6 li:hover {
-  background: #DB8883;
+  background: #B24849;
   cursor: pointer;
 }
 .choice-list6 li:first-child {
@@ -58,7 +59,7 @@
   border-radius: 0 0 6px 6px;
 }
 .choice-list6 li.active {
-  background: #DB8883;
+  background: #B24849;
   font-weight: 700;
 }
 .choice-list6 li.active:after {
