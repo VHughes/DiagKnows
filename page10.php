@@ -66,7 +66,7 @@ Ibuprofen is used in adults and children who are at least 6 months old.</h2>
 
 
 
- <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+
     <div id="map"></div>
 
 <!--result go here-->
@@ -95,48 +95,94 @@ Ibuprofen is used in adults and children who are at least 6 months old.</h2>
 
 </body>
 
+ 
     <script>
-var marker;
 var map;
-        
+var infowindow;
+
 function initMap() {
-  var myLatLng = {lat: 49.250864, lng: -123.000557};
-
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 17,
-    center: myLatLng
+ var myLatLng = {lat: 50, lng: -123.000557};
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: myLatLng,
+    zoom: 16
   });
 
-  var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    animation: google.maps.Animation.DROP,
-    position:  myLatLng
-  });
-  marker.addListener('click', toggleBounce);
+  infowindow = new google.maps.InfoWindow();
+    
+  if (navigator.geolocation) {
+      console.log(navigator.geolocation);
+    navigator.geolocation.getCurrentPosition(function(position) {
+        console.log(position);
+      var pos = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+      myLatLng = pos;
+      infowindow.setPosition(pos);
+      infowindow.setContent('Location found.');
+      map.setCenter(pos);
+    var service = new google.maps.places.PlacesService(map);
+        service.nearbySearch({
+        location: pos,
+        radius: 800,
+        types: ['pharmacy']
+    }, callback);
+    }, function(error) {
+        console.log(error);
+      handleLocationError(true, infowindow, map.getCenter());
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleLocationError(false, infowindow, map.getCenter());
+  }
+ 
+ function handleLocationError(browserHasGeolocation, infowindow, pos) {
+  infowindow.setPosition(pos);
+  infowindow.setContent(browserHasGeolocation ?
+                        'Error: The Geolocation service failed.' :
+                        'Error: Your browser doesn\'t support geolocation.');
+}
 }
 
-function toggleBounce() {
-  if (marker.getAnimation() !== null) {
-    marker.setAnimation(null);
-  } else {
-    marker.setAnimation(google.maps.Animation.BOUNCE);
+function callback(results, status) {
+  if (status === google.maps.places.PlacesServiceStatus.OK) {
+    for (var i = 0; i < results.length; i++) {
+      createMarker(results[i]);
+    }
   }
 }
 
+function createMarker(place) {
+  var placeLoc = place.geometry.location;
+  var marker = new google.maps.Marker({
+    map: map,
+    position: place.geometry.location
+  });
 
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.setContent(place.name);
+    infowindow.open(map, this);
+  });
+}
 
 
     </script>
-
-<style>
-#map {
-    height:300px;
-    width:300px; 
-}
-</style>
-
-    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-            async defer></script>
-        <script>
+  </head>
+  <body>
+    <div id="map"></div>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&libraries=places&callback=initMap" async defer></script>
+    
+     <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 40%;
+		width:100%;
+		
+      }
+    </style>
 </html>
