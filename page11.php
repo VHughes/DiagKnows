@@ -21,7 +21,6 @@ include('sessionstart.php');
   </head>
 <title>Account</title>
 </head>
-
 <body>
 <!-- menu -->
 
@@ -67,12 +66,140 @@ include('sessionstart.php');
 
 <!--Details result go here-->
 
-<div id="buttonlogin11">
-    <button id="editBtn" type="submit"  class="editbut11">Edit</button>
+<div id="titleback12">
+<h2>Search History</h2>
 </div>
 
-<div id='edit'>
-    </div>
+
+<!--name result go here-->
+    
+
+<div id="ratediv">
+    <h6>Drug 1: Here's a brief summary of your past drug choices.</h6>
+    <h6> Did they work? If so, rate your experience on the side --></h6>
+<form action="">
+    <input type="button" value="Rate" id="rate1" class="ratebut12">
+</form></div>
+
+<div id="ratediv">
+<h6>Drug 2: Did this one work? If so, rate your experience on the side --></h6>
+<form action="">
+    <input type="button" value="Rate" id="rate2" class="ratebut12">
+</form></div>
+
+<section id="radio" class="rating" style="display:none">
+<br>
+<h7 dir="rtl">Tell us what you think</h7>
+  <!-- FIFTH STAR -->
+  <input type="radio" id="star_5" name="1" value="5" />
+  <label for="star_5" title="Five">&#9733;</label>
+  <!-- FOURTH STAR -->
+  <input type="radio" id="star_4" name="1" value="4" />
+  <label for="star_4" title="Four">&#9733;</label>
+  <!-- THIRD STAR -->
+  <input type="radio" id="star_3" name="1" value="3" />
+  <label for="star_3" title="Three">&#9733;</label>
+  <!-- SECOND STAR -->
+  <input type="radio" id="star_2" name="1" value="2" />
+  <label for="star_2" title="Two">&#9733;</label>
+  <!-- FIRST STAR -->
+  <input type="radio" id="star_1" name="1" value="1" />
+  <label for="star_1" title="One">&#9733;</label>
+   
+    
+<input dir="rtl" type="button"  value="Rate" id="ratebut12" style="display:none">
+   </section>
+    
+
+<div id="ratediv">
+<h6>Drug 3: How about this one? Rate your experience on the side --></h6>
+<form action="">
+    <input type="button" value="Rate" id="rate3" class="ratebut12">
+</form></div>
+
+<div id="ratediv">
+<h6>Drug 4: And what about this guy? Rate your experience on the side --></h6>
+<form action="">
+    <input type="button" value="Rate" id="rate4" class="ratebut12">
+</form>
+</div>
+<script>
+ window.onload = function(){
+     
+     var rate1 = document.getElementById("rate1");
+     rate1.onclick = function(){
+    
+        var div = document.getElementById("radio");
+        div.style.display="block";
+        var rate = document.getElementById("ratebut12");
+        rate.style.value = "Rate!";
+        rate.style.display="block";
+        div.appendChild(rate);
+            
+            rate.onclick = function(){
+                alert("Thank you for your input!");
+                div.style.display="none";
+            
+            }
+     };
+     
+     var rate2 = document.getElementById("rate2");
+     rate2.onclick = function(){
+         
+        var div = document.getElementById("radio");
+        div.style.display="block";
+        var rate = document.getElementById("ratebut12");
+        rate.style.value = "Rate!";
+        rate.style.display="block";
+        div.appendChild(rate);
+            
+         rate.onclick = function(){
+                alert("Thank you for your input!");
+                div.style.display="none";
+            
+            }
+     
+     };
+     
+     var rate3 = document.getElementById("rate3");
+     rate3.onclick = function(){
+         
+        var div = document.getElementById("radio");
+        div.style.display="block";
+        var rate = document.getElementById("ratebut12");
+        rate.style.value = "Rate!";
+        rate.style.display="block";
+        div.appendChild(rate);
+         
+            rate.onclick = function(){
+                alert("Thank you for your input!");
+                div.style.display="none";
+            
+            }
+     
+     };
+     
+     var rate4 = document.getElementById("rate4");
+     rate4.onclick = function(){
+         
+        var div = document.getElementById("radio");
+        div.style.display="block";
+        var rate = document.getElementById("ratebut12");
+        rate.style.value = "Rate!";
+        rate.style.display="block";
+        div.appendChild(rate);
+         
+            rate.onclick = function(){
+                alert("Thank you for your input!");
+                div.style.display="none";
+            
+            }
+     
+     };
+     
+ };
+       
+</script>
 
 <div id="buttonlogin11">
 <form action="page13.php">

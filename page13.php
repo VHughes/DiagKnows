@@ -54,10 +54,6 @@ include('sessionstart.php');
     <input type="submit" value="Tutorials" class="setbut13">
 </form>
 
-<form action="page12.php">
-    <input type="submit" value="Search History" class="setbut13">
-</form>
-
 <form action="page17.html">
     <input type="submit" value="Disclaimer" class="setbut13">
 </form>
