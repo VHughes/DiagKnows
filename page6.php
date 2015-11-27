@@ -15,103 +15,14 @@ include('sessionstart.php');
    
    <link rel="stylesheet" type="text/css" href="css/menu.css" />
    
-   <link rel="stylesheet" href="css/reset_dropdown.css">
-    
+    <link rel="stylesheet" type="text/css" href="css/dropdown.css" />
    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
     
     <link rel="stylesheet" href="css/reset.css">
-    <script src="js/prefixfree.min_dropdown.js"></script>
+
 
 <title>Search</title>
 
-<style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-
-
-.custom-select {
-  font-family: 'Raleway', sans-serif;
-  position: relative;
-  width: 100%;
-  max-width: 40em;
-  margin: 4em auto;
-  cursor: pointer;
-  margin-left: 35.5%;
-  margin-right:auto;
-}
-
-.selection-choice{
-	font-family: 'Raleway', sans-serif;
-	display:inline;
-}
-.select,
-.label {
-  display: block;
-}
-
-.select {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  padding: 1em;
-  height: 4em;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  background: none transparent;
-  border: 0 none;
-}
-
-.label {
-  position: relative;
-  padding: 1em;
-  border-radius: .5em;
-  cursor: pointer;
-}
-
-.label::after {
-  content: "▼";
-  color:#47CBB8;
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 0.6em;
-  border-left: 2px solid;
-}
-
-.open .label::after {
-  content: "▲";
-}
-
-.select-1 {
-	font-family: 'Raleway', sans-serif;
-  background: #d3f3ee;
-  border-bottom: 0.25em solid #A9E7DE;
-}
-.select-1:after {
-  border-color: #47CBB8;
-}
-
-.select-2 {
-	font-family: 'Raleway', sans-serif;
-  background: #d3f3ee;
-  border-bottom: 0.25em solid #A9E7DE;
-}
-.select-2:after {
-  border-color: #47CBB8;
-}
-
-.select-3 {
-	font-family: 'Raleway', sans-serif;
-  background: #d3f3ee;
-  border-bottom: 0.25em solid #A9E7DE;
-}
-.select-3:after {
-  border-color: #47CBB8;
-}
-
-
-    </style>
 
 </head>
 
@@ -143,44 +54,20 @@ include('sessionstart.php');
 <img src="Assets/diagknows logo.png" alt="logo" style="width:50%;max-height:600px; max-width:800px;">
 </div>
 
-<!--<div id="h1back6"><h1>Please Input Symptoms</h1></div>
+<!--result-->
+<script src="js/dropdown.js"></script>
+<div class="container6">
+  <ul class="choice-list6">
+    <li>Choice 1</li>
+    <li>Choice 2</li>
+    <li>Choice 3</li>
+    <li>Choice 4</li>
+    <li>Choice 5</li>
+    <li>Choice 6</li>
+    <li>Choice 7</li>
+  </ul>
+</div>
 
-<div id="input6">
-<input type="text" class="input6-2" placeholder="Tap to input symptom">
-<input type="text" class="input6-2" placeholder="Tap to input symptom">
-</div>-->
-
-
-    <form action="#">
- 
-
-  <div class="custom-select">
-    <label for="select-choice1" class="label select-1"><span class="selection-choice">Please choose</span> </label>
-    <select id="select-choice1" class="select">
-      <option value="Choice 1">Choice 1</option>
-      <option value="Choice 2">Choice 2</option>
-      <option value="Choice 3">Choice 3</option>
-    </select>
-  </div>
-  
-  <div class="custom-select">
-    <label for="select-choice2" class="label select-2"><span class="selection-choice">Please choose</span> </label>
-    <select id="select-choice2" class="select">
-      <option value="Choice 1">Choice 1</option>
-      <option value="Choice 2">Choice 2</option>
-      <option value="Choice 3">Choice 3</option>
-    </select>
-  </div>
-  
-  <div class="custom-select">
-    <label for="select-choice3" class="label select-3"><span class="selection-choice">Please choose</span> </label>
-    <select id="select-choice3" class="select">
-      <option value="Choice 1">Choice 1</option>
-      <option value="Choice 2">Choice 2</option>
-      <option value="Choice 3">Choice 3</option>
-    </select>
-  </div>
-  </form>
 <!--add java for button-->
 
 <div id="buttonlogin6">
@@ -193,9 +80,9 @@ include('sessionstart.php');
 </form>
 </div>
 
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<!--<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>-->
 
-        <script src="js/index_dropdown.js"></script>
+
 </body>
     
 

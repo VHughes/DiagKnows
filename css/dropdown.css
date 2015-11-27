@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.container6 {
+		font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.choice-list6 {
+  background: #CE5B54;
+  border: 1px solid #CE5B54;
+  border-radius: 6px;
+  padding: 0;
+}
+.choice-list6 li {
+  border-bottom: 1px solid #C03E37;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  font-size: 14px;
+  padding: 12px;
+  position: relative;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.choice-list6 li:after {
+  background: #D87F7A;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  width: 24px;
+}
+.choice-list6 li:hover:after, .choice-list6 li.active:after {
+  background: #EAB9B6;
+}
+.choice-list6 li:hover {
+  background: #DB8883;
+  cursor: pointer;
+}
+.choice-list6 li:first-child {
+  border-radius: 6px 6px 0 0;
+}
+.choice-list6 li:last-child {
+  border-radius: 0 0 6px 6px;
+}
+.choice-list6 li.active {
+  background: #8e44ad;
+  font-weight: 700;
+}
+.choice-list6 li.active:after {
+  content: "\2713";
+}
