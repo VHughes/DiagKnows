@@ -1,14 +1,15 @@
 // TODO: Make class toggle logic more efficient
 
 // Global variables
+window.onload = function(){
 var maxChoiceCount = 3;
 
 // DOM elements
 var choiceItems   = document.querySelectorAll(".choice-list6 li");
-var maxCountLabel = document.getElementById("max-count");
+
 
 // Update max count label
-maxCountLabel.textContent = maxChoiceCount;
+
 
 // Checklist item handler
 var checkItem = function() {
@@ -30,4 +31,5 @@ var checkItem = function() {
 // Handle logic to enforce max count
 for (var i = 0, l = choiceItems.length; i < l; ++i) {
   choiceItems[i].onclick = checkItem
+}
 }

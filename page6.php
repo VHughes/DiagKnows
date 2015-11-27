@@ -22,6 +22,8 @@ include('sessionstart.php');
 
 
 <title>Search</title>
+<style>
+</style>
 
 
 </head>
