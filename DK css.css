@@ -839,35 +839,7 @@ input[type=checkbox]{
 	margin-top:10%;
 	text-align:center;
 }
- #buttonlogin11 {
-	text-align:center;
-    width:50%;
-    clear:both;
-    text-align:center;
-	font-size: 200%;
-	font-style:bold,5px;
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	
-	  }
 
-.backbut12 {
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	height: auto;
-	border: 0;
-	color: #ffffff;
-	background-color: #CE5B54;
-	padding:1%;
-	margin-top:3%;
-}
-.backbut12:hover {
-	background-color:#eb675e;
-}
-.backbut12:active {
-	position:relative;
-	top:1px;
-}
 
 #info{
 	font-family: 'Raleway', sans-serif;
@@ -898,16 +870,17 @@ input[type=checkbox]{
 	#ratediv{
 	background-color: #d3f3ee;
 		width:60%;
+		height:auto;
     float:left;
     padding:20px;
 	margin-left:20%;
 	padding:1%;
 	margin-bottom:1%;
-	font-size: 120%;
+	font-size: 100%;
 	font-style:bold,5px;
 	color: black;
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
+	
 }
 .ratebut12{
 	font-family: 'Raleway', sans-serif;
@@ -929,7 +902,37 @@ input[type=checkbox]{
 	position:relative;
 	top:1px;
 }
-
+ #buttonlogin11 {
+	text-align:center;
+    width:50%;
+	margin-left:25%;
+    clear:both;
+    text-align:center;
+	font-size: 200%;
+	font-style:bold,5px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	
+	  }
+	  .backbut11 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
+	width:100%;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:5%;
+	margin-top:5%;
+}
+.backbut11:hover {
+	background-color:#eb675e;
+}
+.backbut11:active {
+	position:relative;
+	top:1px;
+}
 /* Page 12 ////////////////////////////////////////////////////////////////////////////////////////*/
 #titleback12{
 	background-color: #CE5B54;
