@@ -66,7 +66,7 @@ include('sessionstart.php');
 
 <!--Details result go here-->
 
-<div id="titleback12">
+<div id="titleback11">
 <h2>Search History</h2>
 </div>
 
@@ -203,7 +203,7 @@ include('sessionstart.php');
 
 <div id="buttonlogin11">
 <form action="page13.php">
-    <input type="submit" class="backbut11" value="Back">
+    <input type="submit" class="backbut12" value="Back">
 </form>
 </div>
 
