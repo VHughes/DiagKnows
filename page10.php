@@ -181,8 +181,8 @@ function createMarker(place) {
       }
       #map {
         height: 30%;
-		width:60%;
-		margin-left:20%;
+		
+		
 		
       }
     </style>

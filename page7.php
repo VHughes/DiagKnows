@@ -35,7 +35,7 @@ include('sessionstart.php');
     <nav>
 <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
-   <li><a class="homer" href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
+   <li><a  href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
   <li><a href="page11.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
   <li><a href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
@@ -50,7 +50,7 @@ include('sessionstart.php');
 </div>
 
 <div id="h1back7">
-<h3>Based on your symptoms, we have created a list of the most probable illnesses from most likely, to least likely. We suggest you try #1 first!</h3>
+<h2>Based on your symptoms, we have created a list of the most probable illnesses from most likely, to least likely. We suggest you try #1 first!</h2>
 </div>
 
 <!--result go here-->
@@ -59,20 +59,21 @@ include('sessionstart.php');
 <form action="page9.php">
     <input type="submit"  class="Loginbut7" value="ILLNESS 1">
 </form>
+</div>
 
-
+<div id="buttonlogin7-1">
 <form action="page9.php">
     <input type="submit"  class="Loginbut7" value="ILLNESS 2">
 </form>
-
-
+</div>
+<div id="buttonlogin7-2">
 <form action="page9.php">
     <input type="submit"  class="Loginbut7" value="ILLNESS 3">
 </form>
 </div>
 
 <!--add java to button-->
-<div id="buttonlogin7">
+<div id="buttonlogin7-3">
 <button id="showmore" class="Loginbut7-1">Show More</button>
 </div>
 

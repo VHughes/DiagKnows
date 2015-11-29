@@ -49,11 +49,11 @@ include('sessionstart.php');
 <div id="round">
             <img id='image' src="Assets/image-<?php echo rand(1,7); ?>.png" style="width:20%;max-height:800px; max-width:800px; min-height:100px; min-width:100px;"/>
             </div>
-
+<div id='welcomeMsg11'>
 <?php 
-   echo "<h4> Welcome To Your Account,  " .$_SESSION['username']. "</h4>";
+   echo "<h2> Welcome To Your Account,  " .$_SESSION['username']. "</h2>";
     ?> 
-
+</div>
 
 <div id="info">
     <?php 

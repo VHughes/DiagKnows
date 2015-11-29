@@ -75,7 +75,7 @@ include('sessionstart.php');
 <!--<div id="buttonlogin6">
 <button id='addSymp' class="Loginbut6">+ Add Symptom</button>
 </div>-->
-<div id="buttonlogin2">
+<div id="buttonlogin6">
     
 <form action="page7.php">
     <input type="submit" value="Next" class="Loginbut6">

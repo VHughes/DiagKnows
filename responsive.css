@@ -118,12 +118,20 @@ margin-right:auto;
 }
 
 /*page 7///////////////////////*/
-#buttonlogin7 {
-	margin-left:27%;
-margin-right:auto;
-   
+#h1back7{
+	width:60%;
+	margin-left:20%;
 }
 /*page 9///////////////////////*/
+
+
+/*page 10///////////////////////*/
+ #map {
+        height: 30%;
+		width:60%;
+		margin-left:20%;
+		
+      }
 
 /*page 11///////////////////////*/
 #round {
@@ -258,13 +266,19 @@ font-size: 20px;
 }
 
 /*page 7///////////////////////*/
-#buttonlogin7 {
-	margin-left:27%;
-margin-right:auto;
-   
+#h1back7{
+	width:60%;
+	margin-left:20%;
 }
 /*page 9///////////////////////*/
 
+/*page 10///////////////////////*/
+#map {
+        height: 30%;
+		width:60%;
+		margin-left:20%;
+		
+      }
 
 /*page 11///////////////////////*/
 #round {
@@ -388,13 +402,19 @@ font-size: 20px;
 /*page 6///////////////////////*/
 
 /*page 7///////////////////////*/
-#buttonlogin7 {
-	margin-left:27%;
-margin-right:auto;
-   
+#h1back7{
+	width:60%;
+	margin-left:20%;
 }
 /*page 9///////////////////////*/
 
+/*page 10///////////////////////*/
+#map {
+        height: 30%;
+		width:60%;
+		margin-left:20%;
+		
+      }
 /*page 11///////////////////////*/
 #round {
 margin-left:15%;
@@ -542,13 +562,19 @@ font-size: 20px;
 }
 
 /*page 7///////////////////////*/
-#buttonlogin7 {
-	margin-left:27%;
-margin-right:auto;
-   
+#h1back7{
+	width:60%;
+	margin-left:20%;
 }
 /*page 9///////////////////////*/
 
+/*page 10///////////////////////*/
+#map {
+        height: 30%;
+		width:60%;
+		margin-left:20%;
+		
+      }
 /*page 11///////////////////////*/
 #round {
 margin-left:15%;
@@ -683,13 +709,20 @@ font-size:20px;
 }
 
 /*page 7///////////////////////*/
-#buttonlogin7 {
-	margin-left:27%;
-margin-right:auto;
-   
+
+#h1back7{
+	width:60%;
+	margin-left:20%;
 }
 /*page 9///////////////////////*/
 
+/*page 10///////////////////////*/
+#map {
+        height: 30%;
+		width:60%;
+		margin-left:20%;
+		
+      }
 /*page 11///////////////////////*/
 #round {
 margin-left:15%;
@@ -832,13 +865,38 @@ font-size:20px;
 /*page 6///////////////////////*/
 
 /*page 7///////////////////////*/
-#buttonlogin7 {
-	margin-left:27%;
-margin-right:auto;
-   
+#h1back7{
+	width:100%;
+	margin-left:0%;
 }
 /*page 9///////////////////////*/
-
+#titlename8{
+	margin-left:0%;
+	width:100%;
+}
+#titlename8-1{
+	margin-left:0%;
+	width:100%;
+}
+/*page 10///////////////////////*/
+#titlename10{
+	margin-left:0%;
+	width:100%;
+}
+#titlename10-1{
+	margin-left:0%;
+	width:100%;
+}
+#Drugbar{
+	margin-left:0%;
+	width:100%;
+}
+#map {
+        height: 30%;
+		width:100%;
+		margin-left:0%;
+		
+      }
 /*page 11///////////////////////*/
 #round {
 margin-left:15%;
@@ -849,6 +907,18 @@ margin-right:auto;
 	margin-left:38%;
 margin-right:auto;
    
+}
+#titleback11{
+	width:100%;
+	margin-left:0%;
+}
+#info{
+	width:100%;
+	margin-left:0%;
+}
+#ratediv{
+	width:100%;
+	margin-left:0%;
 }
 /*page 12//////////////////////*/
 	.ratebut12{
@@ -975,20 +1045,42 @@ font-size: 15px;
 	margin-left:23%;
 	margin-right:auto;
 }
-#buttonlogin6{
-	margin-left:23%;
-	margin-right:auto;
-	margin-bottom:10px;
-}
 
 /*page 7///////////////////////*/
-#buttonlogin7 {
-	margin-left:27%;
-margin-right:auto;
-   
+#h1back7{
+	width:100%;
+	margin-left:0%;
 }
-/*page 9///////////////////////*/
 
+/*page 9///////////////////////*/
+#titlename8{
+	margin-left:0%;
+	width:100%;
+}
+#titlename8-1{
+	margin-left:0%;
+	width:100%;
+}
+/*page 10///////////////////////*/
+#titlename10{
+	margin-left:0%;
+	width:100%;
+}
+#titlename10-1{
+	margin-left:0%;
+	width:100%;
+}
+#Drugbar{
+	margin-left:0%;
+	width:100%;
+}
+
+#map {
+        height: 30%;
+		width:100%;
+		margin-left:0%;
+		
+      }
 /*page 11///////////////////////*/
 #round {
 margin-left:15%;
@@ -999,6 +1091,18 @@ margin-right:auto;
 	margin-left:38%;
 margin-right:auto;
    
+}
+#titleback11{
+	width:100%;
+	margin-left:0%;
+}
+#info{
+	width:100%;
+	margin-left:0%;
+}
+#ratediv{
+	width:100%;
+	margin-left:0%;
 }
 /*page 12//////////////////////*/
 	.ratebut12{
@@ -1139,13 +1243,40 @@ font-size: 15px;
 }
 
 /*page 7///////////////////////*/
-#buttonlogin7 {
-	margin-left:27%;
-margin-right:auto;
-   
+
+#h1back7{
+	width:100%;
+	margin-left:0%;
+	
 }
 /*page 9///////////////////////*/
-
+#titlename8{
+	margin-left:0%;
+	width:100%;
+}
+#titlename8-1{
+	margin-left:0%;
+	width:100%;
+}
+/*page 10///////////////////////*/
+#titlename10{
+	margin-left:0%;
+	width:100%;
+}
+#titlename10-1{
+	margin-left:0%;
+	width:100%;
+}
+#Drugbar{
+	margin-left:0%;
+	width:100%;
+}
+#map {
+        height: 30%;
+		width:100%;
+		margin-left:0%;
+		
+      }
 /*page 11///////////////////////*/
 #round {
 margin-left:15%;
@@ -1156,6 +1287,18 @@ margin-right:auto;
 	margin-left:38%;
 margin-right:auto;
    
+}
+#titleback11{
+	width:100%;
+	margin-left:0%;
+}
+#info{
+	width:100%;
+	margin-left:0%;
+}
+#ratediv{
+	width:100%;
+	margin-left:0%;
 }
 /*page 12//////////////////////*/
 	.ratebut12{
