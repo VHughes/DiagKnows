@@ -60,13 +60,15 @@ include('sessionstart.php');
 <script src="js/dropdown.js"></script>
 <div class="container6">
   <ul class="choice-list6">
-    <li>Choice 1</li>
-    <li>Choice 2</li>
-    <li>Choice 3</li>
-    <li>Choice 4</li>
-    <li>Choice 5</li>
-    <li>Choice 6</li>
-    <li>Choice 7</li>
+    <li id="symp1">Headache</li>
+    <li id="symp2">Runny Nose</li>
+    <li id="symp3">Fever</li>
+    <li id="symp4">Vomiting</li>
+    <li id="symp5">Nausea</li>
+    <li id="symp6">Weakness</li>
+    <li id="symp7">Cough</li>
+    <li id="symp8">Cramps</li>
+    <li id="symp9">Sore Throat+</li>
   </ul>
 </div>
 
