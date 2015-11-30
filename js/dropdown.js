@@ -32,4 +32,6 @@ var checkItem = function() {
 for (var i = 0, l = choiceItems.length; i < l; ++i) {
   choiceItems[i].onclick = checkItem
 }
+    
+
 }

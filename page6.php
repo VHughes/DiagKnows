@@ -60,7 +60,7 @@ include('sessionstart.php');
 <script src="js/dropdown.js"></script>
 <div class="container6">
   <ul class="choice-list6">
-    <li id="symp1">Headache</li>
+    <li name="symp1" id="symp1">Headache</li>
     <li id="symp2">Runny Nose</li>
     <li id="symp3">Fever</li>
     <li id="symp4">Vomiting</li>
@@ -80,14 +80,46 @@ include('sessionstart.php');
 <div id="buttonlogin6">
     
 <form action="page7.php">
-    <input type="submit" value="Next" class="Loginbut6">
+    <input type="submit" id="submitsymp" value="Next" class="Loginbut6">
 </form>
 </div>
 
-<!--<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>-->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-
-</body>
+<script>
+    var submit = document.getElementById("submitsymp").required = true;
+    submit.onclick = function(){
+        var symp1 = document.getElementById("symp1");
+        var symp2 = document.getElementById("symp2");
+        var symp3 = document.getElementById("symp3");
+        var symp4 = document.getElementById("symp4");
+        var symp5 = document.getElementById("symp5");
+        var symp6 = document.getElementById("symp6");
+        var symp7 = document.getElementById("symp7");
+        var symp8 = document.getElementById("symp8");
+        var symp9 = document.getElementById("symp9");  
+        
+        
+         if("document.getElementById('symp1') > .select" && "document.getElementById('symp2') > .select" && "document.getElementById('symp3') > .select"){
+            alert("checked");
+        } else {
+            alert("not checked");
+        }
+        
+        
+        $.ajax({
+            type: 'GET',
+            url: '',
+            dataType: 'json',
+            data: 'answer=' + answer,
+            success: function(response) {
+                alert(response);
+            }
+        })
+           
     
-
+}
+</script>
+</body>
 </html>
+   
