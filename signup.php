@@ -28,24 +28,29 @@ $query = $db->prepare($sql);
 $query->execute( array(':signName'=>$signName, ':signPass'=>$signPass, ':signEmail'=>$signEmail));
 $result = $query->execute( array( ':signName'=>$signName, ':signPass'=>$signPass, ':signEmail'=>$signEmail ) );
 
-
+//HELP? -------------->
+$imgNum = "UPDATE username SET img = FLOOR(1 + RAND()*7) WHERE uName='".$signName."'";
+$imgsql = $conn->query($imgNum); 
+// <-----------------------
 
 $table = "SELECT * FROM username WHERE uName='".$signName."' AND pass='".$signPass."' ";
 //var_dump($table);
 $sqli = $conn->query($table);
 
 if($result)  {
-      
-header("Location: page5.php");
-
+    
+     header("Location: page5.php");
     
 $reesult = $sqli->fetchAll();
   //var_dump($reesult);  
     $_SESSION['username'] = $reesult[0]['uName'];
     $_SESSION['lastname'] = $reesult[0]['lname'];
     $_SESSION['email'] = $reesult[0]['email'];
+    $_SESSION['img'] = $reesult[0]['img'];
     
     $_SESSION['login'] = true;
+    
+   
     
     
 } else {

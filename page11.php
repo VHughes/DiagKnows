@@ -47,7 +47,7 @@ include('sessionstart.php');
 
  <br>
 <div id="round">
-            <img id='image' src="Assets/image-<?php echo rand(1,7); ?>.png" style="width:20%;max-height:800px; max-width:800px; min-height:100px; min-width:100px;"/>
+            <img id='image' src="Assets/image-<?php echo $_SESSION['img'] ?>.png" style="width:20%;max-height:800px; max-width:800px; min-height:100px; min-width:100px;"/>
             </div>
 <div id='welcomeMsg11'>
 <?php 

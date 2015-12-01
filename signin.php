@@ -32,19 +32,21 @@ if (isset($_POST['user'])) {
     
 if ($num == 1) {
    
-    //echo('working');
+   header("Location: page5.php");
+    
     $result = $sql->fetchAll();
     //echo "<pre>";
     //var_dump($result);
     //echo "</pre>";
    // exit;
-    
     $_SESSION['username'] = $result[0]['uName'];
     $_SESSION['lastname'] = $result[0]['lname'];
     $_SESSION['email'] = $result[0]['email'];
+    $_SESSION['img'] = $result[0]['img'];
     
     $_SESSION['login'] = true;
-    header("Location: page5.php");
+    
+    
     
 } else {
     
