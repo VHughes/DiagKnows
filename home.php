@@ -33,10 +33,10 @@ include('sessionstart.php');
     <nav>
 <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
-   <li><a class="homer" href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
+   <li><a class="homer" href="home.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
-  <li><a href="page11.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
-  <li><a href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
+  <li><a href="account.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
+  <li><a href="setting.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
   </li>
   </nav>
   
@@ -60,12 +60,12 @@ include('sessionstart.php');
     ?> 
    </div> 
 <div id="buttonlogin5">
-<form action="page6.php">
+<form action="symptoms.php">
     <input type="submit" value="Search" class="search5">
 </form>
 
 <!--link to page-->
-<form action="page12.php">
+<form action="account.php">
     <input type="submit" value="Rate" class="search5">
 </form>
 </div>

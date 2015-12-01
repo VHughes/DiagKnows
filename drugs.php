@@ -36,10 +36,10 @@ include('sessionstart.php');
     <nav>
 <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
-   <li><a  href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
+   <li><a  href="home.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
-  <li><a href="page11.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
-  <li><a href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
+  <li><a href="account.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
+  <li><a href="setting.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
   </li>
   </nav>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -123,7 +123,7 @@ $(document).ready(function() {
       <li>
       Drug descriptions
         <li><br>
-          <a href='page10.php' >Yes! This is the drug!</a>
+          <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
     </div>
@@ -139,7 +139,7 @@ $(document).ready(function() {
        Drug descriptions
        </li><br>
         <li>
-          <a href='page10.php' >Yes! This is the drug!</a>
+          <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
     </div>
@@ -155,7 +155,7 @@ $(document).ready(function() {
            Drug descriptions
         </li><br>
         <li>
-          <a href='page10.php' >Yes! This is the drug!</a>
+          <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
     </div>
@@ -165,7 +165,7 @@ $(document).ready(function() {
 </div>
 
 <div id="buttonlogin9">
-<form action="page7.php">
+<form action="illness.php">
     <input type="submit" class="backbut9"  value="Back">
 </form>
 </div>

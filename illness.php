@@ -35,10 +35,10 @@ include('sessionstart.php');
     <nav>
 <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
-   <li><a  href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
+   <li><a  href="home.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
-  <li><a href="page11.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
-  <li><a href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
+  <li><a href="account.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
+  <li><a href="setting.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
   </li>
   </nav>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -56,18 +56,18 @@ include('sessionstart.php');
 <!--result go here-->
 
 <div id="buttonlogin7">
-<form action="page9.php">
+<form action="drugs.php">
     <input type="submit"  class="Loginbut7" value="ILLNESS 1">
 </form>
 </div>
 
 <div id="buttonlogin7-1">
-<form action="page9.php">
+<form action="drugs.php">
     <input type="submit"  class="Loginbut7" value="ILLNESS 2">
 </form>
 </div>
 <div id="buttonlogin7-2">
-<form action="page9.php">
+<form action="drugs.php">
     <input type="submit"  class="Loginbut7" value="ILLNESS 3">
 </form>
 </div>

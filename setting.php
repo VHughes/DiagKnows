@@ -35,9 +35,9 @@ include('sessionstart.php');
     <nav>
 <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>    
    <ul class="menu">
-   <li><a  href="page5.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
-  <li><a href="page11.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
-       <li><a class="homer" href="page13.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a></li>
+   <li><a  href="home.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
+  <li><a href="account.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
+       <li><a class="homer" href="setting.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a></li>
   </nav>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
@@ -50,11 +50,11 @@ include('sessionstart.php');
 <h1> Settings </h1></div>
 
 <div id="buttonlogin13">
-<form action="page14.html">
+<form action="tutorial1.html">
     <input type="submit" value="Tutorials" class="setbut13">
 </form>
 
-<form action="page17.html">
+<form action="disclaimer2.html">
     <input type="submit" value="Disclaimer" class="setbut13">
 </form>
 

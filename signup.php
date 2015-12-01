@@ -39,7 +39,7 @@ $sqli = $conn->query($table);
 
 if($result)  {
     
-     header("Location: page5.php");
+     header("Location: disclaimer.html");
     
 $reesult = $sqli->fetchAll();
   //var_dump($reesult);  

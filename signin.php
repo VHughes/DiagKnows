@@ -32,7 +32,7 @@ if (isset($_POST['user'])) {
     
 if ($num == 1) {
    
-   header("Location: page5.php");
+   header("Location: home.php");
     
     $result = $sql->fetchAll();
     //echo "<pre>";
