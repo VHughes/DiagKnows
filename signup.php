@@ -25,7 +25,6 @@ $lastName = $_POST['lastName'];
 $sql = "INSERT INTO UserName (email, pass, uName, lname) VALUES ('$signEmail','$signPass','$signName','$lastName')";
   
 $query = $db->prepare($sql);
-$query->execute( array(':signName'=>$signName, ':signPass'=>$signPass, ':signEmail'=>$signEmail));
 $result = $query->execute( array( ':signName'=>$signName, ':signPass'=>$signPass, ':signEmail'=>$signEmail ) );
 
 //HELP? -------------->

@@ -46,8 +46,7 @@ if ($num == 1) {
     
     $_SESSION['login'] = true;
     
-    
-    
+
 } else {
     
     //echo('not working');
