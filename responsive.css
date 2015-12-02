@@ -37,19 +37,10 @@ margin-right:auto;
 .Loginbut {
 	font-size: 0.8em;
 }
-	
-.facebookbutt{
-	font-size: 0.8em;
-	
-}
-	
-.facebookbutt{
-	font-size: 0.7em;
-	width: 35%;
-	height: auto;
-	margin-left:auto;
-	margin-right:auto;
-}
+.search5-1{
+margin-bottom:20px;
+font-size: 20px;	
+}	
 
 #input{
 	margin-left:37%;
@@ -133,7 +124,7 @@ font-size:1.80em;
     width:100vw;
   }
 
-}
+
 
 /*page 7///////////////////////*/
 #h1back7{
@@ -209,19 +200,11 @@ margin-right:auto;
 	font-size: 1em;
 }
 /*index ///////////////////////*/
-#buttonlogin {
-margin-left:27.5%;
-margin-right:auto;
-}
 
-.Loginbut {
-	font-size: 0.8em;
-}
-	
-.facebookbutt{
-	font-size: 0.8em;
-	
-}
+.search5-1{
+margin-bottom:20px;
+font-size: 20px;	
+}	
 /*page 2///////////////////////*/
 #input2 {
     margin-left: 26.5%;
@@ -357,24 +340,9 @@ margin-right:auto;
 
 
 /*index ///////////////////////*/
-#buttonlogin {
-margin-left:27%;
-margin-right:auto;
-}
-.Loginbut {
-	font-size: 0.7em;
-}
-
-.facebookbutt{
-	font-size: 0.7em;
-}	
-
-.facebookbutt{
-	font-size: 0.7em;
-	width: 38%;
-	height: auto;
-	margin-left:auto;
-	margin-right:auto;
+.search5-1{
+margin-bottom:20px;
+font-size: 20px;	
 }
 /*page 2///////////////////////*/
 #input2 {
@@ -481,43 +449,10 @@ margin-right:auto;
 
 
 /*index ///////////////////////*/
-#buttonlogin {
-margin-left:26.5%;
-margin-right:auto;
+.search5-1{
+margin-bottom:20px;
+font-size: 20px;	
 }
-
-.Loginbut {
-	font-size: 0.5em;
-}
-
-.facebookbutt{
-	font-size: 0.6em;	
-}	
-
-#footer {
-    clear:both;
-    text-align:center;
-    padding:5px;	
-	}
-
-.facebookbutt{
-	font-size: 0.5em;
-	width: 40%;
-	height: auto;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-#input2{
-	margin-left:25%;
-	margin-right:auto;	
-}
-
-#buttonlogin2{
-margin-left:37.5%;
-margin-right:auto;
-}
-
 /*page 2///////////////////////*/
 #input2 {
     margin-left: 25.5%;
@@ -975,27 +910,18 @@ margin-right:auto;
   margin-right:auto;
 }
 
-.Loginbut {
-	font-size: 0.4em;
-}
 
 .facebookbutt{
 	font-size: 0.4em;
 	
 }	
-#footer {
-    clear:both;
-    text-align:center;
-   	
-	}
 
-.facebookbutt{
-	font-size: 0.4em;
-	width: 48%;
-	height: auto;
-	margin-left:auto;
-	margin-right:auto;
+.search5-1{
+width: 100vw;
+font-size: 20px;	
 }
+
+
 
 /*page 2///////////////////////*/
 #input2 {
@@ -1032,7 +958,6 @@ margin-right:auto;
 
 .search5{
 width: 100vw;
-margin-bottom:0px;
 font-size: 20px;	
 }
 
