@@ -8,7 +8,8 @@ include('sessionstart.php');
 <!-- font -->
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <meta charset="UTF-8">
-
+<meta name="viewport" content="width=device-width" />
+    
 <link rel="stylesheet" type="text/css" href="DK css.css">
   <link rel="stylesheet" type="text/css" href="responsive.css" />
    <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png"/>

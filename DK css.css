@@ -390,31 +390,33 @@ input[type=checkbox]{
 
 /* Page 5 ////////////////////////////////////////////////////////////////////////////////////////*/
 #logo5 {
-    text-align:center;
+ text-align:center;
     padding:5px;
-	padding-top:150px;
-	width:50%;
+	padding-top:50px;
+	width:100vw;
 	height:auto;
-	margin-left:22%;
+}
+
+#islalogo{
+    max-height: auto;
+    max-width: 400px;
 }
 
 #buttonlogin5 {
 	text-align:center;
     width:40%;
-    padding:30px;
 	clear:both;
-    text-align:center;
 	}
    
 .search5 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	width:100%;
+	width:50vw;
 	height: auto;
 	border: 0;
 	color: #ffffff;
 	background-color: #CE5B54;
-	padding:5%;
+	padding:40px;
 }
 .search5:hover {
 	background-color:#eb675e;
@@ -426,12 +428,15 @@ input[type=checkbox]{
 
 #welcomeMsg {
     
-	width:50%;
-	font-size:200px;
-	margin-left:22%;
+	width:100vw;
+    text-align: center;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	color: #ffffff;
+    padding:30px;
+    font-size:1.60em;
+}    
+</style>
 	
 }
 
@@ -439,13 +444,18 @@ input[type=checkbox]{
 
 
 /* Page 6 ////////////////////////////////////////////////////////////////////////////////////////*/
-#logo6 {
-     text-align:center;
+#logo6, #logo13 {
+    text-align:center;
     padding:5px;
-	padding-top:150px;
-	width:50%;
+	padding-top:50px;
+	width:100vw;
 	height:auto;
-	margin-left:22%;
+	
+}
+
+#islalogo{
+    max-height: auto;
+    max-width: 400px;
 }
 
 #h1back6{
@@ -497,13 +507,13 @@ input[type=checkbox]{
 .Loginbut6 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	font-size: 1em;
-	width:61%;
+	font-size: 1.5em;
+	width:40vw;
 	height:auto;
 	border: 0;
 	color: #ffffff;
 	background-color: #CE5B54;
-	padding:2%;
+	padding:1%;
 }
 .Loginbut6:hover {
 	background-color:#eb675e;
@@ -1119,43 +1129,37 @@ h7 {
 #logo13 {
     text-align:center;
     padding:5px;
-	padding-top:150px;
+	padding-top:10px;
 	width:50%;
 	height:auto;
-	margin-left:23%;
+	
 }
 #titleset{
-	 width:60%;
-    float:left;
-    padding:20px;
-	margin-left:19%;
-	font-size: 200%;
-	font-style:bold,5px;
-	color: white;
+	width:100vw;
+    text-align: center;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-}
+	color: #ffffff;
+    padding:20px;
+    font-size:1.80em;
+}    
 
 #buttonlogin13 {
-	text-align:center;
-    width:44%;
-    padding:30px;
+	text-align: center;
 	clear:both;
-    text-align:center;
 	
    
 }
 .setbut13 {
-	font-family: 'Raleway', sans-serif;
+    
+    font-family: 'Raleway', sans-serif;
 	text-align: center;
-	font-size: 0.5em;
-	width:100%;
+	width:50vw;
 	height: auto;
 	border: 0;
 	color: #ffffff;
 	background-color: #CE5B54;
-	padding:5%;
-	margin-bottom:10px;
+	padding:40px;
 }
 .setbut13:hover {
 	background-color:#eb675e;

@@ -8,6 +8,7 @@ include('sessionstart.php');
 <!-- font -->
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
 
 <link rel="stylesheet" type="text/css" href="DK css.css">
   <link rel="stylesheet" type="text/css" href="responsive.css" />
@@ -43,7 +44,7 @@ include('sessionstart.php');
 
         <script src="js/menu.js"></script>
 <div id="logo13"> 
-<img src="Assets/diagknows logo.png" alt="logo" style="width:50%;max-height:600px; max-width:800px;">
+<img src="Assets/diagknows logo.png" alt="logo" id='islalogo'>
 </div>
 
 <div id="titleset">

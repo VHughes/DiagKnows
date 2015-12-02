@@ -8,6 +8,7 @@ include('sessionstart.php');
 <!-- font -->
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
 
 <link rel="stylesheet" type="text/css" href="DK css.css">
   <link rel="stylesheet" type="text/css" href="responsive.css" />
@@ -60,58 +61,6 @@ COLD
 <div id="titlename8-1">
 <h2>Select the Best Suited <br> Drug for you</h2>
 </div>
-<!--result go here-->
-
-
- <!--<input id="Drug1" type="button" value="Ibuprofen"></input>
-    
-      <div id="p4"> </div>
-    
-      
-    
- <input id="Drug2" type="button" value="Acetaminophen "></input>
-      <div id="p5"></div>
-   
- <input id="Drug3" type="button" value="Aspirin"></input>
-      <div id="p6"></div>
-
-
-
-	<script>
-		  $(document).ready(function() {
-          $("#Drug1").click(function(){
-              $("#p4").toggle(200);
-			  $("#p5").slideUp(200);
-			  $("#p6").slideUp(200);
-			  
-			  $('#p4').html("<div class='first'><center><li>Anti-Inflammatory</li><li>Treats Pain</li><li>Reduces Fever</li><li>Headaches, Muscle Aches, Back Aches, Tooth Aches,Menstrual Cramps, Arthritis</li><li>More side effects than Acetaminophen</li><li>Can prolong bleeding</li><li> Stronger and lasts longer than Acetaminophen</li></center><div><form action='page10.php'><input type='submit' value='Yes! This is the drug!' class='backbut9-1' id='tutorialhead1' ></form></div></div><br> ");
-            })
-          });
-        
-
-  		$(document).ready(function() {
-          $("#Drug2").click(function(){
-              $("#p5").toggle(200);
-			  $("#p4").slideUp(200);
-			  $("#p6").slideUp(200);
-			  
-			   $('#p5').html("<div class='first'><center><li>Treats Pain</li><li>Reduces Fever</li><li>Headaches, Muscle Aches, Back Aches, Tooth Aches,Menstrual Cramps, Arthritis</li><li>Safest during pregnancies</li></center><form action='page10.php'><input type='submit' value='Yes! This is the drug!' class='backbut9-1' id='#tutorialhead1'></form></div><br> ");
-            })
-          });
-
-
-$(document).ready(function() {
-          $("#Drug3").click(function(){
-              $("#p6").toggle(200);
-			  $("#p4").slideUp(200);
-			  $("#p5").slideUp(200);
-			 
-			   $('#p6').html("<div class='first'><center><li>Anti-Inflammatory</li><li>Treats Pain</li><li>Reduces Fever</li><li>Blood Thinner</li><li>Do not use during pregnancy</li><li>Do not use with children under 18 years of age</li><li>Headaches, Muscle Aches, Back Aches, Tooth Aches,Menstrual Cramps, Arthritis</li></center><form action='page10.php'><input type='submit' value='Yes! This is the drug!' class='backbut9-1' id='#buttonlogin9'></form></div><br> ");
-            })
-          });
-
-</script>-->
-
 
         <div class='wrapper12'>
   <input id='pictures' type='checkbox'>
@@ -165,10 +114,34 @@ $(document).ready(function() {
 </div>
 
 <div id="buttonlogin9">
-<form action="illness.php">
+<form action="symptoms.php">
     <input type="submit" class="backbut9"  value="Back">
 </form>
 </div>
+
+<script>
+
+window.onload = function(){
+
+            $.ajax({
+                type: 'POST',
+                url: 'SymptomChoices.php',
+                dataType: 'json',
+                data: {
+                    checked: array
+                },
+                success: function(response) {
+                    console.log(response);
+
+
+
+//SELECT * FROM illness_symptom WHERE SYM_ID = 1;
+                //SELECT * FROM illness_symptom LEFT JOIN illness ON illness.ILL = ILL_ID  WHERE SYM_ID = 1;
+                    
+    }
+});
+        
+</script>
 	
 </body>
 </html>

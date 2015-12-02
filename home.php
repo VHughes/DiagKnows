@@ -7,7 +7,8 @@ include('sessionstart.php');
 <head>
 <!-- font -->
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-<meta charset="UTF-8">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width" />
 
 <link rel="stylesheet" type="text/css" href="DK css.css">
   <link rel="stylesheet" type="text/css" href="responsive.css" />
@@ -48,7 +49,7 @@ include('sessionstart.php');
 
 
 <div id="logo5"> 
-<img src="Assets/diagknows logo.png" alt="logo" style="width:50%;max-height:600px; max-width:800px;">
+<img src="Assets/diagknows logo.png" alt="logo" id='islalogo'>
 </div>
     <div id='welcomeMsg'>  
    <?php 
@@ -66,15 +67,9 @@ include('sessionstart.php');
 
 <!--link to page-->
 <form action="account.php">
-    <input type="submit" value="Rate" class="search5">
+    <input type="submit" value="Rate" class="search5" id='rate'>
 </form>
 </div>
 </body>
-<style>
-#welcomeMsg {
-padding:10px;
-font-size:1.75em;
-font-family: 'Calibri';
-}    
-</style>
+
 </html>

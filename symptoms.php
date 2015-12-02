@@ -8,6 +8,7 @@ include('sessionstart.php');
 <!-- font -->
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
 
 <link rel="stylesheet" type="text/css" href="DK css.css">
   <link rel="stylesheet" type="text/css" href="responsive.css" />
@@ -53,22 +54,22 @@ include('sessionstart.php');
 
 
 <div id="logo6"> 
-<img src="Assets/diagknows logo.png" alt="logo" style="width:50%;max-height:600px; max-width:800px;">
+<img src="Assets/diagknows logo.png" alt="logo" id="islalogo">
 </div>
 
 <!--result-->
 <script src="js/dropdown.js"></script>
-<div class="container6">
-  <ul class="choice-list6">
-    <li name="symp1" id="symp1">Headache</li>
-    <li id="symp2">Runny Nose</li>
-    <li id="symp3">Fever</li>
-    <li id="symp4">Vomiting</li>
-    <li id="symp5">Nausea</li>
-    <li id="symp6">Weakness</li>
-    <li id="symp7">Cough</li>
-    <li id="symp8">Cramps</li>
-    <li id="symp9">Sore Throat+</li>
+<div id='container' class="container6">
+  <ul name='choicelist' class="choice-list6">
+    <li name="1" id="1">Headache</li>
+    <li name="2" id="2">Runny Nose</li>
+    <li name="3" id="3">Fever</li>
+    <li name="4" id="4">Vomiting</li>
+    <li name="5" id="5">Nausea</li>
+    <li name="6" id="6">Weakness</li>
+    <li name="7" id="7">Cough</li>
+    <li name="8" id="8">Cramps</li>
+    <li name="9" id="9">Sore Throat</li>
   </ul>
 </div>
 
@@ -79,47 +80,135 @@ include('sessionstart.php');
 </div>-->
 <div id="buttonlogin6">
     
-<form action="illness.php">
-    <input type="submit" id="submitsymp" value="Next" class="Loginbut6">
-</form>
+    <input type="button" id="submitsymp" value="Next" class="Loginbut6">
 </div>
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
 <script>
-    var submit = document.getElementById("submitsymp").required = true;
-    submit.onclick = function(){
-        var symp1 = document.getElementById("symp1");
-        var symp2 = document.getElementById("symp2");
-        var symp3 = document.getElementById("symp3");
-        var symp4 = document.getElementById("symp4");
-        var symp5 = document.getElementById("symp5");
-        var symp6 = document.getElementById("symp6");
-        var symp7 = document.getElementById("symp7");
-        var symp8 = document.getElementById("symp8");
-        var symp9 = document.getElementById("symp9");  
-        
-        
-         if("document.getElementById('symp1') > .select" && "document.getElementById('symp2') > .select" && "document.getElementById('symp3') > .select"){
-            alert("checked");
-        } else {
-            alert("not checked");
-        }
-        
-        
-        $.ajax({
-            type: 'GET',
-            url: '',
-            dataType: 'json',
-            data: 'answer=' + answer,
-            success: function(response) {
-                alert(response);
+    $(document).ready(function(){
+        var sub = document.getElementById("submitsymp");
+        sub.onclick = function(){ 
+            
+            //alert('hello');
+            var checked = document.getElementsByClassName('active');
+            console.log(checked);
+            var array = [];
+            for(var i=0; i<checked.length; i++){
+                   //alert(checked[i].id)
+                   array.push(checked[i].id);
             }
-        })
-           
-    
-}
+            
+                
+
+
+            $.ajax({
+                type: 'POST',
+                url: 'SymptomChoices.php',
+                dataType: 'json',
+                data: {
+                    checked: array
+                },
+                success: function(response) {
+                    console.log(response);
+                    
+                    var container = document.getElementById("container");
+                    document.body.removeChild(container);
+                    
+                    var div = document.getElementById("buttonlogin6");
+                    document.body.removeChild(div);
+                    
+                    
+                    for(var i=0; i<response.length; i++) {
+                        
+                    var illnessDiv = document.createElement('div');
+                    document.body.appendChild(illnessDiv);
+                    var h2 = document.createElement('button');
+                    illnessDiv.appendChild(h2);
+                        
+                    var x = response[i].ill_name;
+                    
+                       
+                    h2.innerHTML = x;
+                    h2.className = "Loginbut6";
+                    h2.id = response[i].Ill; 
+                    h2.style.marginLeft = "28%";
+                    h2.style.width = "40%";
+                    //h2.style.marginLeft = "auto"; 
+                        
+                    
+                      /*  var cold = document.getElementById('1');          
+                        
+                    cold.onclick = function(){
+                            var cold = illnessDiv.getElementById('1'); 
+                       location.href = "drugs.php";
+                        
+                    };
+                        var food = illnessDiv.getElementById('2'); 
+                    food.onclick = function(){
+                            
+                       location.href = "congrat.php";
+                        
+                    };
+                    var flu = illnessDiv.getElementById('3'); 
+                    flu.onclick = function(){
+                            
+                       location.href = "dkerror.html";
+                        
+                    };
+                
+                */
+                      
+                        //var att = response[i].ill_name;
+                        
+                        
+                    //att.setAttribute("href", "page9.php");
+                    
+                
+             
+                    if(response[i].Ill == 1){
+                       h2.onclick = function(){
+                        location.href = "dkerror.html";
+                       }
+                    }    
+                        
+                          if(response[i].Ill == 2){
+                        h2.onclick = function(){
+                        location.href = "congrat.html";
+                       }
+                    }   
+                          if(response[i].Ill == 3){
+                        h2.onclick = function(){
+                        location.href = "drugs.php";
+                       }
+                    }   
+                
+                    }
+                    var div = document.createElement("div");
+                    document.body.appendChild(div);
+                    div.className = "container6";
+                    
+                    var backbut = document.createElement("button");
+                    div.appendChild(backbut);
+                    backbut.className = "Loginbut6";
+                    backbut.style.value = "Back";
+                    backbut.innerHTML = "Back";
+                    backbut.style.marginLeft = "28%";
+                    backbut.style.width = "40%";
+                    
+                    
+                    backbut.onclick = function(){
+                        location.href = "symptoms.php";
+                    
+                    }
+                    
+                       
+                }
+            })
+
+
+        }
+    });
 </script>
 </body>
 </html>
-   
