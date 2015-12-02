@@ -9,9 +9,37 @@
   <link rel="stylesheet" type="text/css" href="DK css.css">
   <link rel="stylesheet" type="text/css" href="responsive.css" />
    <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   
 <title>Sign Up</title>
 </head>
+    
+    <script>
+    
+        
+         function checkPass()
+        {
+            var pass1 = document.getElementById('password');
+            var pass2 = document.getElementById('reEnter');
+
+            var message = document.getElementById('confirmMessage');
+
+            var goodColor = "#ccffb3";
+            var badColor = "#ffb3b3";
+
+            if(pass1.value == pass2.value){
+                pass2.style.backgroundColor = goodColor;
+                pass1.style.backgroundColor = goodColor;
+                message.style.color = 'green';
+                message.innerHTML = "Passwords Match!"
+            }else{
+                pass2.style.backgroundColor = badColor;
+                message.style.color = 'red';
+                message.innerHTML = "Passwords Do Not Match!"
+            }
+        };
+        
+    </script>
 
 <body>
 
@@ -19,7 +47,7 @@
 <img src="Assets/diagknows logo.png" alt="logo" style="width:50%;max-height:600px; max-width:800px;">
 </div>
     
-<form id="form" onsubmit="return checkPass()" action="signup.php" method='post'>
+<!--<form id="form" onsubmit="return checkPass()" action="signup.php" method='post'>-->
     
     <div id="input3"> 
         <input type="text" id="firstname" class="input3-1" name="signName"placeholder="FIRST NAME" required>
@@ -32,9 +60,11 @@
     </div>
 
     <div id="buttonlogin">
-        <input type="submit"  name='register' class="Loginbut" value="SIGN UP">
+        <input type="submit" id='signup' name='register' class="Loginbut" value="SIGN UP">
     </div>
+    <!--
 </form>
+-->
         <div id="buttonsignup">
             <form action="index.html">
                 <input type="submit" class="Loginbut"  value="BACK">
@@ -43,28 +73,49 @@
 </body>
     
 <script>
+    $(document).ready(function(){
     
- function checkPass()
-{
-    var pass1 = document.getElementById('password');
-    var pass2 = document.getElementById('reEnter');
+        var firstname = document.getElementById('firstname');
+         var lastname = document.getElementById('lastname');
+         var email = document.getElementById('email');
+         var password = document.getElementById('password');
+        var subm = document.getElementById('signup');
+        
+        //checkPass();
+        
+        subm.onclick = function(){
+            console.log('clicked signup');
+            
+            
+        $.ajax({
+				url:"signup2.php",
+				type:"post",
+				dataType:"json",
+				data: {
+                    firstname: firstname.value,
+                    lastname:lastname.value,
+                    
+					email: email.value,
+					password: password.value,
+					},
+				success:function(resp){
+					console.log('resp is', resp);
+                    window.location = 'disclaimer.html';
+				},
+                 error: function(jqXHR, textStatus, errorThrown) {
+                        console.log(jqXHR.statusText, textStatus);
+                }
+			});
     
-    var message = document.getElementById('confirmMessage');
- 
-    var goodColor = "#ccffb3";
-    var badColor = "#ffb3b3";
+    
+        };
+    
+    
+    
+  
+    });
 
-    if(pass1.value == pass2.value){
-        pass2.style.backgroundColor = goodColor;
-        pass1.style.backgroundColor = goodColor;
-        message.style.color = 'green';
-        message.innerHTML = "Passwords Match!"
-    }else{
-        pass2.style.backgroundColor = badColor;
-        message.style.color = 'red';
-        message.innerHTML = "Passwords Do Not Match!"
-    }
-}     
+   
 
 </script>
 
