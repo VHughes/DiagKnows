@@ -25,7 +25,7 @@
   color: white;
   overflow: hidden;
   cursor: pointer;
-  height: 56px;
+  height: auto;
   -webkit-transition: text-indent 0.2s;
   text-indent: 20px;
   padding-top: 35px;
@@ -40,6 +40,11 @@
   color: white;
   list-style-type: none;
 }
+.wrapper12 li p{
+	font-family: 'Raleway', sans-serif;
+	margin-left:10px;
+	text-align:centre;
+}
 .wrapper12 li a {
   display: block;
   width: 100%;
@@ -48,6 +53,8 @@
   color: #E56760;
   background-color:#FFEED3;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  margin-top:75px;
+  font-family: 'Raleway', sans-serif;
 }
 .wrapper12 li a:hover {
   background-color:#ffffff;

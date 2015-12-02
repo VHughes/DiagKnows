@@ -121,7 +121,7 @@ $(document).ready(function() {
     <div class='content'>
       <ul><br>
       <li>
-      Drug descriptions
+      <p>Drug descriptions </p>
         <li><br>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
