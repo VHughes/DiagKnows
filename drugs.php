@@ -11,7 +11,7 @@ include('sessionstart.php');
 
 <link rel="stylesheet" type="text/css" href="DK css.css">
   <link rel="stylesheet" type="text/css" href="responsive.css" />
-   <link rel="icon" type="image/png" href="favicon32*32.ico" />
+   <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png"/>
    
    <link rel="stylesheet" type="text/css" href="css/menu.css" />
     
