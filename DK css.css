@@ -925,8 +925,9 @@ input[type=checkbox]{
 	
 	#ratediv{
 	background-color: #d3f3ee;
-		width:60%;
-		height:auto;
+	width:60%;
+	height:auto;
+	min-width:30%;
     float:left;
     padding:20px;
 	margin-left:20%;
@@ -942,13 +943,13 @@ input[type=checkbox]{
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	width:10%;
-	height: auto;
+	height: 50%;
 	border: 0;
 	color: #ffffff;
 	background-color: #CE5B54;
 	padding:2% 2% 2 0;
 	float:right;
-	margin-top:-10px;
+	margin-top:-20px;
 	margin-right:10px;
 }
 .ratebut12:hover {
@@ -1029,22 +1030,7 @@ input[type=checkbox]{
 	top:1px;
 }
 
- /*#radio{
-        position: fixed;
-        background-color:#EBB646;
-        margin: auto;
-        width: 400px;
-        height: 100px;
-        padding: 5px;
-        z-index: 1;
-        border-color: #eb675e;
-        border-style: solid;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
 
-    }*/
 .rating {
   position: absolute;
   top: 0;
@@ -1073,7 +1059,7 @@ input[type=checkbox]{
 
 /* - - - - - RATE */
 #radio {
-  top: -65px;
+  top: 50px;
 }
 #radio:not(:checked) > label {
   cursor:pointer;
@@ -1137,6 +1123,17 @@ h7 {
 	width:50%;
 	height:auto;
 	margin-left:23%;
+}
+#titleset{
+	 width:60%;
+    float:left;
+    padding:20px;
+	margin-left:19%;
+	font-size: 200%;
+	font-style:bold,5px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
 }
 
 #buttonlogin13 {

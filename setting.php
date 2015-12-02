@@ -46,7 +46,7 @@ include('sessionstart.php');
 <img src="Assets/diagknows logo.png" alt="logo" style="width:50%;max-height:600px; max-width:800px;">
 </div>
 
-<div id="titleback">
+<div id="titleset">
 <h1> Settings </h1></div>
 
 <div id="buttonlogin13">
