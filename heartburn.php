@@ -69,9 +69,28 @@ HEARTBURN
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
-      <li>
-      <p>Drug descriptions </p>
-        <li><br>
+       <li>
+       - Stomach acid
+       </li><br>
+         <li>
+       - Heartburn
+       </li><br>
+         <li>
+         Antacids contain alkaline ions that directly neutralize stomach gastric acid but do not kill bacteria like other acid reducing drugs such as Helicobacter Pylori
+       </li><br>
+         <li style="font-style:oblique">
+        BRANDS
+       </li><br>
+         <li>
+       - Gaviscon
+       </li><br>
+         <li>
+       - Alka Seltzer
+       </li><br>
+         <li>
+       - Maalox
+       </li><br>
+        <li>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
@@ -85,34 +104,28 @@ HEARTBURN
     <div class='content'>
       <ul><br>
       <li>
-       Drug descriptions
+       Diarrhea
        </li><br>
          <li>
-       Drug descriptions
+       Indigestion
        </li><br>
          <li>
-       Drug descriptions
+       Heartburn
        </li><br>
          <li>
-       Drug descriptions
+       Nausea
        </li><br>
          <li>
-       Drug descriptions
+       Treats temporary discomforts of the stomach and gastrointestinal tract and should not be taken if breastfeeding or with children with chickepox or influenza
+       </li><br>
+           <li style="font-style:oblique">
+       BRANDS
+       </li><br>
+       <li>
+       Pepto-Bismol
        </li><br>
          <li>
-       Drug descriptions
-       </li><br>
-         <li>
-       Drug descriptions
-       </li><br>
-         <li>
-       Drug descriptions
-       </li><br>
-         <li>
-       Drug descriptions
-       </li><br>
-         <li>
-       Drug descriptions
+       TUMS, Rolaids
        </li><br>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>
@@ -123,20 +136,35 @@ HEARTBURN
   </label>
   <input id='events' type='checkbox'>
   <label for='events'>
-    <p>Magnesium Hydroxide/p>
+    <p>Magnesium Hydroxide</p>
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
         <li>
-           Drug descriptions
-        </li><br>
+       -Sour stomach
+       </li><br>
+         <li>
+       -Acid
+       </li><br>
+         <li>
+       -Indigestion
+       </li><br>
+         <li>
+       Magnesium Hydroxide is a histamine blocker combined with an antiacid to help neutralize stomach acide production. Do not use if you are taking calcium or if you are allergic to H2 blockers suc as rantidine
+       </li><br>
+         <li>
+         <li style="font-style:oblique">
+       BRANDS
+       </li><br>
+        <li>
+        Pepcid Complete
+       </li><br>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
     </div>
     <span></span>
-  </label>
 
 </div>
 

@@ -53,7 +53,7 @@ include('sessionstart.php');
 <div id="titlename8"> 
 <h1>SELECTED ILLNESS:<br>
 <br>
-HEARTBURN
+COLD
 </h1>
 </div>
 
@@ -65,13 +65,37 @@ HEARTBURN
         <div class='wrapper12'>
   <input id='pictures' type='checkbox'>
   <label for='pictures'>
-    <p>Antiacids</p>
+    <p>Acetaminophen</p>
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
       <li>
-      <p>Drug descriptions </p>
-        <li><br>
+       Headaches
+       </li><br>
+         <li>
+       Fever
+       </li><br>
+         <li>
+       Muscle aches
+       </li><br>
+         <li>
+       Menstrual cramps
+       </li><br>
+         <li>
+       Acetaminophen will reduce fever and general pain, but should not be taken during pregnancy or if you have ever had alcoholic liver disease
+       </li><br>
+        <li>
+       BRANDS
+       </li><br>
+         <li>   
+          <li>
+       Actamin
+       </li><br>
+         <li>  
+          <li>
+       Tylenol
+       </li><br>
+         <li>       
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
@@ -80,39 +104,36 @@ HEARTBURN
   </label>
   <input id='jobs' type='checkbox'>
   <label for='jobs'>
-    <p>Bismuth Subsalicylate</p>
+    <p>Ibuprofen</p>
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
       <li>
-       Drug descriptions
+       Headaches
        </li><br>
          <li>
-       Drug descriptions
+       Fever
        </li><br>
          <li>
-       Drug descriptions
+       Muscle aches       
        </li><br>
          <li>
-       Drug descriptions
+       Anti-inflammatory
        </li><br>
          <li>
-       Drug descriptions
+       Buprofen is an anti-flammatory drug that relieves bodily pain. It can be used with children, and lasts longer than other pain killers
        </li><br>
          <li>
-       Drug descriptions
+       BRANDS
        </li><br>
          <li>
-       Drug descriptions
+       Advil
        </li><br>
          <li>
-       Drug descriptions
+       Midol
        </li><br>
          <li>
-       Drug descriptions
-       </li><br>
-         <li>
-       Drug descriptions
+       Motrin
        </li><br>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>
@@ -123,20 +144,77 @@ HEARTBURN
   </label>
   <input id='events' type='checkbox'>
   <label for='events'>
-    <p>Magnesium Hydroxide/p>
+    <p>Anitussives</p>
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
-        <li>
-           Drug descriptions
-        </li><br>
-        <li>
+       <li>
+       Coughs
+       </li><br>
+         <li>
+       Congestion
+       </li><br>
+         <li>
+       Sore throat
+       </li><br>
+         <li>
+       Breathing trouble
+       </li><br>
+         <li>
+       Antitussives reduces mucus and supresses coughs, but should not be taken with children under 12
+       </li><br>
+         <li>
+       Robitussin
+       </li><br>
+         <li>
+       Buckleys
+       </li><br>
+         <li>
+       Vicks Dayquil
+       </li><br>
+         <li>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
     </div>
     <span></span>
   </label>
+  <input id='four' type='checkbox'>
+  <label for='four'>
+  <p>Aspirin</p>
+    <div class='lil_arrow'></div>
+    <div class='content'>
+      <ul><br>
+        <li>
+       Headaches
+       </li><br>
+         <li>
+       Fever
+       </li><br>
+         <li>
+       Pain    
+       </li><br>
+         <li>
+       Asprin reduces inflammation and fever, should not be used during pregnancies or if you have a bleeding disorder such as hemophilia
+       </li><br>
+         <li>
+       BRANDS
+       </li><br>
+         <li>
+       Advil
+       </li><br>
+         <li>
+       Bayer
+       </li><br>
+         <li>
+       Miniprin
+       </li><br>
+        <li>
+          <a href='map.php' >Yes! This is the drug!</a>
+        </li>
+      </ul>
+    </div>
+    <span></span>
 
 </div>
 
