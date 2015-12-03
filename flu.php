@@ -81,7 +81,7 @@ FLU
          <li>
        - Menstrual cramps
        </li><br>
-         <li>
+          <li id="description">
        Acetaminophen will reduce fever and general pain, but should not be taken during pregnancy or if you have ever had alcoholic liver disease
        </li><br>
         <li>
@@ -120,7 +120,7 @@ FLU
          <li>
        - Anti-inflammatory
        </li><br>
-         <li>
+          <li id="description">
        Buprofen is an anti-flammatory drug that relieves bodily pain. It can be used with children, and lasts longer than other pain killers
        </li><br>
          <li>
@@ -157,7 +157,7 @@ FLU
          <li>
        - Pain    
        </li><br>
-         <li>
+          <li id="description">
        Asprin reduces inflammation and fever, should not be used during pregnancies or if you have a bleeding disorder such as hemophilia
        </li><br>
          <li>
@@ -197,7 +197,7 @@ FLU
          <li>
        - Motion sickness    
        </li><br>
-         <li>
+          <li id="description">
        Dimenhydrinate is an antihistamine and anticholinergic that will reduce nausea and motion sickness and should not be take if you are taking sodium oxybate or are breast feeding
        </li><br>
          <li>

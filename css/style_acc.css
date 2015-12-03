@@ -49,15 +49,19 @@
 	height:600px;
 }
 .wrapper12 li a {
-	
+	text-align:center;
   display: block;
-  width: 100%;
-  padding: 15px 0px;
+  width: 50%;
+  margin-left:25%;
+  padding-top:3%;
+   padding-bottom:3%;
+   padding-right:4%;
   text-decoration: none;
   color: #E56760;
   background-color:#FFEED3;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   margin-top:75px;
+ 
   font-family: 'Raleway', sans-serif;
 }
 .wrapper12 li a:hover {

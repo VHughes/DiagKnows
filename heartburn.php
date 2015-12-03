@@ -75,7 +75,7 @@ HEARTBURN
          <li>
        - Heartburn
        </li><br>
-         <li>
+          <li id="description">
          Antacids contain alkaline ions that directly neutralize stomach gastric acid but do not kill bacteria like other acid reducing drugs such as Helicobacter Pylori
        </li><br>
          <li style="font-style:oblique">
@@ -115,7 +115,7 @@ HEARTBURN
          <li>
        - Nausea
        </li><br>
-         <li>
+          <li id="description">
        Treats temporary discomforts of the stomach and gastrointestinal tract and should not be taken if breastfeeding or with children with chickepox or influenza
        </li><br>
            <li style="font-style:oblique">
@@ -149,7 +149,7 @@ HEARTBURN
          <li>
        - Indigestion
        </li><br>
-         <li>
+          <li id="description">
        Magnesium Hydroxide is a histamine blocker combined with an antiacid to help neutralize stomach acide production. Do not use if you are taking calcium or if you are allergic to H2 blockers suc as rantidine
        </li><br>
          <li>

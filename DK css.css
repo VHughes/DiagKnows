@@ -586,6 +586,14 @@ input[type=checkbox]{
 
 /* Page 9 ////////////////////////////////////////////////////////////////////////////////////////*/
 
+
+
+#description {
+	text-align:left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
 #titlename8 {
 	
     width:60%;
