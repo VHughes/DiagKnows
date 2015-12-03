@@ -246,7 +246,7 @@ window.onload = function(){
                     
     }
 });
-        
+}
 </script>
 	
 </body>

@@ -601,9 +601,9 @@ input[type=checkbox]{
     padding:20px;
 	margin-left:20%;
 	background-color:#d3f3ee;
-	font-size: 200%;
+	color:#000;
 	font-style:bold,5px;
-	color: black;
+	
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	
@@ -618,7 +618,7 @@ input[type=checkbox]{
 	background-color:#ce5b54;
 	padding:1%;
 	margin-bottom:1%;
-	font-size: 150%;
+	
 	font-style:bold,5px;
 	color: white;
 	font-family: 'Raleway', sans-serif;
