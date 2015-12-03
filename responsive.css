@@ -1056,7 +1056,6 @@ margin-right:auto;
 }
 	.setbut13{
         width: 100vw;
-        margin-bottom:0px;
         font-size: 20px;
         border:solid #cc544d 1px; 
 }
@@ -1259,10 +1258,11 @@ margin-right:auto;
 	
 		#buttonlogin13 {
    width:100vw;
+   margin-bottom:10px;
 }
 	.setbut13{
 font-size: 30px;
-margin-bottom: 0px;
+
 	}
 /*page 14//////////////////////*/
 .tutor{
