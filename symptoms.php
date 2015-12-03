@@ -123,6 +123,7 @@ include('sessionstart.php');
                         
                     var illnessDiv = document.createElement('div');
                     document.body.appendChild(illnessDiv);
+                    illnessDiv.id = 'buttonlogin5';
                     var h2 = document.createElement('button');
                     illnessDiv.appendChild(h2);
                         

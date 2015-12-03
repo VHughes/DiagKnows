@@ -48,7 +48,7 @@ include('sessionstart.php');
 
  <br>
 <div id="round">
-            <img id='image' src="Assets/image-<?php echo $_SESSION['img'] ?>.png" style="width:20%;max-height:800px; max-width:800px; min-height:100px; min-width:100px;"/>
+            <img id='image' src="Assets/image-<?php echo $_SESSION['img'] ?>.png" />
             </div>
 <div id='welcomeMsg11'>
 <?php 
@@ -68,7 +68,7 @@ include('sessionstart.php');
 <!--Details result go here-->
 
 <div id="titleback11">
-<h2>Search History</h2>
+<h2>Rate DiagKnows!</h2>
 </div>
 
 
@@ -76,14 +76,13 @@ include('sessionstart.php');
     
 
 <div id="ratediv">
-    <h6>Drug 1: Here's a brief summary of your past drug choices.</h6>
-    <h6> Did they work? If so, rate your experience on the side --></h6>
+    <h6 class="question">Are you satisfied with the results you were given?</h6>
 <form action="">
     <input type="button" value="Rate" id="rate1" class="ratebut12">
 </form></div>
 
 <div id="ratediv">
-<h6>Drug 2: Did this one work? If so, rate your experience on the side --></h6>
+<h6 class="question">How easy did you find the website to navigate? </h6>
 <form action="">
     <input type="button" value="Rate" id="rate2" class="ratebut12">
 </form></div>
@@ -113,13 +112,13 @@ include('sessionstart.php');
     
 
 <div id="ratediv">
-<h6>Drug 3: How about this one? Rate your experience on the side --></h6>
+<h6 class="question">Did our recommendations help you?</h6>
 <form action="">
     <input type="button" value="Rate" id="rate3" class="ratebut12">
 </form></div>
 
 <div id="ratediv">
-<h6>Drug 4: And what about this guy? Rate your experience on the side --></h6>
+<h6 class="question">How likely are you to recommend DiagKnows to a friend?</h6>
 <form action="">
     <input type="button" value="Rate" id="rate4" class="ratebut12">
 </form>

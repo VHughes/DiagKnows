@@ -878,10 +878,14 @@ input[type=checkbox]{
 	width:70%;
 	height:auto;
 	margin-left:23%;
-	margin-top:40px;
 }
-			
-			
+#image {
+    width:20%;
+    max-height:200px; 
+    max-width:200px; 
+    min-height:100px; 
+    min-width:100px;			
+}
 #accphoto{
 	background-color: #CE5B54;
 	width:100%;

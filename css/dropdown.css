@@ -5,9 +5,10 @@
 
 .container6 {
   font-family: 'Raleway', sans-serif;
-  margin-left: 28%;
-  width: 40%;
+margin-right: auto;
+    margin-left: auto;
   margin-top:20px;
+    align-content: center;
 }
 
 .choice-list6 {
@@ -15,10 +16,14 @@
   border: 1px solid #CE5B54;
   border-radius: 6px;
   padding: 0;
+
+  align-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .choice-list6 li {
   border-bottom: 1px solid #B24849;
-  color: #fffff;
+  color: #ffffff;
   color: white;
   display: block;
   font-size: 14px;

@@ -5,6 +5,8 @@
 @media screen and (max-width: 2880px) {
 /* =========================================================================================== */
 /*error ///////////////////////*/
+    
+
     #buttonlogin0 {
 margin-left:26%;
 margin-right:auto;
@@ -136,7 +138,16 @@ font-size:1.80em;
     width:100vw;
   }
 
-
+.choice-list6 {
+  background: #CE5B54;
+  border: 1px solid #CE5B54;
+  border-radius: 6px;
+  padding: 0;
+    width: 30vw;
+  align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /*page 7///////////////////////*/
 #h1back7{
@@ -464,7 +475,16 @@ font-size: 20px;
 }
 
 /*page 6///////////////////////*/
-
+    .choice-list6 {
+  background: #CE5B54;
+  border: 1px solid #CE5B54;
+  border-radius: 6px;
+  padding: 0;
+    width: 50vw;
+  align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 /*page 7///////////////////////*/
 #h1back7{
 	width:60%;
@@ -765,7 +785,16 @@ margin-right:auto;
 
 /*page 2///////////////////////*/
 
-
+    .choice-list6 {
+  background: #CE5B54;
+  border: 1px solid #CE5B54;
+  border-radius: 6px;
+  padding: 0;
+    width: 60vw;
+  align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 #buttonlogin2 {
 margin-left:37.5%;
@@ -997,7 +1026,16 @@ font-size:20px;
 
 
 /*page 6///////////////////////*/
-
+    .choice-list6 {
+  background: #CE5B54;
+  border: 1px solid #CE5B54;
+  border-radius: 6px;
+  padding: 0;
+    width: 70vw;
+  align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 /*page 7///////////////////////*/
 #h1back7{
 	width:100%;
@@ -1203,6 +1241,17 @@ font-size: 1.2em;
 	margin-left:23%;
 	margin-right:auto;
 }
+    
+.choice-list6 {
+  background: #CE5B54;
+  border: 1px solid #CE5B54;
+  border-radius: 6px;
+  padding: 0;
+    width: 80vw;
+  align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /*page 7///////////////////////*/
 #h1back7{
@@ -1245,6 +1294,10 @@ font-size: 1.2em;
 margin-left:15%;
 margin-right:auto;	
 }
+    
+.question {
+    margin-right: 50px;
+    }
 
 #buttonlogin11 {
 	margin-left:38%;
@@ -1466,6 +1519,7 @@ color:#000;
 	width:100vw;
 font-size:50%;
 }
+
 /*page 10///////////////////////*/
 #titlename10{
 	margin-left:0%;
