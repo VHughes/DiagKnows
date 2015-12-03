@@ -70,16 +70,16 @@ FLU
     <div class='content'>
       <ul><br>
       <li>
-       Headaches
+       - Headaches
        </li><br>
          <li>
-       Fever
+       - Fever
        </li><br>
          <li>
-       Muscle aches
+       - Muscle aches
        </li><br>
          <li>
-       Menstrual cramps
+       - Menstrual cramps
        </li><br>
          <li>
        Acetaminophen will reduce fever and general pain, but should not be taken during pregnancy or if you have ever had alcoholic liver disease
@@ -89,11 +89,11 @@ FLU
        </li><br>
          <li>   
           <li>
-       Actamin
+       - Actamin
        </li><br>
          <li>  
           <li>
-       Tylenol
+       - Tylenol
        </li><br>
          <li>       
           <a href='map.php' >Yes! This is the drug!</a>
@@ -109,16 +109,16 @@ FLU
     <div class='content'>
       <ul><br>
       <li>
-       Headaches
+       - Headaches
        </li><br>
          <li>
-       Fever
+       - Fever
        </li><br>
          <li>
-       Muscle aches       
+       - Muscle aches       
        </li><br>
          <li>
-       Anti-inflammatory
+       - Anti-inflammatory
        </li><br>
          <li>
        Buprofen is an anti-flammatory drug that relieves bodily pain. It can be used with children, and lasts longer than other pain killers
@@ -127,13 +127,13 @@ FLU
        BRANDS
        </li><br>
          <li>
-       Advil
+       - Advil
        </li><br>
          <li>
-       Midol
+       - Midol
        </li><br>
          <li>
-       Motrin
+       - Motrin
        </li><br>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>
@@ -149,13 +149,13 @@ FLU
     <div class='content'>
       <ul><br>
         <li>
-       Headaches
+       - Headaches
        </li><br>
          <li>
-       Fever
+       - Fever
        </li><br>
          <li>
-       Pain    
+       - Pain    
        </li><br>
          <li>
        Asprin reduces inflammation and fever, should not be used during pregnancies or if you have a bleeding disorder such as hemophilia
@@ -164,13 +164,13 @@ FLU
        BRANDS
        </li><br>
          <li>
-       Advil
+       - Advil
        </li><br>
          <li>
-       Bayer
+       - Bayer
        </li><br>
          <li>
-       Miniprin
+       - Miniprin
        </li><br>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>
@@ -186,16 +186,16 @@ FLU
     <div class='content'>
       <ul><br>
         <li>
-       Nausea
+       -Nausea
        </li><br>
          <li>
-       Vomiting
+       - Vomiting
        </li><br>
          <li>
-       Dizziness    
+       - Dizziness    
        </li><br>
          <li>
-       Motion sickness    
+       - Motion sickness    
        </li><br>
          <li>
        Dimenhydrinate is an antihistamine and anticholinergic that will reduce nausea and motion sickness and should not be take if you are taking sodium oxybate or are breast feeding
@@ -204,10 +204,10 @@ FLU
        BRANDS
        </li><br>
          <li>
-       Travel-Eze
+       - Travel-Eze
        </li><br>
          <li>
-       Hydrate
+       - Hydrate
        </li><br>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>

@@ -70,16 +70,16 @@ COLD
     <div class='content'>
       <ul><br>
       <li>
-       Headaches
+       - Headaches
        </li><br>
          <li>
-       Fever
+       - Fever
        </li><br>
          <li>
-       Muscle aches
+       - Muscle aches
        </li><br>
          <li>
-       Menstrual cramps
+       - Menstrual cramps
        </li><br>
          <li>
        Acetaminophen will reduce fever and general pain, but should not be taken during pregnancy or if you have ever had alcoholic liver disease
@@ -89,11 +89,11 @@ COLD
        </li><br>
          <li>   
           <li>
-       Actamin
+       - Actamin
        </li><br>
          <li>  
           <li>
-       Tylenol
+       - Tylenol
        </li><br>
          <li>       
           <a href='map.php' >Yes! This is the drug!</a>
@@ -109,16 +109,16 @@ COLD
     <div class='content'>
       <ul><br>
       <li>
-       Headaches
+       - Headaches
        </li><br>
          <li>
-       Fever
+       - Fever
        </li><br>
          <li>
-       Muscle aches       
+       - Muscle aches       
        </li><br>
          <li>
-       Anti-inflammatory
+       - Anti-inflammatory
        </li><br>
          <li>
        Buprofen is an anti-flammatory drug that relieves bodily pain. It can be used with children, and lasts longer than other pain killers
@@ -127,13 +127,13 @@ COLD
        BRANDS
        </li><br>
          <li>
-       Advil
+       - Advil
        </li><br>
          <li>
-       Midol
+       - Midol
        </li><br>
          <li>
-       Motrin
+       - Motrin
        </li><br>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>
@@ -149,28 +149,28 @@ COLD
     <div class='content'>
       <ul><br>
        <li>
-       Coughs
+       - Coughs
        </li><br>
          <li>
-       Congestion
+       - Congestion
        </li><br>
          <li>
-       Sore throat
+       - Sore throat
        </li><br>
          <li>
-       Breathing trouble
+       - Breathing trouble
        </li><br>
          <li>
        Antitussives reduces mucus and supresses coughs, but should not be taken with children under 12
        </li><br>
          <li>
-       Robitussin
+       - Robitussin
        </li><br>
          <li>
-       Buckleys
+       - Buckleys
        </li><br>
          <li>
-       Vicks Dayquil
+       - Vicks Dayquil
        </li><br>
          <li>
           <a href='map.php' >Yes! This is the drug!</a>
@@ -186,13 +186,13 @@ COLD
     <div class='content'>
       <ul><br>
         <li>
-       Headaches
+       - Headaches
        </li><br>
          <li>
-       Fever
+       - Fever
        </li><br>
          <li>
-       Pain    
+       - Pain    
        </li><br>
          <li>
        Asprin reduces inflammation and fever, should not be used during pregnancies or if you have a bleeding disorder such as hemophilia
@@ -201,13 +201,13 @@ COLD
        BRANDS
        </li><br>
          <li>
-       Advil
+       - Advil
        </li><br>
          <li>
-       Bayer
+       - Bayer
        </li><br>
          <li>
-       Miniprin
+       - Miniprin
        </li><br>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>

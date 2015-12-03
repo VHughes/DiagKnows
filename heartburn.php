@@ -104,16 +104,16 @@ HEARTBURN
     <div class='content'>
       <ul><br>
       <li>
-       Diarrhea
+       - Diarrhea
        </li><br>
          <li>
-       Indigestion
+       - Indigestion
        </li><br>
          <li>
-       Heartburn
+      - Heartburn
        </li><br>
          <li>
-       Nausea
+       - Nausea
        </li><br>
          <li>
        Treats temporary discomforts of the stomach and gastrointestinal tract and should not be taken if breastfeeding or with children with chickepox or influenza
@@ -122,10 +122,10 @@ HEARTBURN
        BRANDS
        </li><br>
        <li>
-       Pepto-Bismol
+       - Pepto-Bismol
        </li><br>
          <li>
-       TUMS, Rolaids
+       - TUMS, Rolaids
        </li><br>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>
@@ -141,13 +141,13 @@ HEARTBURN
     <div class='content'>
       <ul><br>
         <li>
-       -Sour stomach
+       - Sour stomach
        </li><br>
          <li>
-       -Acid
+       - Acid
        </li><br>
          <li>
-       -Indigestion
+       - Indigestion
        </li><br>
          <li>
        Magnesium Hydroxide is a histamine blocker combined with an antiacid to help neutralize stomach acide production. Do not use if you are taking calcium or if you are allergic to H2 blockers suc as rantidine
@@ -157,7 +157,7 @@ HEARTBURN
        BRANDS
        </li><br>
         <li>
-        Pepcid Complete
+        - Pepcid Complete
        </li><br>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>
