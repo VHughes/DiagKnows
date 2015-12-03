@@ -136,18 +136,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 /* Page 2 ////////////////////////////////////////////////////////////////////////////////////////*/
-.input2{
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	font-size: 0.5em;
-	width:100%;
-	height: auto;
-	border: 0;
-	color: #ffffff;
-	background-color: #CE5B54;
-	padding:5%;
 
-}
 .input2-1{
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
@@ -157,15 +146,25 @@ font-family: 'Raleway', sans-serif;
 	border: 0;
 	color: "black";
 	background-color: #d3f3ee;
-	padding:5%;
-	margin-top:30px;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+
+.search5-2{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	height: auto;
+	border: 0;
+	color: "black";
+	background-color: #d3f3ee;
+	padding:40px;
 }
 
 #input2{
 	text-align:center;
-    width:40%;
-    float:left;
-    padding:30px;
+    width:50%;
+	clear:both;
+	margin-bottom:15px;
 }
 
 #buttonlogin2 {
