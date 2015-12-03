@@ -2,10 +2,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-*{
-	margin:0;
-  padding:0
-}
 
 body {
     background-color:#EBB646;
@@ -108,12 +104,12 @@ body {
 .search5-1{
 		font-family: 'Raleway', sans-serif;
 	text-align: center;
-	width:50vw;
+	width:60vw;
 	height: auto;
 	border: 0;
 	color: #ffffff;
 	background-color: #405C9B;
-	padding:40px;
+	padding:30px;
 }
 .search5-1:hover {
 	background-color:#5a7fd1;
@@ -155,16 +151,17 @@ font-family: 'Raleway', sans-serif;
 	text-align: center;
 	height: auto;
 	border: 0;
+    width:100vw;
 	color: "black";
 	background-color: #d3f3ee;
-	padding:40px;
+	padding:17px;
 }
 
 #input2{
 	text-align:center;
-    width:50%;
+    width:100vw;
 	clear:both;
-	margin-bottom:15px;
+	margin-bottom: -14px;
 }
 
 #buttonlogin2 {
@@ -342,7 +339,8 @@ input[type=checkbox]{
 #logo5 {
  text-align:center;
     padding:5px;
-	padding-top:50px;
+	padding-top:40px;
+    margin-bottom: 10px;
 	width:100vw;
 	height:auto;
 }
@@ -362,12 +360,12 @@ input[type=checkbox]{
 .search5 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	width:50vw;
+	width:60vw;
 	height: auto;
 	border: 0;
 	color: #ffffff;
 	background-color: #CE5B54;
-	padding:40px;
+	padding:30px;
 }
 .search5:hover {
 	background-color:#eb675e;

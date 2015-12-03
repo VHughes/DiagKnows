@@ -53,8 +53,7 @@ font-size: 20px;
    .search5-2{
 margin-bottom:20px;
 font-size: 20px;	
-margin-left:50%;
-width:47vw;	
+width:60vw;	
 
 
 }	 
@@ -110,7 +109,7 @@ width:100vw;
 }
 
 .search5{
-margin-bottom:20px;
+margin-bottom:10px;
 font-size: 20px;	
 }
     
@@ -248,7 +247,7 @@ font-size: 20px;
 .search5-2{
 margin-bottom:20px;
 font-size: 20px;	
-width:45.5vw;
+
 }
 
 #buttonlogin2 {
@@ -759,9 +758,7 @@ margin-right:auto;
 
 /*page 2///////////////////////*/
 
-.search5-2{
-width:41vw;	
-}
+
 
 #buttonlogin2 {
 margin-left:37.5%;
@@ -953,7 +950,7 @@ margin-right:auto;
 
 /*page 2///////////////////////*/
 .search5-2{
-width:36vw;	
+width:60vw;	
 }
 
 #buttonlogin2 {
@@ -986,7 +983,7 @@ margin-right:auto;
 /*page 5///////////////////////*/
 
 .search5{
-margin-bottom:10px;	
+margin-bottom:5px;	
 font-size:20px;
 }
 
@@ -1148,7 +1145,7 @@ font-size: 20px;
 
 /*page 2///////////////////////*/
 .search5-2{
-width: 80vw;
+width: 100vw;
 font-size: 20px;	
 margin-left:0%;
 }
@@ -1330,7 +1327,7 @@ h3 {
 
 
 /* =========================================================================================== */
-@media screen and (min-width: 100px, max-width: 320px ) {
+@media screen and (min-width: 90px, max-width: 361px ) {
 /* =========================================================================================== */
 /*error ///////////////////////*/
     #buttonlogin0 {
@@ -1422,7 +1419,7 @@ margin-right:auto;
 }
 
 .search5{
-margin-bottom:20px;
+padding: 30px;
 font-size: 30px;	
 }
 
