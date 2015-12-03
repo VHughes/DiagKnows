@@ -133,8 +133,7 @@ include('sessionstart.php');
                     h2.innerHTML = x;
                     h2.className = "Loginbut6";
                     h2.id = response[i].Ill; 
-                    h2.style.marginLeft = "28%";
-                    h2.style.width = "40%";
+                    h2.style.width = "80vw";
                     //h2.style.marginLeft = "auto"; 
                         
                     
@@ -169,33 +168,33 @@ include('sessionstart.php');
              
                     if(response[i].Ill == 1){
                        h2.onclick = function(){
-                        location.href = "dkerror.html";
+                        location.href = "cold.php";
                        }
                     }    
                         
                           if(response[i].Ill == 2){
                         h2.onclick = function(){
-                        location.href = "congrat.html";
+                        location.href = "heartburn.php";
                        }
                     }   
                           if(response[i].Ill == 3){
                         h2.onclick = function(){
-                        location.href = "drugs.php";
+                        location.href = "flu.php";
                        }
                     }   
                 
                     }
                     var div = document.createElement("div");
                     document.body.appendChild(div);
-                    div.className = "container6";
+                    div.id = "buttonlogin6";
                     
                     var backbut = document.createElement("button");
                     div.appendChild(backbut);
                     backbut.className = "Loginbut6";
+                    backbut.id = "submitsymp";
                     backbut.style.value = "Back";
                     backbut.innerHTML = "Back";
-                    backbut.style.marginLeft = "28%";
-                    backbut.style.width = "40%";
+                    backbut.style.width = "40vw"
                     
                     
                     backbut.onclick = function(){

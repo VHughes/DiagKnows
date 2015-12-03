@@ -51,7 +51,7 @@ include('sessionstart.php');
 <!--result go here-->
 <br><br>    
 <div id="titlename8"> 
-<h1>SELECTED ILLNESS:<br>
+<h1 id='title'>SELECTED ILLNESS:<br>
 <br>
 COLD
 </h1>
@@ -69,32 +69,33 @@ COLD
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+        <li>
+          Commonly Used To Treat:
+        </li>
       <li>
        - Headaches
-       </li><br>
+       </li>
          <li>
        - Fever
-       </li><br>
+       </li>
          <li>
        - Muscle aches
-       </li><br>
+       </li>
          <li>
        - Menstrual cramps
        </li><br>
-         <li id="description">
+         <h6 id="description">
        Acetaminophen will reduce fever and general pain, but should not be taken during pregnancy or if you have ever had alcoholic liver disease
-       </li><br>
+       </h6><br>
         <li>
-       BRANDS
+       Brands Which Contain This Drug:
        </li><br>
-         <li>   
           <li>
        - Actamin
-       </li><br>
-         <li>  
+       </li>
           <li>
        - Tylenol
-       </li><br>
+       </li>
          <li>       
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
@@ -108,15 +109,18 @@ COLD
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+          <li>
+          Commonly Used To Treat:
+          </li>
       <li>
        - Headaches
-       </li><br>
+       </li>
          <li>
        - Fever
-       </li><br>
+       </li>
          <li>
        - Muscle aches       
-       </li><br>
+       </li>
          <li>
        - Anti-inflammatory
        </li><br>
@@ -124,14 +128,14 @@ COLD
        Buprofen is an anti-flammatory drug that relieves bodily pain. It can be used with children, and lasts longer than other pain killers
        </li><br>
          <li>
-       BRANDS
-       </li><br>
+        Brands Which Contain This Drug:
+       </li>
          <li>
        - Advil
-       </li><br>
+       </li>
          <li>
        - Midol
-       </li><br>
+       </li>
          <li>
        - Motrin
        </li><br>
@@ -148,6 +152,9 @@ COLD
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+        <li>
+          Commonly Used To Treat:
+       </li>
        <li>
        - Coughs
        </li><br>
@@ -164,7 +171,7 @@ COLD
        Antitussives reduces mucus and supresses coughs, but should not be taken with children under 12
         </li><br>
          <li>
-       BRANDS
+       Brands Which Contain This Drug:
        </li><br>
          <li>
        - Robitussin
@@ -189,6 +196,9 @@ COLD
     <div class='content'>
       <ul><br>
         <li>
+          Commonly Used To Treat:
+       </li>
+        <li>
        - Headaches
        </li><br>
          <li>
@@ -201,7 +211,7 @@ COLD
        Asprin reduces inflammation and fever, should not be used during pregnancies or if you have a bleeding disorder such as hemophilia
        </li><br>
          <li>
-       BRANDS
+       Brands Which Contain This Drug:
        </li><br>
          <li>
        - Advil
@@ -248,7 +258,7 @@ window.onload = function(){
                     
     }
 });
-        
+}
 </script>
 	
 </body>

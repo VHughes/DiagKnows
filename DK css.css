@@ -655,6 +655,11 @@ input[type=checkbox]{
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 }
+#title {
+color: cadetblue;
+text-decoration: inherit;
+font-size: 1.5em;
+}
 
 #Drug1{ 
    	width:60%;
