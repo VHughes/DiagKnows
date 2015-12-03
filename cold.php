@@ -89,7 +89,7 @@ COLD
        </h6><br>
         <li>
        Brands Which Contain This Drug:
-       </li><br>
+       </li>
           <li>
        - Actamin
        </li>
@@ -157,13 +157,13 @@ COLD
        </li>
        <li>
        - Coughs
-       </li><br>
+       </li>
          <li>
        - Congestion
-       </li><br>
+       </li>
          <li>
        - Sore throat
-       </li><br>
+       </li>
          <li>
        - Breathing trouble
        </li><br>
@@ -172,16 +172,16 @@ COLD
         </li><br>
          <li>
        Brands Which Contain This Drug:
-       </li><br>
+       </li>
          <li>
        - Robitussin
-       </li><br>
+       </li>
          <li>
        - Buckleys
-       </li><br>
+       </li>
          <li>
        - Vicks Dayquil
-       </li><br>
+       </li>
          <li>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
@@ -200,10 +200,10 @@ COLD
        </li>
         <li>
        - Headaches
-       </li><br>
+       </li>
          <li>
        - Fever
-       </li><br>
+       </li>
          <li>
        - Pain    
        </li><br>
@@ -212,16 +212,16 @@ COLD
        </li><br>
          <li>
        Brands Which Contain This Drug:
-       </li><br>
+       </li>
          <li>
        - Advil
-       </li><br>
+       </li>
          <li>
        - Bayer
-       </li><br>
+       </li>
          <li>
        - Miniprin
-       </li><br>
+       </li>
         <li>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
