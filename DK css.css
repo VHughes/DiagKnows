@@ -1138,17 +1138,11 @@ h7 {
 	
 
 }
-#tutorial1-1{
-	width: 100%;
-}
-
-
-
 
 #buttonlogin14 {
 	text-align:center;
     width:20%;
-	padding-left:40%;
+    padding:30px;
 	clear:both;
     text-align:center;
    
@@ -1198,7 +1192,7 @@ h7 {
 #buttonlogin15 {
 	text-align:center;
     width:20%;
-	padding-left:40%;
+    padding:30px;
 	clear:both;
     text-align:center;
    
@@ -1247,7 +1241,7 @@ h7 {
 #buttonlogin16 {
 	text-align:center;
     width:20%;
-	padding-left:40%;
+    padding:30px;
 	clear:both;
     text-align:center;
    
@@ -1349,7 +1343,7 @@ h7 {
 /* TEXT */
 
 h1 {
-	font-size:100%;    
+    
 	
 	
 
