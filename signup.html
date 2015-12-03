@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="DK css.css">
   <link rel="stylesheet" type="text/css" href="responsive.css" />
    <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png"/>
+     <link rel="stylesheet" type="text/css" href="css/menu.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   
 <title>Sign Up</title>
@@ -49,23 +50,25 @@
     
 <!--<form id="form" onsubmit="return checkPass()" action="signup.php" method='post'>-->
     
-    <div id="input2"> 
+    <div id="input2-signup"> 
         <input type="text" id="firstname" class="search5-2" name="signName"placeholder="FIRST NAME" required>
         <input type="text" id="lastname" class="search5-2" name="lastName" placeholder="LAST NAME" required>
         <input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="something@example.com" id="email" class="search5-2" name="signEmail" placeholder="EMAIL" required>
         <input type="password" name="signPass" id="password" class="search5-2" placeholder='PASSWORD'>
         
         <input type="password" name="confPass" id="reEnter" class="search5-2" placeholder="RE-ENTER PASSWORD" onkeyup="checkPass(); return false;">
-           <span id="confirmMessage" class="confirmMessage"></span> 
+           
     </div>
-
+    <div id='confDiv'>
+<span id="confirmMessage" class="confirmMessage"></span> 
+    </div>
     <div id="buttonlogin5">
         <input type="submit" id='signup' name='register' class="search5" value="SIGN UP">
-    </div>
+    
     <!--
 </form>
 -->
-        <div id="buttonlogin5">
+        
             <form action="index.html">
                 <input type="submit" class="search5"  value="BACK">
             </form>

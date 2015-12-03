@@ -156,6 +156,21 @@ font-family: 'Raleway', sans-serif;
 	background-color: #d3f3ee;
 	padding:17px;
 }
+#firstname, #lastname, #email, #password {
+    margin-bottom: 5px;
+}
+
+#reEnter {
+margin-bottom: 20px;
+}
+#input2-signup{
+	text-align:center;
+    width:100vw;
+	clear:both;
+  
+	clear:both;
+	margin-bottom:0px;
+}
 
 #input2{
 	text-align:center;
@@ -230,6 +245,24 @@ font-family: 'Raleway', sans-serif;
 	position:relative;
 	top:1px;
 }
+
+#confirmMessage {
+align-content: center;
+}
+
+#confDiv{
+height: auto;
+width: 100vw;
+align-content: center;
+}
+
+
+/* Congrats Message ////////////////////////////////////////////////////////////////////////////////////////*/
+
+#congratsMsg {
+margin-bottom: -50px;
+}
+
 /* Page 4 ////////////////////////////////////////////////////////////////////////////////////////*/
 .p4h1{
 	font-family: 'Raleway', sans-serif;
