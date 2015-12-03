@@ -185,6 +185,25 @@ margin-right:auto;
 	width:20%;
 	height:auto;
 }
+h1 {
+    font-size:150%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	color:#FFF;    
+	
+}
+
+h2 {
+	font-size:150%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+h3 {
+	font-size:70%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
 /*page 15//////////////////////*/
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
@@ -321,12 +340,31 @@ margin-right:auto;
 	width:20%;
 	height:auto;
 }
+h1 {
+    font-size:150%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	color:#FFF;    
+	
+}
+
+h2 {
+	font-size:150%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+h3 {
+	font-size:70%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
 /*page 15//////////////////////*/
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
 /*page 18//////////////////////*/
 /* ------------ CLOSING BRACKET ----- */
-}
+
 
 
 
@@ -432,12 +470,31 @@ margin-right:auto;
 	width:40%;
 	height:auto;
 }
+h1 {
+    font-size:120%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	color:#FFF;    
+	
+}
+
+h2 {
+	font-size:120%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+h3 {
+	font-size:70%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
 /*page 15//////////////////////*/
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
 /*page 18//////////////////////*/
 /* ------------ CLOSING BRACKET ----- */
-}
+
 
 
 /* =========================================================================================== */
@@ -559,12 +616,31 @@ margin-right:auto;
 	width:40%;
 	height:auto;
 }
+h1 {
+    font-size:120%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	color:#FFF;    
+	
+}
+
+h2 {
+	font-size:120%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+h3 {
+	font-size:70%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
 /*page 15//////////////////////*/
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
 /*page 18//////////////////////*/
 /* ------------ CLOSING BRACKET ----- */
-}
+
 
 
 
@@ -706,12 +782,31 @@ margin-right:auto;
 	width:40%;
 	height:auto;
 }
+h1 {
+    font-size:100%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	color:#FFF;    
+	
+}
+
+h2 {
+	font-size:100%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+h3 {
+	font-size:60%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
 /*page 15//////////////////////*/
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
 /*page 18//////////////////////*/
 /* ------------ CLOSING BRACKET ----- */
-}
+
 
 
 
@@ -886,12 +981,31 @@ margin-right:auto;
 	width:40%;
 	height:auto;
 }
+h1 {
+    font-size:100%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	color:#FFF;    
+	
+}
+
+h2 {
+	font-size:90%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+h3 {
+	font-size:50%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
 /*page 15//////////////////////*/
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
 /*page 18//////////////////////*/
 /* ------------ CLOSING BRACKET ----- */
-}
+
 
 /* =========================================================================================== */
 @media screen and (max-width: 480px) {
@@ -1065,12 +1179,31 @@ margin-right:auto;
 	width:40%;
 	height:auto;
 }
+h1 {
+    font-size:70%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	color:#FFF;    
+	
+}
+
+h2 {
+	font-size:70%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+h3 {
+	font-size:50%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
 /*page 15//////////////////////*/
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
 /*page 18//////////////////////*/
 /* ------------ CLOSING BRACKET ----- */
-}
+
 
 /* =========================================================================================== */
 @media screen and (min-width: 100px, max-width: 320px ) {
@@ -1269,9 +1402,28 @@ font-size: 30px;
 	width:40%;
 	height:auto;
 }
+
+h1 {
+    font-size:50%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	color:#FFF;    
+	
+}
+
+h2 {
+	font-size:50%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+h3 {
+	font-size:20%;    
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
 /*page 15//////////////////////*/
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
 /*page 18//////////////////////*/
 /* ------------ CLOSING BRACKET ----- */
-}
