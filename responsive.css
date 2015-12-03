@@ -514,6 +514,12 @@ margin-right:auto;
 	text-align:center;
 	margin-left:25%;
 }
+
+.Loginbut14{
+margin-bottom:20px;
+font-size: 20px;	
+}
+
 h1 {
     font-size:120%;    
 	font-family: 'Raleway', sans-serif;
@@ -674,6 +680,12 @@ margin-right:auto;
 	text-align:center;
 	margin-left:20%;
 }
+
+.Loginbut14{
+margin-bottom:20px;
+font-size: 20px;	
+}
+
 h1 {
     font-size:120%;    
 	font-family: 'Raleway', sans-serif;
@@ -854,6 +866,12 @@ margin-right:auto;
 	text-align:center;
 	margin-left:20%;
 }
+
+.Loginbut14{
+margin-bottom:20px;
+font-size: 20px;	
+}
+
 h1 {
     font-size:100%;    
 	font-family: 'Raleway', sans-serif;
@@ -1061,11 +1079,12 @@ margin-right:auto;
 	margin-left:20%;
 }
 
-#buttonlogin14 {
-	 width:20%;
-	padding-left:40%;
-   
+.Loginbut14{
+margin-bottom:10px;	
+font-size:20px;	
+
 }
+
 h1 {
     font-size:100%;    
 	font-family: 'Raleway', sans-serif;
@@ -1267,9 +1286,14 @@ margin-right:auto;
 }
 
 #buttonlogin14 {
-	 width:20%;
-	padding-left:40%;
-   
+	width:20%
+	padding:40%;
+	
+}
+
+.Loginbut14 {
+width: 100vw;
+font-size: 20px;	
 }
 
 #tutorial1{
@@ -1504,11 +1528,11 @@ font-size: 30px;
 	height:auto;
 }
 
-#buttonlogin14 {
-	 width:20%;
-	padding-left:40%;
-   
+.Loginbut14 {
+width: 100vw;
+font-size: 20px;	
 }
+
 
 #tutorial1{
 	width:100vw;
