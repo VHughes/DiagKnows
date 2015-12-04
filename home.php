@@ -67,7 +67,7 @@ include('sessionstart.php');
 
 <!--link to page-->
 <form action="account.php">
-    <input type="submit" value="Rate" class="search5" id='rate'>
+    <input type="submit" value="Find A Pharmacy Near You" class="search5" id='rate'>
 </form>
 </div>
 </body>
