@@ -72,6 +72,7 @@ Please Choose One Of The Following Symptom
     <li name="7" id="7">Cough</li>
     <li name="8" id="8">Cramps</li>
     <li name="9" id="9">Sore Throat</li>
+    <li name="10" id="10">Acid Reflux</li>
   </ul>
 </div>
 
@@ -185,12 +186,15 @@ Please Choose One Of The Following Symptom
                        }
                         
                         
-                    } 
-                         if(response[i].Ill == 4){
+                    }
+                            if(response[i].Ill == 4){
                         h2.onclick = function(){
-                        location.href = "Heartburn.php";
+                        location.href = "heartburn.php";
                        }
-                
+                        
+                        
+                    } 
+                        
                     }
                     var div = document.createElement("div");
                     document.body.appendChild(div);
@@ -211,12 +215,12 @@ Please Choose One Of The Following Symptom
                     }
                     
                        
-                }
+                
             }
 
 
         });
-    });
+    }});
 </script>
 </body>
 </html>

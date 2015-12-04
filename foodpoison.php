@@ -40,7 +40,7 @@ include('sessionstart.php');
    <li><a  href="home.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
   <li><a href="account.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
-  <li><a href="setting.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
+  <li><a href="setting.php" ><i class="fa fa-gear" style="font-size:24px"> Settings</i></a>
   </li>
   </nav>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

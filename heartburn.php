@@ -77,7 +77,11 @@ HEARTBURN
        </li>
          <li>
        - Heartburn
-       </li><br>
+       </li>
+          <li>
+       - Acid Reflex
+       </li>
+          <br>
           <li id="description">
          Antacids contain alkaline ions that directly neutralize stomach gastric acid but do not kill bacteria like other acid reducing drugs such as Helicobacter Pylori
        </li><br>
