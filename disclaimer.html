@@ -65,19 +65,43 @@ You understand and agree that the above Terms constitute the entire general agre
 <br>11. Changes to the Terms
 <br>
 DiagKnows reserves the right to modify these Terms from time to time at our sole discretion and without any notice. Changes to our Terms become effective on the date they are posted and your continued use of DiagKnows after any changes to Terms will signify your agreement to be bound by them.</p>
-</div>
+    <br>
 <div id="agree">
 <input type="checkbox" id="flat7"/>
-<label for="flat7" class="flat7b">
+<label for="flat7" class="flat7b" id="label">
     <span class="move"></span>
 </label>
 <p class="p4">I have read and understand the legal terms and conditions</p>
 </div>
 
 <div id="buttonlogin4">
-<form action="tutorial1.html">
-<input type="submit" value="Agree" class="Loginbut4"> 
-</form></div>
 
+<input type="submit" value="Agree" id="discsub" class="Loginbut4"> 
+</form></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    
+    var move = document.getElementById("label");
+    move.onclick = function(){
+        console.log("good girl");
+    } 
+    
+ var submit = document.getElementById("discsub");
+    submit.onclick = function(){
+    console.log("good girl");    
+var atLeastOneIsChecked = $('#agree :checkbox:checked').length > 0;
+  
+if (atLeastOneIsChecked === true) {
+    console.log("good girl");
+    location.href="home.php";
+  } else {
+      alert("You must agree to the terms and services!");
+  }
+    }
+});
+</script> 
+    
+    
 </body>
 </html>
