@@ -23,7 +23,7 @@
   display: block;
   position: relative;
   color: white;
-  overflow: hidden;
+  overflow:hidden;
   cursor: pointer;
   height: 80vh;
   -webkit-transition: text-indent 0.2s;
@@ -34,9 +34,10 @@
 }
 .wrapper12 ul {
   margin: 0;
-  padding: 0;
-  
+  padding-bottom: 20px;
+
 }
+
 .wrapper12 li {
   color: white;
   list-style-type: none;
@@ -60,7 +61,7 @@
   color: #E56760;
   background-color:#FFEED3;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  margin-top:75px;
+  margin-top:30px;
   font-family: 'Raleway', sans-serif;
 }
 #drugbutt{
@@ -71,14 +72,7 @@ margin-right:auto;
 .wrapper12 li a:hover {
   background-color:#ffffff;
 }
-.wrapper12 label:hover {
-   
-  background:#B24849; !important;
-  color: #e35456;
-  text-indent: 30px;
-  -webkit-transition: text-indent 0.2s;
-  transition: text-indent 0.2s;
-}
+
 .wrapper12 input[type="checkbox"] {
   display: none;
   
@@ -95,10 +89,14 @@ margin-right:auto;
 .wrapper12 .content {
 	
   background:#E9635B;
-  height:50vh;
+  height:auto;
   position: relative;
   border-top: 2px solid rgba(0, 0, 0, 0.12);
   top: 4px;
+}
+
+.content {
+    height:1000px;
 }
 .wrapper12 .lil_arrow {
 	
@@ -119,10 +117,20 @@ margin-right:auto;
 }
 .wrapper12 input[type="checkbox"]:checked + label > .content {
   display: block;
+  bottom: auto;
+}
+
+.wrapper12 input[type="checkbox"]:checked > .content {
+  height: auto;
+   
   
 }
+
+
+
 .wrapper12 input[type="checkbox"]:checked + label > span {
   display: none;
+    
 }
 .wrapper12 input[type="checkbox"]:checked + label > .lil_arrow {
   -webkit-transition: -webkit-transform 0.8s;
@@ -134,8 +142,10 @@ margin-right:auto;
 }
 .wrapper12 input[type="checkbox"]:checked + label {
 	height:50vh;
+    overflow: scroll;
   display: block;
-  background:#B24849; !important;
+    
+  
   color: #8E8E8E;
   text-indent: 30px;
   
@@ -156,8 +166,20 @@ margin-right:auto;
   transition: height 0.8s;
   height: 60px;
   -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+   top:auto;
+}
+
+::-webkit-scrollbar:hover {
+  display:visible;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+    -webkit-appearance: none;
+    width: 7px;
 }
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+

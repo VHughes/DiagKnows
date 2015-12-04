@@ -53,7 +53,7 @@ include('sessionstart.php');
 <div id="titlename8"> 
 <h1 id='title'>SELECTED ILLNESS:<br>
 <br>
-FLU
+Food Poisoning
 </h1>
 </div>
 
@@ -65,75 +65,74 @@ FLU
         <div class='wrapper12'>
   <input id='pictures' type='checkbox'>
   <label for='pictures'>
-    <p>Acetaminophen</p>
+    <p>Antiacids</p>
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
-      <li>
-       - Headaches
+    <li>
+    Commonly Used To Treat:
+    </li>
+       <li>
+       - Stomach acid
        </li>
          <li>
-       - Fever
-       </li>
-         <li>
-       - Muscle aches
-       </li>
-         <li>
-       - Menstrual cramps
+       - Heartburn
        </li><br>
           <li id="description">
-       Acetaminophen will reduce fever and general pain, but should not be taken during pregnancy or if you have ever had alcoholic liver disease
+         Antacids contain alkaline ions that directly neutralize stomach gastric acid but do not kill bacteria like other acid reducing drugs such as Helicobacter Pylori
        </li><br>
-        <li>
-       BRANDS
-       </li>
-         <li>   
-          <li>
-       - Actamin
-       </li>
-         <li>  
-          <li>
-       - Tylenol
-       </li><br>
-         <li id='drugbutt'>  
-          <a href='map.php' >Yes! This is the drug!</a>
+         <li style="font-style:oblique">
+        Brands Which Contain This Drug:
           </li>
+         <li>
+       - Gaviscon
+       </li>
+         <li>
+       - Alka Seltzer
+       </li>
+         <li>
+       - Maalox
+       </li><br>
+        <li id='drugbutt'>
+          <a href='map.php' >Yes! This is the drug!</a>
+        </li>
       </ul>
     </div>
     <span></span>
   </label>
   <input id='jobs' type='checkbox'>
   <label for='jobs'>
-    <p>Ibuprofen</p>
+    <p>Bismuth Subsalicylate</p>
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+          <li>
+    Commonly Used To Treat:
+    </li>
       <li>
-       - Headaches
+       - Diarrhea
        </li>
          <li>
-       - Fever
+       - Indigestion
        </li>
          <li>
-       - Muscle aches       
+      - Heartburn
        </li>
          <li>
-       - Anti-inflammatory
-       </li><br>
+       - Nausea
+       </li>
           <li id="description">
-       Ibuprofen is an anti-flammatory drug that relieves bodily pain. It can be used with children, and lasts longer than other pain killers
+       Treats temporary discomforts of the stomach and gastrointestinal tract and should not be taken if breastfeeding or with children with chickepox or influenza
        </li><br>
-         <li>
-       BRANDS
+           <li style="font-style:oblique">
+              Brands Which Contain This Drug:
+
+          </li>
+       <li>
+       - Pepto-Bismol
        </li>
          <li>
-       - Advil
-       </li>
-         <li>
-       - Midol
-       </li>
-         <li>
-       - Motrin
+       - TUMS, Rolaids
        </li><br>
         <li id='drugbutt'>
           <a href='map.php' >Yes! This is the drug!</a>
@@ -144,33 +143,31 @@ FLU
   </label>
   <input id='events' type='checkbox'>
   <label for='events'>
-    <p>Aspirin</p>
+    <p>Magnesium Hydroxide</p>
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+          <li>
+    Commonly Used To Treat:
+    </li>
         <li>
-       - Headaches
+       - Sour stomach
        </li>
          <li>
-       - Fever
+       - Acid
        </li>
          <li>
-       - Pain    
+       - Indigestion
        </li><br>
           <li id="description">
-       Asprin reduces inflammation and fever, should not be used during pregnancies or if you have a bleeding disorder such as hemophilia
+       Magnesium Hydroxide is a histamine blocker combined with an antiacid to help neutralize stomach acide production. Do not use if you are taking calcium or if you are allergic to H2 blockers suc as rantidine
        </li><br>
          <li>
-       BRANDS
+         <li style="font-style:oblique">
+               Brands Which Contain This Drug:
        </li>
-         <li>
-       - Advil
-       </li>
-         <li>
-       - Bayer
-       </li>
-         <li>
-       - Miniprin
+        <li>
+        - Pepcid Complete
        </li><br>
         <li id='drugbutt'>
           <a href='map.php' >Yes! This is the drug!</a>
@@ -178,44 +175,6 @@ FLU
       </ul>
     </div>
     <span></span>
-  </label>
-   <input id='four' type='checkbox'>
-  <label for='four'>
-    <p>Dimenhydrinate</p>
-    <div class='lil_arrow'></div>
-    <div class='content'>
-      <ul><br>
-        <li>
-       -Nausea
-       </li>
-         <li>
-       - Vomiting
-       </li>
-         <li>
-       - Dizziness    
-       </li>
-         <li>
-       - Motion sickness    
-       </li><br>
-          <li id="description">
-       Dimenhydrinate is an antihistamine and anticholinergic that will reduce nausea and motion sickness and should not be take if you are taking sodium oxybate or are breast feeding
-       </li><br>
-         <li>
-       BRANDS
-       </li>
-         <li>
-       - Travel-Eze
-       </li>
-         <li>
-       - Hydrate
-       </li><br>
-        <li id='drugbutt'>
-          <a href='map.php' >Yes! This is the drug!</a>
-        </li>
-      </ul>
-    </div>
-    <span></span>
-  </label>
 
 </div>
 
@@ -246,7 +205,7 @@ window.onload = function(){
                     
     }
 });
-}
+        
 </script>
 	
 </body>

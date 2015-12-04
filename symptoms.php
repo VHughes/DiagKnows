@@ -176,14 +176,20 @@ Please Choose One Of The Following Symptom
                         
                           if(response[i].Ill == 2){
                         h2.onclick = function(){
-                        location.href = "heartburn.php";
+                        location.href = "foodpoison.php";
                        }
                     }   
                           if(response[i].Ill == 3){
                         h2.onclick = function(){
                         location.href = "flu.php";
                        }
-                    }   
+                        
+                        
+                    } 
+                         if(response[i].Ill == 4){
+                        h2.onclick = function(){
+                        location.href = "Heartburn.php";
+                       }
                 
                     }
                     var div = document.createElement("div");
@@ -206,10 +212,10 @@ Please Choose One Of The Following Symptom
                     
                        
                 }
-            })
+            }
 
 
-        }
+        });
     });
 </script>
 </body>

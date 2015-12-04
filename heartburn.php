@@ -51,7 +51,7 @@ include('sessionstart.php');
 <!--result go here-->
 <br><br>    
 <div id="titlename8"> 
-<h1>SELECTED ILLNESS:<br>
+<h1 id='title'>SELECTED ILLNESS:<br>
 <br>
 HEARTBURN
 </h1>
@@ -69,9 +69,12 @@ HEARTBURN
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+    <li>
+    Commonly Used To Treat:
+    </li>
        <li>
        - Stomach acid
-       </li><br>
+       </li>
          <li>
        - Heartburn
        </li><br>
@@ -79,18 +82,18 @@ HEARTBURN
          Antacids contain alkaline ions that directly neutralize stomach gastric acid but do not kill bacteria like other acid reducing drugs such as Helicobacter Pylori
        </li><br>
          <li style="font-style:oblique">
-        BRANDS
-       </li><br>
+        Brands Which Contain This Drug:
+          </li>
          <li>
        - Gaviscon
-       </li><br>
+       </li>
          <li>
        - Alka Seltzer
-       </li><br>
+       </li>
          <li>
        - Maalox
        </li><br>
-        <li>
+        <li id='drugbutt'>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
@@ -103,31 +106,35 @@ HEARTBURN
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+          <li>
+    Commonly Used To Treat:
+    </li>
       <li>
        - Diarrhea
-       </li><br>
+       </li>
          <li>
        - Indigestion
-       </li><br>
+       </li>
          <li>
       - Heartburn
-       </li><br>
+       </li>
          <li>
        - Nausea
-       </li><br>
+       </li>
           <li id="description">
        Treats temporary discomforts of the stomach and gastrointestinal tract and should not be taken if breastfeeding or with children with chickepox or influenza
        </li><br>
            <li style="font-style:oblique">
-       BRANDS
-       </li><br>
+              Brands Which Contain This Drug:
+
+          </li>
        <li>
        - Pepto-Bismol
-       </li><br>
+       </li>
          <li>
        - TUMS, Rolaids
        </li><br>
-        <li>
+        <li id='drugbutt'>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
@@ -140,12 +147,15 @@ HEARTBURN
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+          <li>
+    Commonly Used To Treat:
+    </li>
         <li>
        - Sour stomach
-       </li><br>
+       </li>
          <li>
        - Acid
-       </li><br>
+       </li>
          <li>
        - Indigestion
        </li><br>
@@ -154,12 +164,12 @@ HEARTBURN
        </li><br>
          <li>
          <li style="font-style:oblique">
-       BRANDS
-       </li><br>
+               Brands Which Contain This Drug:
+       </li>
         <li>
         - Pepcid Complete
        </li><br>
-        <li>
+        <li id='drugbutt'>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>

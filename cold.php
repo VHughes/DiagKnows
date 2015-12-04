@@ -149,8 +149,10 @@ COLD
     <span></span>
   </label>
   <input id='events' type='checkbox'>
-  <label for='events'>
+  
+    <label for='events'>
     <p>Anitussives</p>
+            
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
@@ -243,26 +245,11 @@ COLD
 
 <script>
 
-window.onload = function(){
-
-            $.ajax({
-                type: 'POST',
-                url: 'SymptomChoices.php',
-                dataType: 'json',
-                data: {
-                    checked: array
-                },
-                success: function(response) {
-                    console.log(response);
-
-
 
 //SELECT * FROM illness_symptom WHERE SYM_ID = 1;
                 //SELECT * FROM illness_symptom LEFT JOIN illness ON illness.ILL = ILL_ID  WHERE SYM_ID = 1;
                     
-    }
-});
-}
+
 </script>
 	
 </body>
