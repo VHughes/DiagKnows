@@ -167,9 +167,11 @@ font-size:1.80em;
 
 /*page 10///////////////////////*/
  #map {
-        height: 30%;
+             height: 30%;
 		width:60%;
 		margin-left:20%;
+		
+		
 		
       }
 

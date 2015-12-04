@@ -49,19 +49,13 @@ include('sessionstart.php');
 <!--result go here-->
 <br><br>
 <div id="titlename10"> 
-<h1> Dummy Text for: IBUPROFEN</h1>
+<h1 id="title">Local Pharmacies</h1>
 </div>
 
 
 <!--Description go here-->
 
-<div id="titlename10-1"> 
-<h2>Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID). It works by reducing hormones that cause inflammation and pain in the body.
 
-Ibuprofen is used to reduce fever and treat pain or inflammation caused by many conditions such as headache, toothache, back pain, arthritis, menstrual cramps, or minor injury.
-
-Ibuprofen is used in adults and children who are at least 6 months old.</h2>
-</div>
 
 
 
@@ -72,21 +66,7 @@ Ibuprofen is used in adults and children who are at least 6 months old.</h2>
 
 <!--result go here-->
 
-<div id="Drugbar"> 
-<h3>Here's a brief descriptin for Advil, which will talk about why Advil is better than other brand names</h3>
-</div>
 
-<div id="Drugbar"> 
-<h3>Here's a brief description that will argues that Motrin is actually a decent alternative to Advil, because it's slightly cheaper</h3>
-</div>
-
-<div id="Drugbar"> 
-<h3>Here's a brief description that says this lesser-known brand is actually the exact same as the other two. Try Medipren for a change!</h3>
-</div>
-
-<div id="Drugbar"> 
-<h3>Here's a brief description that asks if you're tired of brand names. Maybe try the generic medicine, Iburprofen. Want a fancy name brand? How about Nuprin?! </h3>
-</div>
 
 <div id="buttonlogin10">
 <form action="drugs.php">
@@ -105,7 +85,7 @@ function initMap() {
  var myLatLng = {lat: 50, lng: -123.000557};
   map = new google.maps.Map(document.getElementById('map'), {
     center: myLatLng,
-    zoom: 16
+    zoom: 12,
   });
 
   infowindow = new google.maps.InfoWindow();
@@ -122,16 +102,18 @@ function initMap() {
       infowindow.setPosition(pos);
       infowindow.setContent('Location found.');
       map.setCenter(pos);
+        
     var service = new google.maps.places.PlacesService(map);
         service.nearbySearch({
         location: pos,
-        radius: 800,
+        radius: 3800,
         types: ['pharmacy']
     }, callback);
     }, function(error) {
         console.log(error);
       handleLocationError(true, infowindow, map.getCenter());
     });
+      
   } else {
     // Browser doesn't support Geolocation
     handleLocationError(false, infowindow, map.getCenter());
@@ -149,6 +131,7 @@ function callback(results, status) {
   if (status === google.maps.places.PlacesServiceStatus.OK) {
     for (var i = 0; i < results.length; i++) {
       createMarker(results[i]);
+      console.log(results);
     }
   }
 }
@@ -157,20 +140,32 @@ function createMarker(place) {
   var placeLoc = place.geometry.location;
   var marker = new google.maps.Marker({
     map: map,
-    position: place.geometry.location
+    position: place.geometry.location,
+    icon: {
+            url: "Assets/heart.ico",
+            size: {
+                width: 40,
+                height: 40,
+                },
+                scaledSize: {
+                    width: 40,
+                    height: 40,
+                            },
+                
+                }  
   });
 
   google.maps.event.addListener(marker, 'click', function() {
-    infowindow.setContent(place.name);
+    var contentyo = "<b>Name:</b> " +place.name+ "<br><b>Location:</b> " +place.vicinity+ "";
+    infowindow.setContent(contentyo);
     infowindow.open(map, this);
   });
 }
-
-
+        
     </script>
   </head>
-  <body>
-    <div id="map"></div>
+ 
+    
     
     <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&libraries=places&callback=initMap" async defer></script>
     
@@ -181,7 +176,7 @@ function createMarker(place) {
         padding: 0;
       }
       #map {
-        height: 30%;
+        height: 60vh;
 		
 		
 		
