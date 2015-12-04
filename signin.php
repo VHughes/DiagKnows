@@ -20,7 +20,7 @@ $db = "illness";
 $conn = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-if (isset($_POST['user'])) {
+if (isset($_POST['user']) && !empty($_POST['user'])) {
     $user = $_POST['user'];
     $password = $_POST['pass'];
     
@@ -49,13 +49,13 @@ if ($num == 1) {
 
 } else {
     
-    //echo('not working');
-    header("Location: dkerror.html");
 
+  header("Location: login.html");
 }
   
 }
+    
+
 //var_dump($sql);  
 
 ?>
-

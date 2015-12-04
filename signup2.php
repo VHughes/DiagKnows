@@ -5,7 +5,7 @@
 session_start();
 #$_SESSION['signName']= $name
 
-if(isset($_SESSION['user'])!="") {
+if(isset($_SESSION['firstname'])!="") {
  header("Location: index.php");
 }
 
@@ -16,13 +16,16 @@ $db = new PDO('mysql:host=localhost;dbname=illness', $user, $pass);
 
 $conn = $db; 
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
- 
+
+
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
 $email = $_POST['email'];
 $password = $_POST['password'];
+
+//$value = isset($_POST['firstname']) && !empty($_POST['firstname']);
     
-$sql = "INSERT INTO UserName (email, pass, uName, lname) VALUES (:email,:password,:firstname,:lastname)";
+$sql = "INSERT INTO username (email, pass, uName, lname) VALUES (:email,:password,:firstname,:lastname)";
   
 $query = $db->prepare($sql);
 $result = $query->execute( array( ':email'=>$email, ':password'=>$password, ':firstname'=>$firstname, ':lastname' => $lastname ) );
@@ -48,7 +51,7 @@ $sqli = $conn->query($table);
 
 if($result)  {
     
-    // header("Location: disclaimer.html");
+    header("Location: disclaimer.html");
     
 $reesult = $sqli->fetchAll();
   //var_dump($reesult);  

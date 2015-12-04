@@ -17,20 +17,17 @@ $db = new PDO('mysql:host=localhost;dbname=illness', $user, $pass);
 $conn = $db; 
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
  
-$firstname = $_POST['firstname'];
-$lastname = $_POST['lastname'];
-$email = $_POST['email'];
-$password = $_POST['password'];
+$signName = $_POST['signName'];
+$signEmail = $_POST['signEmail'];
+$signPass = $_POST['signPass'];
+$lastName = $_POST['lastName'];
     
-$sql = "INSERT INTO UserName (email, pass, uName, lname) VALUES (:email,:password,:firstname,:lastname)";
+$sql = "INSERT INTO UserName (email, pass, uName, lname) VALUES ('$signEmail','$signPass','$signName','$lastName')";
   
 $query = $db->prepare($sql);
-$result = $query->execute( array( ':email'=>$email, ':password'=>$password, ':firstname'=>$firstname, ':lastname' => $lastname ) );
+$result = $query->execute( array( ':signName'=>$signName, ':signPass'=>$signPass, ':signEmail'=>$signEmail ) );
 
 
-
-
-//HELP? -------------->
 
 $imgsql = "UPDATE username SET img = FLOOR(1 + RAND()*7) WHERE uName= :firstname";
   
@@ -48,7 +45,7 @@ $sqli = $conn->query($table);
 
 if($result)  {
     
-    // header("Location: disclaimer.html");
+    header("Location: disclaimer.html");
     
 $reesult = $sqli->fetchAll();
   //var_dump($reesult);  

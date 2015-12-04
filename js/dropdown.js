@@ -2,7 +2,7 @@
 
 // Global variables
 window.onload = function(){
-var maxChoiceCount = 3;
+var maxChoiceCount = 1;
 
 // DOM elements
 var choiceItems   = document.querySelectorAll(".choice-list6 li");

@@ -48,7 +48,7 @@
 <img src="Assets/diagknows logo.png" alt="logo" id='islalogo'>
 </div>
     
-<!--<form id="form" onsubmit="return checkPass()" action="signup.php" method='post'>-->
+<form id="form" action="signup.php" method='post'>
     
     <div id="input2-signup"> 
         <input type="text" id="firstname" class="search5-2" name="signName"placeholder="FIRST NAME" required>
@@ -65,9 +65,9 @@
     <div id="buttonlogin5">
         <input type="submit" id='signup' name='register' class="search5" value="SIGN UP">
     
-    <!--
+ 
 </form>
--->
+
         
             <form action="index.html">
                 <input type="submit" class="search5"  value="BACK">
@@ -83,12 +83,15 @@
          var email = document.getElementById('email');
          var password = document.getElementById('password');
         var subm = document.getElementById('signup');
-        
+        var form = document.getElementById('form');
         //checkPass();
         
+
+        
         subm.onclick = function(){
+         //   $("#subForm").validate();
+       
             console.log('clicked signup');
-            
             
         $.ajax({
 				url:"signup2.php",
@@ -101,22 +104,23 @@
 					email: email.value,
 					password: password.value,
 					},
+            
 				success:function(resp){
 					console.log('resp is', resp);
                     window.location = 'disclaimer.html';
+                    
 				},
-                 error: function(jqXHR, textStatus, errorThrown) {
-                        console.log(jqXHR.statusText, textStatus);
-                }
+            
+                // error: function(jqXHR, textStatus, errorThrown) {
+                  //      console.log(jqXHR.statusText, textStatus);
+                //}
 			});
+              console.log(data.firstname);
+        }
     
-    
-        };
-    
-    
+        });
     
   
-    });
 
    
 

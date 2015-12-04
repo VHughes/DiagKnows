@@ -54,7 +54,7 @@ include('sessionstart.php');
 
 
 <!--Description go here-->
-
+   
 
 
 
@@ -66,10 +66,13 @@ include('sessionstart.php');
 
 <!--result go here-->
 
+ <div id="titlename10">   
+    <h1 id="title"> Check out these local pharmacies for all your medical needs! </h1>    
+ </div> 
 
 
 <div id="buttonlogin10">
-<form action="drugs.php">
+<form action="home.php">
     <input type="submit" class="backbut12"  value="Back">
 </form>
 </div>
@@ -85,7 +88,7 @@ function initMap() {
  var myLatLng = {lat: 50, lng: -123.000557};
   map = new google.maps.Map(document.getElementById('map'), {
     center: myLatLng,
-    zoom: 12,
+    zoom: 13,
   });
 
   infowindow = new google.maps.InfoWindow();

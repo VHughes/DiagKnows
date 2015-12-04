@@ -44,7 +44,7 @@ include('sessionstart.php');
    <li><a  href="home.php"><i class="fa fa-heartbeat" style="font-size:24px"> Home</i></a>
    </li>
   <li><a href="account.php" ><i class="fa fa-user" style="font-size:24px"> Account</i></a></li>
-  <li><a href="setting.php" ><i class="fa fa-gear" style="font-size:24px"> Setting</i></a>
+  <li><a href="setting.php" ><i class="fa fa-gear" style="font-size:24px"> Settings</i></a>
   </li>
   </nav>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -54,10 +54,10 @@ include('sessionstart.php');
 
 
 <div id="logo6"> 
-<img src="Assets/diagknows logo.png" alt="logo" id="islalogo">
+<a href="home.php"><img src="Assets/diagknows logo.png" alt="logo" id="islalogo"></a>
 </div>
 <div id='welcomeMsg'>
-Please Choose One Of The Following Symptom
+Please Choose One Of The Following Symptoms
 </div>
 <!--result-->
 <script src="js/dropdown.js"></script>
@@ -101,9 +101,6 @@ Please Choose One Of The Following Symptom
                    //alert(checked[i].id)
                    array.push(checked[i].id);
             }
-            
-                
-
 
             $.ajax({
                 type: 'POST',
@@ -120,6 +117,12 @@ Please Choose One Of The Following Symptom
                     
                     var div = document.getElementById("buttonlogin6");
                     document.body.removeChild(div);
+                    
+                    var welcome = document.getElementById("welcomeMsg");
+                    welcome.innerHTML = "Please Choose One of The Following Illnesses";
+
+                    
+                    
                     
                     
                     for(var i=0; i<response.length; i++) {

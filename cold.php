@@ -27,7 +27,6 @@ include('sessionstart.php');
 <body>
 <!-- menu -->
 
-<script src="js/prefixfree.min.js"></script>
 
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     

@@ -15,21 +15,22 @@
 </head>
 
 <body>
+    
     <div id="logo6"> 
-<img src="Assets/diagknows logo.png" alt="logo" id='islalogo'>
+        <a href="home.php"><img src="Assets/diagknows logo.png" alt="logo" id='islalogo'></a>
 </div>
+<form method="post" action="signin.php">
 <div id="buttonlogin5">
-<form id='form' method='post' action='signin.php'>
-    <div id="input2">
-        <input type="text" id="email1" class="search5-2" name='user' placeholder="USERNAME">
+        <input type="text" id="email1" class="search5-2" name='user' placeholder="USERNAME" required>
         </div>
     
         <div id="input2">
-        <input type="password" id="password1" class="search5-2" name='pass' placeholder="PASSWORD">
+        <input type="password" id="password1" class="search5-2" name='pass' placeholder="PASSWORD" required>
     </div>
+
 </div>
     <div id="buttonlogin5">
-        <input type="submit" class="search5" value="LOG IN">
+        <input type="submit" id="submit" class="search5" value="LOG IN">
    
     </form>
   
@@ -40,4 +41,45 @@
     </div>
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+/*window.onload = function(){
+  /*  
+    var submit = document.getElementById("submit");
+    submit.onclick = function(){
+        
+        var emptypass = document.getElementById("password1");
+        var empty = document.getElementById("email1");
+        if(empty.value===""){
+            alert("Please enter a correct username");
+            return false;
+        
+        } else if(emptypass.value==""){
+            alert("Please enter a valid password");
+        
+        } else if(emptypass.value==="" && empty.value==""){
+            alert("Please enter a username and password");
+    
+    } else {
+    
+        var uname=$('#email1').val();
+        var password=$('#password1').val();
+        
+        
+        $.ajax({
+            url: "signin.php",
+            type: "post",
+            dataType:"json",
+            data:{ 
+                email : document.getElementById('email1').value,
+                pass : document.getElementById('password1').value
+            },
+            success: function(data){
+                console.log(data);}
+         
+        })
+}
+*/ 
+    
+</script>
 </html>
