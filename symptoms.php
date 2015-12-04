@@ -56,7 +56,9 @@ include('sessionstart.php');
 <div id="logo6"> 
 <img src="Assets/diagknows logo.png" alt="logo" id="islalogo">
 </div>
-
+<div id='welcomeMsg'>
+Please Choose One Of The Following Symptom
+</div>
 <!--result-->
 <script src="js/dropdown.js"></script>
 <div id='container' class="container6">
