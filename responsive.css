@@ -6,7 +6,10 @@
 /* =========================================================================================== */
 /*error ///////////////////////*/
     
-
+.wrapper12 {
+	width:60%	  
+		  }
+		  
     #buttonlogin0 {
 margin-left:26%;
 margin-right:auto;
@@ -863,6 +866,9 @@ font-size:20px;
 		margin-left:20%;
 		
       }
+	  
+	  
+	  
 /*page 11///////////////////////*/
 #round {
 margin-left:15%;
@@ -1541,6 +1547,10 @@ font-size:50%;
 		margin-left:0%;
 		
       }
+	  
+.wrapper12 {
+	width:100%;
+	}
 /*page 11///////////////////////*/
 #round {
 margin-left:15%;

@@ -69,6 +69,9 @@ COLD
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+      <li>
+       Acetaminophen will reduce fever and general pain, but should not be taken during pregnancy or if you have ever had alcoholic liver disease</li>
+       <br>
         <li>
           Commonly Used To Treat:
         </li>
@@ -84,9 +87,7 @@ COLD
          <li>
        - Menstrual cramps
        </li><br>
-         <h6 id="description">
-       Acetaminophen will reduce fever and general pain, but should not be taken during pregnancy or if you have ever had alcoholic liver disease
-       </h6><br>
+         
         <li>
        Brands Which Contain This Drug:
        </li>
@@ -96,7 +97,7 @@ COLD
           <li>
        - Tylenol
        </li>
-         <li>       
+         <li id='drugbutt'>       
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
@@ -139,7 +140,7 @@ COLD
          <li>
        - Motrin
        </li><br>
-        <li>
+        <li id='drugbutt'>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
@@ -182,7 +183,7 @@ COLD
          <li>
        - Vicks Dayquil
        </li>
-         <li>
+         <li id='drugbutt'>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
@@ -222,7 +223,7 @@ COLD
          <li>
        - Miniprin
        </li>
-        <li>
+        <li id='drugbutt'>
           <a href='map.php' >Yes! This is the drug!</a>
         </li>
       </ul>
