@@ -217,11 +217,7 @@ margin-right:auto;
 	height:auto;
 }
 
-#tutorial1{
-	width: 40%;
-	text-align:center;
-	margin-left:20%;
-}
+
 
 h1 {
     font-size:150%;    
@@ -246,6 +242,10 @@ h3 {
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
 /*page 18//////////////////////*/
+#buttonlogin18{
+	width:60%;
+	margin-left:20%;	
+}
 /*
 =========================================================================================== */
 @media screen and (max-width: 1920px) {
@@ -386,11 +386,7 @@ margin-right:auto;
 	height:auto;
 }
 
-#tutorial1{
-	width: 50%;
-	text-align:center;
-	margin-left:20%;
-}
+
 
 h1 {
     font-size:150%;    
@@ -420,7 +416,7 @@ h3 {
 
 
 
-
+}
 /*  =========================================================================================== */
 @media screen and (max-width: 1600px) {
 /* =========================================================================================== */
@@ -540,11 +536,7 @@ margin-right:auto;
 	height:auto;
 }
 
-#tutorial1{
-	width: 50%;
-	text-align:center;
-	margin-left:25%;
-}
+
 
 .Loginbut14{
 margin-bottom:20px;
@@ -577,7 +569,7 @@ h3 {
 /* ------------ CLOSING BRACKET ----- */
 
 
-
+}
 /* =========================================================================================== */
 @media screen and (max-width: 1200px) {
 /* =========================================================================================== */
@@ -706,11 +698,7 @@ margin-right:auto;
 	height:auto;
 }
 
-#tutorial1{
-	width: 60%;
-	text-align:center;
-	margin-left:20%;
-}
+
 
 .Loginbut14{
 margin-bottom:20px;
@@ -744,7 +732,7 @@ h3 {
 
 
 
-
+}
 /* =========================================================================================== */
 @media screen and (max-width: 980px) {
 /* =========================================================================================== */
@@ -903,11 +891,6 @@ margin-right:auto;
 	height:auto;
 }
 
-#tutorial1{
-	width: 60%;
-	text-align:center;
-	margin-left:20%;
-}
 
 .Loginbut14{
 margin-bottom:20px;
@@ -941,7 +924,7 @@ h3 {
 
 
 
-
+}
 /* =========================================================================================== */
 @media screen and (max-width: 720px) {
 /* =========================================================================================== */
@@ -1124,11 +1107,6 @@ margin-right:auto;
 	height:auto;
 }
 
-#tutorial1{
-	width: 60%;
-	text-align:center;
-	margin-left:20%;
-}
 
 .Loginbut14{
 margin-bottom:10px;	
@@ -1161,7 +1139,7 @@ h3 {
 /*page 18//////////////////////*/
 /* ------------ CLOSING BRACKET ----- */
 
-
+}
 /* =========================================================================================== */
 @media screen and (max-width: 480px) {
 /* =========================================================================================== */
@@ -1362,11 +1340,6 @@ width: 100vw;
 font-size: 20px;	
 }
 
-#tutorial1{
-	width: 70%;
-	text-align:center;
-	margin-left:15%;
-}
 
 
 h1 {
@@ -1392,9 +1365,16 @@ h3 {
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
 /*page 18//////////////////////*/
+
+#buttonlogin18 {
+	text-align:center;
+    width:100vw;
+    padding:30px;
+	clear:both;
+}
 /* ------------ CLOSING BRACKET ----- */
 
-
+}
 /* =========================================================================================== */
 @media screen and (min-width: 90px, max-width: 361px ) {
 /* =========================================================================================== */
@@ -1605,11 +1585,7 @@ font-size: 20px;
 }
 
 
-#tutorial1{
-	width:100vw;
-	text-align:center;
-	
-}
+
 
 h1 {
     font-size:50%;    
@@ -1634,4 +1610,16 @@ h3 {
 /*page 16//////////////////////*/
 /*page 17//////////////////////*/
 /*page 18//////////////////////*/
+
+#buttonlogin18 {
+	text-align:center;
+    width:100vw;
+    padding:30px;
+	clear:both;
+	margin-left:0%;
+}
+.backbut18{
+	margin-left:0%;
+}
 /* ------------ CLOSING BRACKET ----- */
+}

@@ -1181,7 +1181,9 @@ h7 {
 
 #tutorial1{
 	
+	width: 60%;
 	text-align:center;
+	margin-left:20%;
 	
 }
 
@@ -1357,11 +1359,12 @@ h7 {
 
 #buttonlogin18 {
 	text-align:center;
-    width:44%;
+    width:100%;
     padding:30px;
 	clear:both;
-	margin-top:-100px;
-	 margin-left:27%; 
+	
+
+	 
 }
 .backbut18 {
 	font-family: 'Raleway', sans-serif;
@@ -1373,12 +1376,39 @@ h7 {
 	color: #ffffff;
 	background-color: #CE5B54;
 	padding:5%;
-	margin-top:20%;
+	margin-top:10%;
 }
 .backbut18:hover {
 	background-color:#eb675e;
 }
 .backbut18:active {
+	position:relative;
+	top:1px;
+}
+
+#buttonlogin99 {
+	text-align:center;
+    width:40%;
+	clear:both;
+	margin-bottom:15px;
+	margin-top:70px;
+	margin-left:20%;
+	}
+   
+.search99 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	width:60vw;
+	height: auto;
+	border: 0;
+	color: #ffffff;
+	background-color: #CE5B54;
+	padding:30px;
+}
+.search99:hover {
+	background-color:#eb675e;
+}
+.search99:active {
 	position:relative;
 	top:1px;
 }
