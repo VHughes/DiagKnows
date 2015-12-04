@@ -110,6 +110,9 @@ COLD
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+      <li id="description">
+       Buprofen is an anti-flammatory drug that relieves bodily pain. It can be used with children, and lasts longer than other pain killers
+       </li><br>
           <li>
           Commonly Used To Treat:
           </li>
@@ -125,9 +128,7 @@ COLD
          <li>
        - Anti-inflammatory
        </li><br>
-         <li id="description">
-       Buprofen is an anti-flammatory drug that relieves bodily pain. It can be used with children, and lasts longer than other pain killers
-       </li><br>
+         
          <li>
         Brands Which Contain This Drug:
        </li>
@@ -153,6 +154,9 @@ COLD
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+      <li id="description">
+       Antitussives reduces mucus and supresses coughs, but should not be taken with children under 12
+        </li><br>
         <li>
           Commonly Used To Treat:
        </li>
@@ -168,9 +172,7 @@ COLD
          <li>
        - Breathing trouble
        </li><br>
-         <li id="description">
-       Antitussives reduces mucus and supresses coughs, but should not be taken with children under 12
-        </li><br>
+         
          <li>
        Brands Which Contain This Drug:
        </li>
@@ -196,6 +198,9 @@ COLD
     <div class='lil_arrow'></div>
     <div class='content'>
       <ul><br>
+      <li id="description">
+       Asprin reduces inflammation and fever, should not be used during pregnancies or if you have a bleeding disorder such as hemophilia
+       </li><br>
         <li>
           Commonly Used To Treat:
        </li>
@@ -208,9 +213,7 @@ COLD
          <li>
        - Pain    
        </li><br>
-         <li id="description">
-       Asprin reduces inflammation and fever, should not be used during pregnancies or if you have a bleeding disorder such as hemophilia
-       </li><br>
+         
          <li>
        Brands Which Contain This Drug:
        </li>
